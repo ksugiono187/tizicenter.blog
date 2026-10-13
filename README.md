@@ -41,3 +41,7 @@ Sitemap 按每篇 Markdown 的 updated、品牌 lastVerified 和公共页面 src
 ## 博客内容维护
 
 当前150篇博客归入8个主题；教程9篇、百科5篇另计。正文在 src/content/articles，博客必须设置 section，主题定义在 src/data/blog-topics.ts。每页15篇静态分页，新增正文会进入分类、搜索与Sitemap。docs/blog-catalog.json列出全部150篇，docs/blog-release.md记录验收。scripts/test-blog.ts检查当前数量目标、各列表和搜索覆盖及近似重复；未来修改数量目标时同步更新专项测试。不要虚构日期、促销、价格或实测来填补来源。
+
+## 第三方公开参考与官方截图
+
+重点品牌公开报价在src/data/brand-references.ts，必须关联来源与阅读日期，冲突应并列；不能填入verified Plan或提升品牌核验状态。对应图解原图、GPL-3.0许可证和NOTICE保存在public/assets/client-reference。截图出处与哈希见docs/client-screenshot-sources.json；不要删除许可或将参考图表述为本站实测。专项测试覆盖来源映射、未核实隔离和图片溯源。

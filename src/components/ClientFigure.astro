@@ -1,0 +1,7 @@
+---
+const {kind}=Astro.props as {kind:'import'|'system-proxy'};
+const images={import:{file:'verge-import.png',alt:'Clash Verge Rev官方订阅页面示例，原图标注输入订阅链接与导入按钮',width:2006,height:952,title:'在订阅页面找到链接输入框和导入按钮'},'system-proxy':{file:'verge-system-proxy.png',alt:'Clash Verge Rev官方设置页面示例，原图标注系统代理开关',width:2006,height:972,title:'在设置页面核对系统代理开关'}};
+const item=images[kind];
+const src='/assets/client-reference/'+item.file;
+---
+<figure class="client-figure"><div class="figure-head"><span class="badge badge-blue">官方文档界面示例</span><a href={src} target="_blank" rel="noopener noreferrer">查看原图 ↗</a></div><a href={src} target="_blank" rel="noopener noreferrer" aria-label={`${item.title}，打开原图`}><img src={src} width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async"/></a><figcaption><strong>{item.title}</strong><p>图片来自 <a href="https://www.clashverge.dev/guide/quickstart.html" target="_blank" rel="noopener noreferrer">Clash Verge Rev 官方快速入门</a>，保留原图标注。截图未标注客户端版本，界面可能与当前版本不同；它不是本站连接品牌服务的测试记录。</p><a href="/assets/client-reference/NOTICE.txt">来源与许可说明</a></figcaption></figure>

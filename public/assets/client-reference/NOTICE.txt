@@ -1,0 +1,6 @@
+Official Clash Verge Rev Docs screenshots, kept unchanged.
+Source: https://www.clashverge.dev/guide/quickstart.html
+Upstream repository: https://github.com/clash-verge-rev/clash-verge-rev.github.io
+Upstream license: GNU GPL version 3, copied in LICENSE.txt.
+Original artwork and annotations belong to upstream contributors.
+These are upstream reference screenshots, not screenshots of this site connecting to the listed brands.

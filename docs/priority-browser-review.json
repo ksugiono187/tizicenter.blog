@@ -1,0 +1,32 @@
+{
+  "readAt": "2026-10-13",
+  "loggedIn": false,
+  "registered": false,
+  "acceptedBindingTerms": false,
+  "observations": {
+    "flycat": {
+      "status": "browser-entry",
+      "note": "浏览器中推广入口转到线路检测页，其HTTPS候选页面提示继续即同意条款，未继续；没有取得可核对的匿名套餐。",
+      "observedURL": "https://fmaskz.civetnetfttt1.homes/",
+      "evidence": "docs/flycat-public-entry.png"
+    },
+    "twilight": {
+      "status": "browser-login",
+      "note": "浏览器中入口可进入显示“幕光加速”及“这里是暮光加速”的登录界面；未登录，未取得公开价目与退款条款。",
+      "observedURL": "https://wqplm.twilightttt.sbs/#/home",
+      "evidence": "docs/twilight-public-login.png"
+    },
+    "dalaocloud": {
+      "status": "browser-login",
+      "note": "浏览器中入口跳转到“大佬云”身份认证登录页面；未登录，未取得公开商城和退款说明。",
+      "observedURL": "https://www2.dalaoyuntt.xyz/#/login",
+      "evidence": "docs/dalaocloud-public-login.png"
+    },
+    "firefly": {
+      "status": "browser-login",
+      "note": "浏览器中入口跳转到显示Firefly名称的登录界面；未登录，套餐归属、优惠与退款仍未得到当前商城证据。",
+      "observedURL": "https://fire.fireflyxx.cfd/#/login",
+      "evidence": "docs/firefly-public-login.png"
+    }
+  }
+}

@@ -2,14 +2,370 @@
   "date": "2026-10-13",
   "scope": "Read-only attempts to read the 29 supplied referral-host public root pages using the web reader; not logged-in account pages, checkout tests, browser availability tests or a performance audit. Referral hashes/codes preserved in the actual brand data; not exercised in these root-page checks. One follow-up public browser observation for Breezenet reached a login page, without signing in or registering.",
   "summary": {
+    "readerAttempts": 29,
+    "priorityReferenceBrands": 5,
+    "sourceQuotedOffers": 29,
+    "verifiedCurrentPlans": 0
+  },
+  "limitation": "Tool reading failure is not proof that the service or link is unavailable. A readable gateway is not proof of operator identity. No prices, compatibility, refunds, discounts or rankings inferred.",
+  "records": [
+    {
+      "slug": "breezenet",
+      "name": "微风网络 Breezenet",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://edp01.breezenetaff.com/",
+      "status": "gateway",
+      "note": "公开线路检测入口在浏览器中跳转到显示“微风网络”的登录页；未登录，页面未展示可核对的套餐、退款或优惠条件。此观察不确认经营方身份。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "flycat",
+      "name": "飞猫云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://flycat1.flycatvipaff.cc/",
+      "status": "browser-entry",
+      "note": "浏览器中推广入口转到线路检测页，其HTTPS候选页面提示继续即同意条款，未继续；没有取得可核对的匿名套餐。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "twilight",
+      "name": "暮光网络",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.twilightaff.com/",
+      "status": "browser-login",
+      "note": "浏览器中入口可进入显示“幕光加速”及“这里是暮光加速”的登录界面；未登录，未取得公开价目与退款条款。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "dalaocloud",
+      "name": "大佬云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://vip.dalaocloud.com/",
+      "status": "browser-login",
+      "note": "浏览器中入口跳转到“大佬云”身份认证登录页面；未登录，未取得公开商城和退款说明。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "firefly",
+      "name": "Firefly机场",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://vip02.fireflyaff.com/",
+      "status": "browser-login",
+      "note": "浏览器中入口跳转到显示Firefly名称的登录界面；未登录，套餐归属、优惠与退款仍未得到当前商城证据。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "civet",
+      "name": "灵猫",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://vip02.civetaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "flashleap",
+      "name": "闪跃 FlashLeap",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://vip02.flashleapaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "worryfree",
+      "name": "无忧链接",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://wep01.worryfreeaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "kuajie",
+      "name": "跨界云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://vip02.kuajieaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "stardream",
+      "name": "星岛梦 StarDream",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://kfccbb.xingdaomeng.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "lightspeed",
+      "name": "光速云 LightSpeed",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://mdlky.gsyaff.com/",
+      "status": "gateway",
+      "note": "公开入口显示线路检测页面，未取得可核对的套餐、退款或优惠条件正文。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "v2yun",
+      "name": "唯兔云（V2云）",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://fast.v2yunvipaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "u1s1",
+      "name": "U1S1（有一说一）",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://pkdj7.vipaff.cc/",
+      "status": "gateway",
+      "note": "公开入口显示线路检测页面，未取得可核对的套餐、退款或优惠条件正文。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "jilian",
+      "name": "极连云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://kdjhao.jlyvipaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "globalcloud",
+      "name": "全球云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://sswdh.gcvipaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "lightyear",
+      "name": "光年梯",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://ggmq.gntaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "sogoyun",
+      "name": "Sogo云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://wzjc.sogoyunaff.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "yuzhou",
+      "name": "宇宙云 YuZhou",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://wzjc.yuzoucloud.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "2mao",
+      "name": "二猫云 2mao",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://waaa.2maoyunaff.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "1fly",
+      "name": "一翻云 1fly",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://wzjc.1flyunaff.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "edgenova",
+      "name": "边缘节点 EdgeNova",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://work.edgenovaaff.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "kosing",
+      "name": "可信云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://work.kosingaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "sujie",
+      "name": "速界 SuJie",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://work.speedworldaff.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "kuaili",
+      "name": "快狸 KuaiLi",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://work.kuailicloud.cc/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "flyv",
+      "name": "飞V",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.flyvaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "laddercloud",
+      "name": "梯子云 LadderCloud",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.ladderaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "wavenet",
+      "name": "浪网 WaveNet",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.wavenetaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "lingdong",
+      "name": "灵动云",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.lingdongaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    },
+    {
+      "slug": "invisible",
+      "name": "隐形人",
+      "checkedAt": "2026-10-13",
+      "checkedURL": "https://varnexa.invisibleaff.com/",
+      "status": "not-readable",
+      "note": "本次公开页面检查未取得可核对正文，套餐、条款与优惠条件继续保持待核实。",
+      "identityVerified": false,
+      "plansVerified": false,
+      "couponsVerified": false,
+      "performanceTested": false
+    }
+  ],
+  "initialReaderSummary": {
     "attempted": 29,
     "gateway": 3,
     "redirectUnreadable": 1,
     "notReadable": 25,
     "completeBrandFacts": 0
   },
-  "limitation": "Tool reading failure is not proof that the service or link is unavailable. A readable gateway is not proof of operator identity. No prices, compatibility, refunds, discounts or rankings inferred.",
-  "records": [
+  "initialRecords": [
     {
       "slug": "breezenet",
       "name": "微风网络 Breezenet",
@@ -365,5 +721,38 @@
       "couponsVerified": false,
       "performanceTested": false
     }
-  ]
+  ],
+  "latestBrowserReview": {
+    "readAt": "2026-10-13",
+    "loggedIn": false,
+    "registered": false,
+    "acceptedBindingTerms": false,
+    "observations": {
+      "flycat": {
+        "status": "browser-entry",
+        "note": "浏览器中推广入口转到线路检测页，其HTTPS候选页面提示继续即同意条款，未继续；没有取得可核对的匿名套餐。",
+        "observedURL": "https://fmaskz.civetnetfttt1.homes/",
+        "evidence": "docs/flycat-public-entry.png"
+      },
+      "twilight": {
+        "status": "browser-login",
+        "note": "浏览器中入口可进入显示“幕光加速”及“这里是暮光加速”的登录界面；未登录，未取得公开价目与退款条款。",
+        "observedURL": "https://wqplm.twilightttt.sbs/#/home",
+        "evidence": "docs/twilight-public-login.png"
+      },
+      "dalaocloud": {
+        "status": "browser-login",
+        "note": "浏览器中入口跳转到“大佬云”身份认证登录页面；未登录，未取得公开商城和退款说明。",
+        "observedURL": "https://www2.dalaoyuntt.xyz/#/login",
+        "evidence": "docs/dalaocloud-public-login.png"
+      },
+      "firefly": {
+        "status": "browser-login",
+        "note": "浏览器中入口跳转到显示Firefly名称的登录界面；未登录，套餐归属、优惠与退款仍未得到当前商城证据。",
+        "observedURL": "https://fire.fireflyxx.cfd/#/login",
+        "evidence": "docs/firefly-public-login.png"
+      }
+    }
+  },
+  "publicPriceReferences": "docs/brand-reference-sources.json"
 }

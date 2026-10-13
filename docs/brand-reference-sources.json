@@ -1,0 +1,378 @@
+{
+  "readAt": "2026-10-13",
+  "scope": "User requested independently finding public material and publishing it. These are identifiable source statements, not verified current orders, official identity, operational testing or endorsed recommendations.",
+  "excludedFromVerifiedPlans": true,
+  "records": [
+    {
+      "slug": "breezenet",
+      "sources": [
+        {
+          "id": "pdd",
+          "publisher": "机场PDD",
+          "url": "https://jichangpdd.com/brands/weifengwangluo/",
+          "reportedDate": "2026-09-07",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "network",
+          "publisher": "机场网络",
+          "url": "https://jichangnetwork.blog/compare/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "pdd",
+          "name": "清风 Breeze",
+          "amount": 137,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "100 GB/月（来源标注）"
+        },
+        {
+          "sourceId": "pdd",
+          "name": "乘风 Riding",
+          "amount": 27,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "200 GB/月"
+        },
+        {
+          "sourceId": "pdd",
+          "name": "破风 Breaking",
+          "amount": 57,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB/月"
+        },
+        {
+          "sourceId": "pdd",
+          "name": "御风 Mastery",
+          "amount": 127,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1200 GB/月"
+        },
+        {
+          "sourceId": "pdd",
+          "name": "信风",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "270 GB 总量（来源称不限时）"
+        },
+        {
+          "sourceId": "pdd",
+          "name": "长风",
+          "amount": 370,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "570 GB 总量（来源称不限时）"
+        }
+      ],
+      "differences": [
+        "机场PDD把清风额度写为100GB/月；机场网络明确将该年付档重置规则标为未确认，暂不据此计算全年总额度。",
+        "浏览器可到达品牌名登录页，但未取得匿名公开套餐。上述资料按名称检索，经营主体对应关系仍未核实。"
+      ],
+      "refund": "未取得服务方可核对的公开退款条款。",
+      "coupon": "保留运营者提供的weifeng90；公开报价不证明该码当前有效或减免幅度。"
+    },
+    {
+      "slug": "flycat",
+      "sources": [
+        {
+          "id": "overseas",
+          "publisher": "海外机场",
+          "url": "https://haiwaijichang.com/brands/feimao/",
+          "reportedDate": "2026-09-29（来源自述核对日）",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "club",
+          "publisher": "飞猫云介绍页（运营身份未确认）",
+          "url": "https://www.feimaoyun.club/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "overseas",
+          "name": "飞猫·学生版",
+          "amount": 84,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "50 GB/月"
+        },
+        {
+          "sourceId": "overseas",
+          "name": "飞猫·星耀版",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB/月"
+        },
+        {
+          "sourceId": "overseas",
+          "name": "飞猫·星环版",
+          "amount": 45,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB/月"
+        },
+        {
+          "sourceId": "overseas",
+          "name": "飞猫·银河版",
+          "amount": 85,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "600 GB/月"
+        },
+        {
+          "sourceId": "overseas",
+          "name": "飞猫·宇宙版",
+          "amount": 150,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.0 TB/月（不自行换算）"
+        },
+        {
+          "sourceId": "club",
+          "name": "体验尝鲜版",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "无限流量（该介绍页宣称）"
+        },
+        {
+          "sourceId": "club",
+          "name": "黄金VIP版",
+          "amount": 29,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "无限流量（该介绍页宣称）"
+        },
+        {
+          "sourceId": "club",
+          "name": "钻石旗舰版",
+          "amount": 49,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "无限流量（该介绍页宣称）"
+        }
+      ],
+      "differences": [
+        "海外机场列出有限流量档位；feimaoyun.club列出15/29/49元月付和无限流量。两套记录不合并，也不能确定属于同一经营主体。",
+        "所提供推广入口本次转到检测页，候选页面有进入即同意条款的提示，未继续确认。候选域名与经营方的关系仍待确认。"
+      ],
+      "refund": "未取得与当前订单对应的服务方退款条款，未采纳介绍页的退款口号。",
+      "coupon": "海外机场称flycat888为8折且学生版不适用；这是来源声明，本站未在结算页验证，不生成折后价。"
+    },
+    {
+      "slug": "twilight",
+      "sources": [
+        {
+          "id": "github",
+          "publisher": "jcsift/TwiLight公开仓库",
+          "url": "https://github.com/jcsift/TwiLight",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "bay",
+          "publisher": "机场湾",
+          "url": "https://jichangwan.homes/reviews/muguang-review/",
+          "reportedDate": "2026-09-22（来源自述资料日）",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "network",
+          "publisher": "机场网络",
+          "url": "https://jichangnetwork.blog/compare/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "github",
+          "name": "基础版",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月"
+        },
+        {
+          "sourceId": "github",
+          "name": "标准版",
+          "amount": 40,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB/月"
+        },
+        {
+          "sourceId": "github",
+          "name": "旗舰版",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "700 GB/月"
+        },
+        {
+          "sourceId": "github",
+          "name": "至尊版",
+          "amount": 180,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1500 GB/月"
+        },
+        {
+          "sourceId": "github",
+          "name": "年付轻量版",
+          "amount": 109,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "70 GB/月（来源标注）"
+        },
+        {
+          "sourceId": "bay",
+          "name": "基础档",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月"
+        },
+        {
+          "sourceId": "bay",
+          "name": "进阶档",
+          "amount": 38,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "260 GB/月"
+        },
+        {
+          "sourceId": "bay",
+          "name": "尊享档",
+          "amount": 68,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "600 GB/月"
+        }
+      ],
+      "differences": [
+        "公开仓库与机场湾的档位、金额、容量不同；机场湾另称没有年付，而仓库列109元年付。未选择任一版本作为当前套餐。",
+        "机场网络还提示标准档有240GB/300GB版本差异。浏览器入口可见“幕光加速”登录页和“这里是暮光加速”文字，没有公开商城价目。"
+      ],
+      "refund": "未取得当前服务方公开退款资格和申请时限。",
+      "coupon": "运营者未提供此品牌优惠码；不从第三方页面新增推广代码。"
+    },
+    {
+      "slug": "dalaocloud",
+      "sources": [
+        {
+          "id": "network",
+          "publisher": "机场网络",
+          "url": "https://jichangnetwork.blog/compare/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "network",
+          "name": "初云·入门版参考记录",
+          "amount": 23,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "130 / 120 GB（来源标有差异）"
+        }
+      ],
+      "differences": [
+        "该来源明确提示同一入门档顶部为130GB、正文为120GB，容量不能视为已经确认。",
+        "浏览器入口跳转到“大佬云”身份认证登录页，未登录、未取得完整价目，不用搜索摘要补齐高档套餐。"
+      ],
+      "refund": "未取得服务方公开退款说明。",
+      "coupon": "运营者未提供此品牌优惠码，未推断折扣。"
+    },
+    {
+      "slug": "firefly",
+      "sources": [
+        {
+          "id": "good",
+          "publisher": "好用机场",
+          "url": "https://haoyongjichang.com/review/firefly/",
+          "reportedDate": "2026-10-04（来源自述核对日）",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "network",
+          "publisher": "机场网络",
+          "url": "https://jichangnetwork.blog/compare/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "good",
+          "name": "年付版",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源标注）"
+        },
+        {
+          "sourceId": "good",
+          "name": "Lite",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB/月"
+        },
+        {
+          "sourceId": "good",
+          "name": "Plus",
+          "amount": 45,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB/月"
+        },
+        {
+          "sourceId": "good",
+          "name": "Blaze",
+          "amount": 85,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "600 GB/月"
+        },
+        {
+          "sourceId": "good",
+          "name": "Nova",
+          "amount": 150,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1 TB/月（来源原单位）"
+        },
+        {
+          "sourceId": "good",
+          "name": "不限时",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（来源称不过期）"
+        }
+      ],
+      "differences": [
+        "好用机场列出6档报价；机场网络却将Firefly套餐归属标为待核实并不展示起价，因此不把这些记录当作已核实在售方案。",
+        "本次浏览器可进入带Firefly名称的登录页面，但没有匿名公开商城内容。入口名称并未解决报价归属或经营方身份核对。"
+      ],
+      "refund": "未取得适用订单的服务方退款条款。",
+      "coupon": "保留运营者提供的firefly，当前减免及适用范围仍需结算页确认。"
+    }
+  ]
+}

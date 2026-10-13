@@ -1,0 +1,27 @@
+{
+  "readAt": "2026-10-13",
+  "upstreamDocs": "https://www.clashverge.dev/guide/quickstart.html",
+  "upstreamRepository": "https://github.com/clash-verge-rev/clash-verge-rev.github.io",
+  "licenseFile": "/assets/client-reference/LICENSE.txt",
+  "noticeFile": "/assets/client-reference/NOTICE.txt",
+  "scope": "Two unmodified upstream annotated screenshots. Not generated images, current-version guarantees, independent connection tests or proof of brand compatibility.",
+  "excluded": "The upstream proxy-node screenshot includes another service brand; it is not published.",
+  "assets": [
+    {
+      "file": "/assets/client-reference/verge-import.png",
+      "sourceURL": "https://www.clashverge.dev/assets/guide/quickstart/verge_import.png",
+      "sha256": "1ab3e0cc775d291a475dd2f7ff8a5348f2dbe3c8adfda6588121c57784e94fba",
+      "modified": false,
+      "width": 2006,
+      "height": 952
+    },
+    {
+      "file": "/assets/client-reference/verge-system-proxy.png",
+      "sourceURL": "https://www.clashverge.dev/assets/guide/quickstart/verge_enable_sysproxy.png",
+      "sha256": "386401855563a3695a250abf51f356a78c36a0681d7dd601d3db48adaf213004",
+      "modified": false,
+      "width": 2006,
+      "height": 972
+    }
+  ]
+}

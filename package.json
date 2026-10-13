@@ -14,7 +14,7 @@
     "audit:seo": "tsx scripts/audit-seo.ts",
     "audit:links": "tsx scripts/check-links.ts",
     "audit:content": "tsx scripts/validate-content.ts",
-    "test": "npm run audit:seo && npm run audit:links && npm run audit:content && tsx scripts/test-ranking.ts && tsx scripts/test-indexnow.ts && tsx scripts/test-brands.ts && tsx scripts/test-blog.ts",
+    "test": "npm run audit:seo && npm run audit:links && npm run audit:content && tsx scripts/test-ranking.ts && tsx scripts/test-indexnow.ts && tsx scripts/test-brands.ts && tsx scripts/test-blog.ts && tsx scripts/test-public-references.ts",
     "indexnow": "tsx scripts/indexnow.ts",
     "indexnow:key": "tsx scripts/indexnow-key.ts"
   },
