@@ -1,0 +1,1759 @@
+{
+  "readAt": "2026-10-13",
+  "newBrands": 24,
+  "offers": 141,
+  "records": [
+    {
+      "slug": "civet",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "纳云机场评测",
+          "url": "https://nayun.net/articles/civetnet/",
+          "reportedDate": "2026-08-07",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "灵猫 · 年付小包",
+          "amount": 85,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "45 GB · 重置口径未明确（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵猫 · 年付 Small",
+          "amount": 195,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "150 GB · 重置口径未明确（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵猫 · 年付 Big",
+          "amount": 295,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "300 GB · 重置口径未明确（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵猫 · 月付 Small",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB · 重置口径未明确（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵猫 · 月付 Big",
+          "amount": 45,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB · 重置口径未明确（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源说明45GB、150GB、300GB的额度按月重置还是按付款周期共享尚未明确，因此不把年付额度推算为12个月总量。",
+        "同一资料还出现最低6元/月的宣传，与85元年付表格的付款口径不一致；以订单总额和额度规则核对。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "flashleap",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场探",
+          "url": "https://jichangtan.com/airports/flashleap/",
+          "reportedDate": "2026-08-08",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "闪跃年付版",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB · 重置规则未说明（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "闪动 Flicker",
+          "amount": 24,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "飞跃 Leap",
+          "amount": 44,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "瞬移 Teleport",
+          "amount": 84,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "600 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "跃迁 Warp",
+          "amount": 134,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB · 月付档（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源表记录周期和额度，但具体重置日、结转与退款条件仍需确认；本页仅摘录年付小包与月付档，其他周期请查看原页。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "来源将shanyue描述为新用户8折，但未列有效期和适用套餐；保留运营者提供的shanyue，不预先计算折后价。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "worryfree",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "JCKevin",
+          "url": "https://jckevin.org/airport/brands/wuyou/",
+          "reportedDate": "2026-09-20",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "MINI 链接",
+          "amount": 79,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "40 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "舒心链接",
+          "amount": 19,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "100 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "省心链接",
+          "amount": 33,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "200 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "随心链接",
+          "amount": 77,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "忘忧链接",
+          "amount": 117,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1 TB/月（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "100G 永久包",
+          "amount": 108,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        },
+        {
+          "sourceId": "main",
+          "name": "300G 永久包",
+          "amount": 298,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "300 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源金额带有约数含义，本文保留标称金额作参考；周期价格和不限时总量分开记录。",
+        "永久包的账号有效性、设备限制和剩余额度处理未取得完整条款。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "保留运营者提供的wuyou666；本轮价目来源没有验证该码当前折扣或有效期。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "kuajie",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "好用机场",
+          "url": "https://haoyongjichang.com/review/kuajie/",
+          "reportedDate": "2026-10-04",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "yp7",
+          "publisher": "yp7.net · 近期总表",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-10-10",
+          "readAt": "2026-10-13",
+          "kind": "third-party",
+          "dateLabel": "来源页面更新（非全部报价复核）"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "年付版",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "轻云 Lite",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "跃云 Leap",
+          "amount": 40,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "330 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "凌云 Soar",
+          "amount": 90,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "830 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "无界 Infinity",
+          "amount": 130,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.8 TB/月（保留原单位）（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源列出的月付价与额度仅是当时整理值；年付总額不是8元可按月购买。",
+        "该来源写未提供不限时包，yp7.net的近期总表却列有不限时；不能据此确认当前是否在售。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "stardream",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场探",
+          "url": "https://jichangtan.com/airports/xingdaomeng/",
+          "reportedDate": "2026-08-09",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "贴心小包",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB · 重置规则未说明（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "超量150G",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "进阶300G",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "闪光500G",
+          "amount": 70,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "旗舰1T",
+          "amount": 130,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "不限时买断 100G",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        },
+        {
+          "sourceId": "main",
+          "name": "不限时买断 300G",
+          "amount": 300,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "300 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "未收录有矛盾的高容量买断档：来源同时出现1TB档名及500G流量列，不能自行选一个数值作为实际额度。",
+        "来源关于第三方客户端的描述不等于每个订单都能直接获得订阅；购买前核对取得方式。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "来源将nmw888描述为新人9折，但有效期、适用套餐和叠加条件未充分说明；保留原码，当前有效性待核实。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "lightspeed",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "TiziNodes",
+          "url": "https://tizinodes.com/reviews/guangsuyun/",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "yp7",
+          "publisher": "yp7.net · 近期总表",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-10-10",
+          "readAt": "2026-10-13",
+          "kind": "third-party",
+          "dateLabel": "来源页面更新（非全部报价复核）"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "光速云·轻量版",
+          "amount": 99,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "59 GB · 年付额度重置待确认（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速云·极速版",
+          "amount": 17,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "110 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速云·流光版",
+          "amount": 34,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "220 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速云·量子版",
+          "amount": 68,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "450 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速云·无界版",
+          "amount": 130,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "900 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速云·不限时套餐",
+          "amount": 680,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "1.0 TB 总量（有效期需确认）"
+        },
+        {
+          "sourceId": "yp7",
+          "name": "总表月付记录",
+          "amount": 23,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "148 GB/月（总表版本）"
+        }
+      ],
+      "differences": [
+        "TiziNodes记录17元110GB的月付档；yp7.net近期总表记录23元148GB，两份版本并列保留，未确认是调价还是不同方案。",
+        "本轮所阅TiziNodes页面未找到明确的套餐采集日期；阅读日期不能代替报价日期。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "保留运营者提供的jichangcha09；所阅资料未验证其当前优惠条件。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "v2yun",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场推荐",
+          "url": "https://jichangtuijian1.com/pianyijichang/weituyun",
+          "reportedDate": "2026-10-01",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "年付版限量款",
+          "amount": 79.9,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "45 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "年付加强专线",
+          "amount": 120,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "75 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "普通版",
+          "amount": 19.9,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "进阶版",
+          "amount": 29.9,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "200 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "专业版",
+          "amount": 59.9,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "至尊版",
+          "amount": 119.9,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB / 30天（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "永久不限时 100G",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源报告9月下旬已关闭通用订阅按钮，改用专属客户端；这是第三方报告，本站没有登录确认，不能保证通用教程直接适用。",
+        "来源称两档年付小包不参与优惠活动；具体适用范围需按订单核对。"
+      ],
+      "refund": "来源未找到后台或知识库的退款规则；不能据此断言一定不退款。",
+      "coupon": "保留运营者提供的rabbit。来源另述短期活动及常驻优惠缺口，不能证明rabbit仍有效；没有新增活动码或折后价格。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "u1s1",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "Eoht",
+          "url": "https://eoht.net/serve/airport/u1s1",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "就是好用包",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源称按购买日起重置）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "普通人真够了包",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "你以为用不到包",
+          "amount": 40,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "瘾大就拉满包",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "700 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "我全都要包",
+          "amount": 180,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1500 GB/月（来源描述）"
+        }
+      ],
+      "differences": [
+        "当前所阅页面没有明确的最后更新日期；年付96元为一次支付金额。",
+        "来源展示的是未叠加活动的标价，其他支付周期与定制方案另列在原页；定制方案不按普通流量套餐理解。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "保留运营者提供的U1S1。来源近期活动使用另一代码且有套餐排除条件，不能用于确认U1S1当前折扣。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "jilian",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "AI机场",
+          "url": "https://ai-jichang.com/airport/jilian-cloud",
+          "reportedDate": "2026-08-22",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "限时年付套餐体验",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB · 来源称每30天更新（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极连云·基础套餐",
+          "amount": 18,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "100 GB · 重置规则未确认（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极连云·进阶套餐",
+          "amount": 32,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "200 GB · 重置规则未确认（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极连云·旗舰套餐",
+          "amount": 61,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB · 重置规则未确认（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极连云·尊享套餐",
+          "amount": 122,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1024 GB · 来源原值（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极连云·不限时套餐（卡片价）",
+          "amount": 399,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "600 GB 总量 · 金额有分歧（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源记录不限时档卡片价399元、详情价680元及重置费用互相不一致；399元只是该来源采用的卡片金额，不确认实际收费。",
+        "月付档的具体重置口径尚未确认，不能把季付以上的30天规则直接用于全部订单。"
+      ],
+      "refund": "AI机场转述套餐页写不接受退款，但本站未读取适用订单的服务方完整条款或验证执行；付款前需再确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "globalcloud",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "ClashVPS",
+          "url": "https://www.clashvps.org/review-quanqiuyun.html",
+          "reportedDate": "2026-08-23",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "BGP智能优化·入门方案",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "BGP智能优化·进阶方案",
+          "amount": 40,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "BGP智能优化·高端方案",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "700 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "BGP智能优化·商业方案",
+          "amount": 180,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.5 TB/月（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "轻量版",
+          "amount": 99,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "59 GB/月（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "BGP智能优化·不限时轻量包",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源页最后更新为9月30日，但套餐资料核验标注8月23日，本页采用套餐日期。",
+        "周期档的具体重置日和结转未确认；来源写不自动重置的买断包也需核对账号与服务有效期。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "保留运营者提供的tt88；本轮价目资料没有验证该码当前优惠。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "lightyear",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "yp7.net（GitHub文章源）",
+          "url": "https://github.com/haandiiong/yp7.net/blob/main/docs/%E6%9C%BA%E5%9C%BA%E8%AF%84%E6%B5%8B/%E5%85%89%E5%B9%B4%E6%A2%AF.md",
+          "reportedDate": "2026-09-16",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "年付限时套餐",
+          "amount": 89,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "50 GB/月（来源称）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光年梯 入门版",
+          "amount": 18,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "110 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光年梯 晋级版",
+          "amount": 34,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "220 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光年梯 专业版",
+          "amount": 68,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "450 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光年梯 至尊版",
+          "amount": 130,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "900 GB/月（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源文章后续编辑到10月5日，但套餐复核时间仍是9月16日；页面更新不等于重新查价。",
+        "来源报告普通套餐不支持通用订阅且没有免费试用；专属节点方案规则另行说明，本站没有登录或安装复核。"
+      ],
+      "refund": "来源转述普通套餐不提供退款、私人专线开通后不退款；这是第三方条款记录，当前订单与例外仍需服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "sogoyun",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "TowerNav",
+          "url": "https://towernav.com/airports/sogo/",
+          "reportedDate": "2026-07-24",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "repo",
+          "publisher": "jichangbaike/sogocloud（第三方仓库）",
+          "url": "https://github.com/jichangbaike/sogocloud",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "小包-月付版",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "60 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "小包-年付版",
+          "amount": 98,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "30 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "基础版",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "优选版",
+          "amount": 45,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "250 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "强化版",
+          "amount": 80,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "顶配版",
+          "amount": 150,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "不限时-基础版",
+          "amount": 120,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        },
+        {
+          "sourceId": "repo",
+          "name": "基础版",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB/月（仓库版本）"
+        }
+      ],
+      "differences": [
+        "TowerNav记录基础版25元120GB，jichangbaike/sogocloud仓库记录25元150GB；相同价位额度不同，按来源分别保留。",
+        "其他月付档也有容量版本差异；当前重置、倍率、订阅格式与退款条件不能仅凭品牌名推断。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "yuzhou",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场湾",
+          "url": "https://jichangwan.homes/brands/yuzhouyun/",
+          "reportedDate": "2026-09-22",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "yp7",
+          "publisher": "yp7.net · 近期总表",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-10-10",
+          "readAt": "2026-10-13",
+          "kind": "third-party",
+          "dateLabel": "来源页面更新（非全部报价复核）"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "行星基础版",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "恒星标准版",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "240 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "星系专业版",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "寰宇旗舰版",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1 TB/月（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "星云年付小包",
+          "amount": 96,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "yp7",
+          "name": "总表月付记录",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "160 GB/月（总表版本）"
+        }
+      ],
+      "differences": [
+        "机场湾记录行星基础版25元120GB，yp7.net近期总表记录25元160GB；同金额不代表同一套餐版本。",
+        "本页不引用来源的速度、平台解锁或运营时长结论；当前经营主体与套餐对应关系未独立确认。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "保留运营者提供的YUZHOU553，当前有效期、折扣和适用周期未在本轮验证。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "2mao",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "梯子查",
+          "url": "https://tizicha.com/providers/ermaoyun/",
+          "reportedDate": "2026-09-03",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "二猫年付小包",
+          "amount": 89,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "二猫云·白猫套餐",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "130 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "二猫云·橘猫畅玩版",
+          "amount": 40,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "230 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "二猫云·牛奶猫尊享版",
+          "amount": 80,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "430 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "二猫云·黑猫重度用户版",
+          "amount": 160,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "850 GB/月（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源记录5个价格与额度档；表格没有证实当前库存、续费金额或退款窗口。",
+        "只保留价目字段，不引用来源的评分、稳定性或零断线宣传作为本站实测。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "1fly",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场百度",
+          "url": "https://jichangbaidu.org/airports/yifanyun/",
+          "reportedDate": "2026-09-07",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "年付小包",
+          "amount": 98,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "轻享版",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "舒享版",
+          "amount": 35,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "350 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "尊享版",
+          "amount": 55,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "600 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极致版",
+          "amount": 95,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.2 TB/月（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "轻享版·不限时包",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "100 GB 总量（有效期需确认）"
+        },
+        {
+          "sourceId": "main",
+          "name": "舒享版·不限时包",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "250 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源价目覆盖周期档和总量档，但没有完整列出当前流量倍率和退款条件。",
+        "第三方教程中使用通用客户端的说明不能替代当前订单订阅支持确认；本站未购买或导入该品牌订阅。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "edgenova",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场探",
+          "url": "https://jichangtan.com/airports/edgenova/",
+          "reportedDate": "2026-08-09",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "yp7",
+          "publisher": "yp7.net · 近期总表",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-10-10",
+          "readAt": "2026-10-13",
+          "kind": "third-party",
+          "dateLabel": "来源页面更新（非全部报价复核）"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "限时月付",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "72 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "限时年付",
+          "amount": 108,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "45 GB · 重置规则未说明（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极界·标准",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极界·进阶",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "250 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极界·高级",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极界·极限",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB · 月付档（来源描述）"
+        },
+        {
+          "sourceId": "yp7",
+          "name": "总表月付记录",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "50 GB/月（总表版本）"
+        }
+      ],
+      "differences": [
+        "机场探记录15元72GB，yp7.net近期总表记录15元50GB；限时档额度有不同版本，不能据此确认当前可售额度。",
+        "年付45GB的重置说明缺失；周期总额不能直接转为全年可用量。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "kosing",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场云",
+          "url": "https://jichangcloud.com/brands/kosing/",
+          "reportedDate": "2026-08-11",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        },
+        {
+          "id": "yp7",
+          "publisher": "yp7.net · 近期总表",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-10-10",
+          "readAt": "2026-10-13",
+          "kind": "third-party",
+          "dateLabel": "来源页面更新（非全部报价复核）"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "入门资费（来源未列套餐名）",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "约150 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "yp7",
+          "name": "总表月付记录",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "60 GB/月（总表版本）"
+        }
+      ],
+      "differences": [
+        "机场云记录25元约150GB，yp7.net近期总表记录15元60GB；两份起步价不同，未确认是否属于不同档位或调整。",
+        "本轮只摘录入门资费，不推测其他套餐、倍数或退款条件；该来源的测试资料没有完整日期，本站不采用其性能结论。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "sujie",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "yp7.net",
+          "url": "https://yp7.net/posts/jichang-heji/",
+          "reportedDate": "2026-09-27",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "单月试用（付费）",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "50 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "限时年付",
+          "amount": 90,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "50 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "极速",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "120 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "超速",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "250 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "光速",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "卡片500 GB、正文499 G/月 · 有分歧（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "跃迁",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB/月（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源光速档的卡片与正文额度不同；单月试用是付费方案，不能理解为免费试用。",
+        "来源报告通用订阅不支持；15元付费小包不参加优惠，年付重置另有收费描述。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "kuaili",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "Eoht",
+          "url": "https://eoht.net/serve/airport/kuaili",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "年付小套餐",
+          "amount": 120,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "30 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "月付小套餐",
+          "amount": 15,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "50 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "小狸基础版",
+          "amount": 22,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "100 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵狸标准版",
+          "amount": 35,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "250 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "夜狸强化版",
+          "amount": 95,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "500 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "天狸顶配版",
+          "amount": 180,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1000 GB/月（来源描述）"
+        }
+      ],
+      "differences": [
+        "所阅页面没有明确的套餐资料日期；年付小套餐流量和月付小套餐不同，不能按同名小包直接替换。",
+        "付款前需确认具体重置日、额度结转及退款条件；本页不根据来源的测速标题作性能判断。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "flyv",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "梯子去哪买",
+          "url": "https://tizimy.org/tuijian/flyv/",
+          "reportedDate": "2026-08-09",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·入门方案",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "150 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·进阶方案",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "380 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·高端方案",
+          "amount": 110,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "800 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·商业方案",
+          "amount": 190,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1843 GB/月（来源原值）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·年付标准轻量版",
+          "amount": 99,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "65 GB · 按月或总量待核实（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "FlyV 会员·单次轻量版·小流量包",
+          "amount": 189,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "130 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "年付65GB的按月或全年口径没有说明；单次流量包也未注明有效期，不直接标为不限时。",
+        "来源指出套餐截图部分流量被遮挡；记录的额度仍需在当前购买页逐项确认。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "laddercloud",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "Eoht",
+          "url": "https://eoht.net/serve/airport/laddercloud",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "天梯随行 · 年度保活方案",
+          "amount": 89,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "60 GB/月（来源表列）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "初阶网络 · 基础视界",
+          "amount": 25,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "125 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "中阶加速 · 极清多线",
+          "amount": 60,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "350 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "高阶专线 · 全球智联",
+          "amount": 110,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "750 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "顶阶商业 · 全球骨干",
+          "amount": 190,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.6 TB/月（保留原单位）（来源描述）"
+        }
+      ],
+      "differences": [
+        "来源价目表以每月流量为列，但没有明确套餐采集日期和完整额度重置条款；以当前订单说明复核。",
+        "缺少当前订单完整重置说明，本页不据此计算年付总量或最低单价。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "wavenet",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "梯子去哪买",
+          "url": "https://tizimy.org/tuijian/wavenet/",
+          "reportedDate": "2026-08-09",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "浪网 入门",
+          "amount": 30,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "来源原值“截150G” · 无法确认（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "浪网 进阶",
+          "amount": 70,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "450 GB/月（来源版本）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "浪网 高端",
+          "amount": 120,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "800 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "浪网 商业",
+          "amount": 200,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "2 TB/月（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "浪网 年付标准",
+          "amount": 119,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "80 GB · 按月或总量待核实（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "浪网 小流量包",
+          "amount": 239,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "180 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源入门档容量文字不完整；年付80GB也没有明确按月还是全年口径，不能填补或推算。",
+        "来源的单次流量包没有注明有效期，定制计费和退款规则也未完整公开；购买前需逐项确认。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "lingdong",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "TowerNav",
+          "url": "https://towernav.com/airports/lingdong/",
+          "reportedDate": "2026-07-23",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 扬风",
+          "amount": 20,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "100 GB（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 驭浪",
+          "amount": 50,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "300 GB（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 破晓",
+          "amount": 100,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "700 GB（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 凌霄",
+          "amount": 180,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1.5 TB（保留原单位）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 穿云（年付小包）",
+          "amount": 99,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "70 GB/年（来源表述）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "灵动云 · 闲云·小流量包",
+          "amount": 199,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "150 GB 总量（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源穿云档写70GB/年；本页保留该来源口径，没有确认服务方当前重置规则，不把年付自动当每月额度。",
+        "来源表格和宣传中套餐命名、协议与倍率说明不完整，实际订单条款需另行确认。"
+      ],
+      "refund": "TowerNav转述服务方称支持退款，但没有完整窗口、比例或申请流程；不能作为可无条件退款的承诺。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": false,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    },
+    {
+      "slug": "invisible",
+      "sources": [
+        {
+          "id": "main",
+          "publisher": "机场168",
+          "url": "https://jichang168.com/airports/invisible/",
+          "reportedDate": "2026-08-03",
+          "readAt": "2026-10-13",
+          "kind": "third-party"
+        }
+      ],
+      "offers": [
+        {
+          "sourceId": "main",
+          "name": "白银纪元",
+          "amount": 24,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "144 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "黄金序列",
+          "amount": 48,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "360 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "铂金至臻",
+          "amount": 105,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "750 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "钻石穹顶",
+          "amount": 185,
+          "currency": "CNY",
+          "periodLabel": "月付",
+          "trafficLabel": "1600 GB/月（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "星耀风暴365天不熄",
+          "amount": 109,
+          "currency": "CNY",
+          "periodLabel": "年付总额",
+          "trafficLabel": "80 GB/年（来源称按年重置）（来源描述）"
+        },
+        {
+          "sourceId": "main",
+          "name": "一次性小流量",
+          "amount": 229,
+          "currency": "CNY",
+          "periodLabel": "一次性",
+          "trafficLabel": "160 GB 总量 · 来源称限1台设备（有效期需确认）"
+        }
+      ],
+      "differences": [
+        "来源明确年付109元的80GB是全年额度，不能按80GB/月推算；本页仍未核实当前订单规则。",
+        "一次性包存在基础设备字段与详细说明冲突，定制档计费周期也不明确；下单前需保存服务方的完整答复。"
+      ],
+      "refund": "本轮所阅资料未取得完整退款窗口、申请方式和适用范围；购买前需向服务方确认。",
+      "coupon": "运营者未提供优惠码；不把第三方活动码补入本站优惠码库。",
+      "hasConflict": true,
+      "reviewedAt": "2026-10-13",
+      "revisionNote": "本轮首次收录第三方参考价目与资料缺口，未确认商城现价。"
+    }
+  ],
+  "excluded": "Unrelated brand content, performance scores, extra coupon codes, and pages with visibly mismatched affiliate ownership were not imported. Source dates are publisher statements, not independent validation."
+}

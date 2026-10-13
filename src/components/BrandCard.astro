@@ -6,9 +6,10 @@ import {brandReferences} from '../data/brand-references';
 const {airport:a}=Astro.props;
 const reference=brandReferences.find(r=>r.slug===a.slug);
 ---
-<article class="brand-card" data-brand-search={`${a.name} ${a.slug} ${a.couponCode||''}`.toLowerCase()} data-has-coupon={String(!!a.couponCode)} data-has-reference={String(!!reference)}>
+<article class="brand-card" data-brand-search={`${a.name} ${a.slug} ${a.couponCode||''}`.toLowerCase()} data-has-coupon={String(!!a.couponCode)} data-has-reference={String(!!reference)} data-has-conflict={String(!!reference?.hasConflict)}>
  <div class="brand-heading"><BrandMark airport={a}/><div><h3><a href={`/airport/${a.slug}/`}>{a.name}</a></h3><span class="brand-subtitle">机场品牌入口</span></div><span class:list={['badge',{'badge-blue':!!a.couponCode}]}>{a.couponCode?'含优惠码':'品牌资料'}</span></div>
- <div class="brand-reference-tags">{reference?<><a href={`/airport/${a.slug}/#public-references`}>有公开参考</a><span>存在待确认项</span></>:<span>暂无公开报价参考</span>}</div>
+ <div class="brand-reference-tags">{reference?<><a href={`/airport/${a.slug}/#public-references`}>有公开参考</a><span>{reference.hasConflict?'有来源分歧':'条款待确认'}</span></>:<span>暂无公开报价参考</span>}</div>
+ {reference&&<p class="brand-reference-date">公开资料查阅 <time datetime={reference.reviewedAt}>{reference.reviewedAt}</time></p>}
  <Coupon airport={a} compact={true}/>
  <div class="brand-card-actions"><a class="brand-visit" href={a.affiliateUrl} target="_blank" rel="sponsored nofollow noopener noreferrer">推广入口 <Icon name="external" size={15}/></a><a href={`/airport/${a.slug}/`}>查看详情 <Icon name="chevron" size={14}/></a><a class="compare-add" href={`/compare/?brands=${a.slug}`} aria-label={`比较 ${a.name}`}><Icon name="compare" size={17}/></a></div>
 </article>

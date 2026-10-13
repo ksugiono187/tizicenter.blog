@@ -1,9 +1,9 @@
 {
   "status": "PASS",
-  "date": "2026-10-13T07:22:30.254Z",
+  "date": "2026-10-13T07:42:48.936Z",
   "errors": [],
-  "brands": 5,
-  "quotedOffers": 29,
+  "brands": 29,
+  "quotedOffers": 170,
   "officialReferenceImages": 2,
   "verifiedPlanPromotion": false,
   "limitation": "Checks preserve source mappings, image provenance and separation from verified plans; they do not independently validate third-party commercial claims."

@@ -1,0 +1,6 @@
+---
+import {brandReferences} from '../data/brand-references';
+const {slug}=Astro.props;
+const reference=brandReferences.find(r=>r.slug===slug);
+---
+<section class="detail-section research-status" id="research-status" aria-labelledby="research-status-title"><span class="eyebrow">REVIEW STATUS / 资料进度</span><h2 id="research-status-title">这份资料核对到哪里？</h2><dl class="research-status-grid"><div><dt>最近查阅公开资料</dt><dd><time datetime={reference?.reviewedAt}>{reference?.reviewedAt??'暂无记录'}</time></dd></div><div><dt>来源与参考记录</dt><dd>{reference?.sources.length??0} 个来源 · {reference?.offers.length??0} 条价目记录</dd></div><div><dt>当前商城与经营方</dt><dd>尚未独立核实</dd></div><div><dt>优惠结算与连接表现</dt><dd>尚未验证 / 未实测</dd></div></dl><p class="small muted">最近查阅日期表示本站阅读公开资料的时间。每个来源的报价日期另列在下方；阅读较新不代表价格、退款或优惠已重新确认。</p>{reference&&<p class="research-revision"><strong>本轮整理：</strong>{reference.revisionNote}</p>}<div class="inline-links"><a href="#public-references">查看报价来源与待确认项 ↘</a><a href="/brand-updates/">查看全目录资料进度 ↗</a><a href={"/contact/?brand="+slug}>提交此品牌纠错 ↗</a></div></section>
