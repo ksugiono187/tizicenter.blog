@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="费用与流量预算工具" description="输入自己的套餐账单和使用记录，估算实际付款、月均成本、理论额度成本及周期流量预算；每项结果附计算口径。" crumbs={[{name:'预算工具',url:'/tools/'}]}>
+<div class="container"><div class="page-intro"><span class="eyebrow">PLAN YOUR BUDGET</span><h1>先算清预算，再做选择。</h1><p>用你确认过的账单和使用记录，了解一笔费用对应多少时间、多少额度。</p></div><div class="budget-tools-grid"><a class="budget-tool-card" href="/tools/cost/"><span class="eyebrow">01 · 费用</span><h2>套餐费用计算器</h2><p>核对实际付款、月均成本与理论每 GB 成本，区分按月重置和一次性总量。</p><strong>开始计算 →</strong></a><a class="budget-tool-card" href="/tools/traffic/"><span class="eyebrow">02 · 用量</span><h2>流量预算计算器</h2><p>从一段有代表性的记录估算目标周期用量，考虑倍率和额外预留。</p><strong>开始估算 →</strong></a></div><section class="budget-explainer"><h2>准备哪些资料？</h2><p>费用计算需要同一币种的价格、费用、优惠金额和覆盖月数。流量估算需要统计天数、用量与计量口径。资料未知时先查账单或服务说明。</p><p>所有计算在当前页面完成，不保存输入。计算器不预填品牌报价，也不判断优惠码是否有效。</p><p><a href="/blog/plan-cost/">了解套餐成本口径</a> · <a href="/blog/traffic-budget/">怎样记录代表性用量</a> · <a href="/airport/?filter=reference">查看品牌公开参考</a></p></section></div>
+</Layout>

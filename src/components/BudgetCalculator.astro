@@ -1,0 +1,22 @@
+---
+const {kind}=Astro.props;
+---
+<div class="budget-workspace" data-calculator={kind}><form class="budget-form"><div class="budget-inputs"><slot/></div><div class="budget-actions"><button type="submit" class="button">计算预算</button><button type="reset" class="button secondary">清空输入</button></div><p class="budget-error" role="alert" hidden></p></form><aside class="budget-result" aria-label="计算结果"><span class="eyebrow">YOUR ESTIMATE</span><h2>预算结果</h2><div class="budget-output" role="status" aria-live="polite"><p>填写左侧条件，点击“计算预算”。</p></div><p class="small muted">结果仅对应当前输入，不代表品牌承诺。更改条件后请重新计算。</p></aside></div><noscript><p class="notice">计算功能需要 JavaScript；下方列出了公式，可按公式自行计算。</p></noscript>
+<script>
+import {calculateCost,calculateTraffic} from '../lib/budget';
+for(const root of document.querySelectorAll<HTMLElement>('[data-calculator]')){
+ const form=root.querySelector('form')!;const output=root.querySelector('.budget-output')!;const error=root.querySelector<HTMLElement>('.budget-error')!;
+ const input=(name:string)=>form.elements.namedItem(name) as HTMLInputElement;
+ const number=(name:string)=>{const el=input(name);if(!el.value.trim())throw new Error('请填写必需的计算条件。');return Number(el.value);};
+ const meter=form.elements.namedItem('meter') as HTMLSelectElement|null;
+ const sync=()=>{if(meter)input('multiplier').disabled=meter.value==='billed';};sync();meter?.addEventListener('change',sync);
+ const format=(n:number)=>new Intl.NumberFormat('zh-CN',{maximumFractionDigits:3}).format(n);
+ const initial=()=>{output.replaceChildren();const p=document.createElement('p');p.textContent='填写条件后点击“计算预算”。';output.append(p);};
+ function show(rows:[string,string][],note:string){output.replaceChildren();const dl=document.createElement('dl');for(const [label,value] of rows){const dt=document.createElement('dt');dt.textContent=label;const dd=document.createElement('dd');dd.textContent=value;dl.append(dt,dd);}const p=document.createElement('p');p.className='budget-result-note';p.textContent=note;output.append(dl,p);}
+ form.addEventListener('submit',event=>{event.preventDefault();error.hidden=true;try{
+ if(root.dataset.calculator==='cost'){const quota=input('quota').value.trim()?number('quota'):undefined;const r=calculateCost(number('price'),number('fees'),number('discount'),number('months'),quota,quota===undefined?1:number('multiplier'),input('reset').value);const currency=input('currency').value;show([['实际付款',currency+' '+format(r.total)],['月均成本',currency+' '+format(r.monthly)+' / 月'],['理论传输量',r.theoretical===undefined?'未计算（额度未提供）':format(r.theoretical)+' GB'],['理论每 GB 成本',r.perGB===undefined?'不适用':currency+' '+format(r.perGB)+' / GB']], '理论额度不等于实际使用量；月均成本不改变付款周期。');}
+ else{const r=calculateTraffic(number('sample'),number('days'),number('targetDays'),input('meter').value==='billed'?1:number('multiplier'),number('reserve'),input('meter').value);show([['样本日均',format(r.daily)+' GB / 天'],['周期计费额度预测',format(r.base)+' GB'],['含预留的额度预算',format(r.recommended)+' GB']],input('meter').value==='billed'?'后台已扣额度模式：未重复乘倍率。':'实际传输量模式：已应用你填写的统一倍率。');}
+ }catch(e){initial();error.textContent=e instanceof Error?e.message:'请检查输入。';error.hidden=false;}});
+ form.addEventListener('input',()=>{initial();error.hidden=true;});form.addEventListener('reset',()=>{initial();error.hidden=true;input('multiplier').disabled=false;});
+}
+</script>

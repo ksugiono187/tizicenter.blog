@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {calculateCost,calculateTraffic} from '../src/lib/budget';
+assert.deepEqual(calculateCost(120,5,25,12,100,2),{total:100,monthly:100/12,theoretical:600,perGB:100/600});
+assert.equal(calculateCost(120,0,0,12,100,2,'total').theoretical,50);
+assert.equal(calculateCost(120,0,0,12).perGB,undefined);
+assert.equal(calculateCost(0,0,0,1).total,0);
+assert.throws(()=>calculateCost(1,0,2,1));assert.throws(()=>calculateCost(1,0,0,0));assert.throws(()=>calculateCost(Infinity,0,0,1));assert.throws(()=>calculateCost(1,0,0,1,0));
+assert.deepEqual(calculateTraffic(14,7,30,2,20),{daily:2,base:120,recommended:144});
+assert.equal(calculateTraffic(14,7,30,2,20,'billed').recommended,72);
+assert.equal(calculateTraffic(0,7,30,1,20).recommended,0);
+assert.throws(()=>calculateTraffic(14,0,30,1,20));assert.throws(()=>calculateTraffic(14,7,30,1,101));
+assert.throws(()=>calculateCost(120,0,0,1.5,100));
+assert.throws(()=>calculateTraffic(1e308,1e-308,30,1,20));
+assert.equal(calculateCost(120,0,0,1.5).monthly,80);
+console.log('Budget calculations PASS: billing rules, empty quota, multiplier modes and invalid input.');

@@ -48,3 +48,8 @@ draft: false
 - 下一段周期的任务安排，仍未知的条件。
 
 两边统计不同看 [计量差异核对](/blog/metering-difference/)，临时缺口看 [流量包与升级](/blog/addon-versus-upgrade/)。
+
+
+## 按自己的条件计算
+
+打开 [流量预算计算器](/tools/traffic/)，填写已确认的账单或用量记录。结果附有公式和计量说明；条件变化后应重新计算。
