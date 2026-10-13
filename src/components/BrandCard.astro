@@ -3,13 +3,16 @@ import Coupon from './Coupon.astro';
 import BrandMark from './BrandMark.astro';
 import Icon from './Icon.astro';
 import {brandReferences} from '../data/brand-references';
+import {getBrandInformation} from '../data/brand-information';
 const {airport:a,comparePick=false}=Astro.props;
 const reference=brandReferences.find(r=>r.slug===a.slug);
+const information=getBrandInformation(a.slug);
 ---
 <article class="brand-card" data-brand-search={`${a.name} ${a.slug} ${a.couponCode||''}`.toLowerCase()} data-has-coupon={String(!!a.couponCode)} data-has-reference={String(!!reference)} data-has-conflict={String(!!reference?.hasConflict)}>
  <div class="brand-heading"><BrandMark airport={a}/><div><h3><a href={`/airport/${a.slug}/`}>{a.name}</a></h3><span class="brand-subtitle">机场品牌入口</span></div><span class:list={['badge',{'badge-blue':!!a.couponCode}]}>{a.couponCode?'含优惠码':'品牌资料'}</span></div>
- <div class="brand-reference-tags">{reference?<><a href={`/airport/${a.slug}/#public-references`}>有公开参考</a><span>{reference.hasConflict?'有来源分歧':'条款待确认'}</span></>:<span>暂无公开报价参考</span>}</div>
+ <div class="brand-reference-tags">{reference?<><a href={`/airport/${a.slug}/#public-references`}>公开资料已整理</a><span>{reference.hasConflict?'有来源分歧':'条款待确认'}</span></>:<span>暂无公开报价参考</span>}</div>
  {reference&&<p class="brand-reference-date">公开资料查阅 <time datetime={reference.reviewedAt}>{reference.reviewedAt}</time></p>}
+ <p class="brand-status-coverage"><a href={`/airport/${a.slug}/#research-status`}>{information.sourceCount} 个来源 · {information.offerCount} 条参考价目 · 逐项状态 ↗</a></p>
  <Coupon airport={a} compact={true}/>
  {comparePick&&<label class="directory-compare-pick"><input type="checkbox" data-compare-pick value={a.slug} disabled/><span>加入比较</span><span class="sr-only">{a.name}</span></label>}
  <div class="brand-card-actions"><a class="brand-visit" href={a.affiliateUrl} target="_blank" rel="sponsored nofollow noopener noreferrer">推广入口 <Icon name="external" size={15}/></a><a href={`/airport/${a.slug}/`}>查看详情 <Icon name="chevron" size={14}/></a><a class="compare-add" href={`/compare/?brands=${a.slug}`} aria-label={`比较 ${a.name}`}><Icon name="compare" size={17}/></a></div>

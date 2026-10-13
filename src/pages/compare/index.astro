@@ -2,9 +2,10 @@
 import Layout from '../../layouts/Layout.astro';
 import Icon from '../../components/Icon.astro';
 import {brandReferences} from '../../data/brand-references';
+import {getBrandInformation} from '../../data/brand-information';
 const referenceSummary=(slug:string)=>{const r=brandReferences.find(item=>item.slug===slug);return r?[`${r.sources.length} 个第三方来源 · ${r.offers.length} 条历史报价记录`,r.hasConflict?'有来源分歧 · 详情保留冲突':'当前条款仍待确认']:['暂无公开参考','资料待补充'];};
 import {airports,price,traffic,unknown,cost} from '../../data/airports';
-const rows=airports.map(a=>({slug:a.slug,name:a.name,values:[price(a),traffic(a),cost(a.plans[0])===undefined?'不适用 / 尚未核实':`${a.currency} ${cost(a.plans[0])?.toFixed(3)} / GB`,a.regions.join('、')||unknown,a.protocols.join('、')||unknown,a.deviceLimit||unknown,a.aiSupport?.join('、')||unknown,a.streamingSupport?.join('、')||unknown,a.advantages.join('；')||unknown,a.disadvantages.join('；')||unknown,a.couponCode||'未提供','运营者提供 · 未核实',...referenceSummary(a.slug)]}));
+const rows=airports.map(a=>({slug:a.slug,name:a.name,values:[price(a),traffic(a),cost(a.plans[0])===undefined?'不适用 / 尚未核实':`${a.currency} ${cost(a.plans[0])?.toFixed(3)} / GB`,a.regions.join('、')||unknown,a.protocols.join('、')||unknown,a.deviceLimit||unknown,a.aiSupport?.join('、')||unknown,a.streamingSupport?.join('、')||unknown,a.advantages.join('；')||unknown,a.disadvantages.join('；')||unknown,a.couponCode||'未提供',getBrandInformation(a.slug).summary,...referenceSummary(a.slug),getBrandInformation(a.slug).reviewedAt||'暂无记录']}));
 ---
 <Layout title="机场与 VPN 横向比较工具：优惠码与品牌资料" description="从 29 个机场品牌中搜索并选择 2–4 家，对比优惠码与资料状态。可查看全部价格、流量、协议等字段，未核实内容明确标注。" crumbs={[{name:'横向比较',url:'/compare/'}]}>
  <div class="container"><div class="page-intro"><span class="eyebrow">COMPARE WITH CONTEXT</span><h1>把候选放在一起，信息更清楚。</h1><p>搜索品牌，选择 2–4 家。先比较优惠码、第三方来源覆盖和资料分歧，再查看仍需核实的服务条件；历史记录不代表当前报价。</p></div>
@@ -13,13 +14,13 @@ const rows=airports.map(a=>({slug:a.slug,name:a.name,values:[price(a),traffic(a)
  <div id="compare-table"><div class="compare-empty"><Icon name="compare" size={35}/><h2>从两个候选开始</h2><p>上方选中的品牌会出现在这里，随时可以添加或移除。</p></div></div>
  <div class="disclosure"><Icon name="shield" size={17}/><p>品牌入口与优惠码由运营者提供，套餐及优惠有效性尚未核实。公开参考来自第三方，记录条数不代表服务质量；报价冲突请进入品牌详情核对。全部资料字段可以展开，不为未知套餐计算成本。</p></div>
  <noscript><p class="notice">交互比较需要 JavaScript；下方全部品牌的静态资料仍可浏览。</p></noscript>
- <details class="static-compare"><summary>浏览全部 {airports.length} 个品牌的静态资料</summary><div class="table-wrap"><table><thead><tr><th>品牌</th><th>优惠码</th><th>资料状态</th><th>详情</th></tr></thead><tbody>{airports.map(a=><tr><td>{a.name}</td><td>{a.couponCode||'未提供'}</td><td>运营者提供 · 尚未核实</td><td><a class="text-link" href={`/airport/${a.slug}/`}>查看品牌 <Icon name="arrow" size={14}/></a></td></tr>)}</tbody></table></div></details>
+ <details class="static-compare"><summary>浏览全部 {airports.length} 个品牌的静态资料</summary><div class="table-wrap"><table><thead><tr><th>品牌</th><th>优惠码</th><th>资料状态</th><th>详情</th></tr></thead><tbody>{airports.map(a=><tr><td>{a.name}</td><td>{a.couponCode||'未提供'}</td><td>{getBrandInformation(a.slug).summary}</td><td><a class="text-link" href={`/airport/${a.slug}/`}>查看品牌 <Icon name="arrow" size={14}/></a></td></tr>)}</tbody></table></div></details>
  </div>
  <script type="application/json" id="compare-data" set:html={JSON.stringify(rows).replace(/</g,'\\u003c')}/>
  <script>
 const data=JSON.parse(document.querySelector('#compare-data')!.textContent!);
 const checks=[...document.querySelectorAll<HTMLInputElement>('.selector input')];
-const labels=['价格','套餐流量','每 GB 成本','节点地区','协议','设备限制','AI 支持','流媒体支持','优点','注意事项','优惠码','信息状态','第三方公开参考','资料差异'];
+const labels=['价格','套餐流量','每 GB 成本','节点地区','协议','设备限制','AI 支持','流媒体支持','优点','注意事项','优惠码','信息状态','第三方公开参考','资料差异','资料查阅日期'];
 const status=document.querySelector('#compare-status')!;
 const target=document.querySelector<HTMLElement>('#compare-table')!;
 const tray=document.querySelector<HTMLElement>('#selection-tray')!;
@@ -43,7 +44,7 @@ function render(){
  const head=document.createElement('thead');const hr=document.createElement('tr');const corner=document.createElement('th');corner.textContent='比较维度';corner.scope='col';hr.append(corner);
  for(const a of items){const th=document.createElement('th');th.scope='col';const link=document.createElement('a');link.textContent=a.name;link.href=`/airport/${a.slug}/`;th.append(link);const b=document.createElement('button');b.className='remove';b.textContent='移除';b.setAttribute('aria-label',`移除 ${a.name}`);b.onclick=()=>remove(a.slug);th.append(b);hr.append(th);}
  head.append(hr);table.append(head);const body=document.createElement('tbody');
- labels.forEach((label,i)=>{if(!showAll.checked&&i<10)return;const tr=document.createElement('tr');const th=document.createElement('th');th.scope='row';th.textContent=label;tr.append(th);for(const a of items){const td=document.createElement('td');td.textContent=a.values[i];tr.append(td);}body.append(tr);});
+ labels.forEach((label,i)=>{if(!showAll.checked&&i<10)return;const tr=document.createElement('tr');const th=document.createElement('th');th.scope='row';th.textContent=label;tr.append(th);for(const a of items){const td=document.createElement('td');td.textContent=a.values[i];if(i===11){const link=document.createElement('a');link.className='information-detail-link';link.textContent='查看逐项核对 ↗';link.href=`/airport/${a.slug}/#research-status`;td.append(link);}tr.append(td);}body.append(tr);});
  table.append(body);wrapper.append(table);target.append(wrapper);
 }
 const requested=[...new Set((new URLSearchParams(location.search).get('brands')||'').split(','))].filter(slug=>checks.some(c=>c.value===slug)).slice(0,4);
