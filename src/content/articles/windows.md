@@ -5,7 +5,7 @@ category: guides
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["新手","客户端"]
-sources: ["https://www.wireguard.com/"]
+sources: ["https://support.microsoft.com/en-us/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"]
 draft: false
 ---
 
@@ -24,3 +24,17 @@ Windows 上的第一次连接应从软件来源和版本兼容性检查开始。
 Windows 自带连接界面是否包含服务？系统的连接配置不等于 VPN 订阅，你仍需自己的服务与兼容配置。机场订阅不能自动当作系统 VPN 配置导入。
 
 继续阅读 [首次连接检查](/guides/first-connection/) 和 [VPN 协议](/glossary/protocol/)。
+
+
+## 跟着做：完成一轮桌面验证
+1. 记录 Windows 版本、网络类型和客户端名称，确认未连接时普通网页正常。
+2. 用服务方文档核对客户端与订阅格式；第三方客户端应从项目正式发布入口下载。
+3. 安装后导入配置或登录账户，选一个默认节点，确认当前启用的是刚刚导入的配置。
+4. 按客户端说明打开连接功能，用浏览器和实际应用分别测试；两种结果各记一行。
+5. 在应用内断开并退出，重新打开普通网页，确认正常网络恢复。
+
+## 系统代理怎么检查
+Windows 的“设置 → 网络和 Internet → 代理”可查看系统代理设置。先保存原设置，再检查是否残留指向本地客户端的手动代理。系统代理与系统 VPN 配置不是同一个入口；组织配置按管理要求处理。不要以关闭防火墙作为默认排错步骤。
+
+## 完成标准与下一步
+完成安装不代表全部设置正确。你应能说明当前配置、节点和模式，完成目标任务，并在断开后恢复普通网络。需具体桌面客户端步骤，可读 [Clash Verge Rev 教程](/guides/clash-verge-rev/)；已连接仍打不开页面时读 [五层排查](/guides/connection-troubleshooting/)。

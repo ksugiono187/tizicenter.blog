@@ -9,7 +9,8 @@
     "Comparison: default 2 information rows and expanded 12 fields; exact case U1S1 / YUZHOU553",
     "1440px desktop: two-column hero, three-column cards, no overflow",
     "320px: document width 305 <= viewport 320 after grid overflow fix; mobile detail width 392 <= viewport 407",
-    "Mobile navigation opens and closes"
+    "Mobile navigation opens and closes",
+    "Content release: guides 9 and blog 14, category anchors, article navigation and mobile TOC; 320px no overflow and 1440px three-column cards"
   ],
   "limitation": "Representative browser checks; not an exhaustive device matrix, and no coupon validity or service-performance tests."
 }

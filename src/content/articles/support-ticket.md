@@ -5,7 +5,7 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["客户端","凭据"]
-sources: ["https://www.wireguard.com/"]
+sources: ["https://tizicenter.blog/editorial-policy/", "https://support.microsoft.com/en-us/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"]
 draft: false
 ---
 
@@ -22,3 +22,25 @@ draft: false
 
 ## 跟踪结果
 保存工单编号与处理建议，按同样条件复测后更新记录。若问题是本站资料错误，使用 [纠错入口](/contact/) 提供公开来源；连接排查参考 [首次连接检查](/guides/first-connection/)。
+
+## 可以复制的工单模板
+
+```text
+主题：[设备平台] + [具体故障] + [发生时间]
+设备 / 系统版本：
+客户端 / 版本：
+网络类型：家庭 Wi-Fi / 移动网络 / 其他
+发生时间与时区：
+断开时普通网页是否正常：
+连接后普通网页是否正常：
+目标任务与报错原文：
+复现步骤：1. … 2. … 3. …
+已尝试的单项调整与结果：
+希望确认：配置是否有效 / 对应格式 / 下一步检查
+附件：已遮盖账户、URL、令牌与二维码的截图
+```
+
+只填写必要信息。节点名称和城市等环境信息按服务方排错需要提供，不写完整订阅地址。假如问题只在网络切换后出现，应把切换前后结果分别写清楚；如果未尝试某一步就写“未测试”，不猜测结果。
+
+## 得到答复后怎样闭环
+记录建议改变的设置，先保存原值，再逐项测试。成功后按同一任务复查，并回复故障是否仍可复现。若需要重置订阅，先读 [凭据处理清单](/blog/subscription-security/)；若订阅下载就失败，先读 [更新错误排查](/guides/subscription-errors/)。
