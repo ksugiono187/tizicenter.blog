@@ -2,6 +2,7 @@
 title: "机场流量怎么估算：用自己的账单记录做预算"
 description: "用短期用量样本估算月需求，读懂倍率与重置周期，避免把示例误当成品牌承诺。"
 category: blog
+section: budget
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["费用","选购"]

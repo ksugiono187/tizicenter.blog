@@ -1,5 +1,6 @@
 ---
 import ArticleCards from './ArticleCards.astro';
+import BlogIndex from './BlogIndex.astro';
 const {items,category}=Astro.props;
 const guide=category==='guides';
 const groups=guide?[
@@ -13,10 +14,10 @@ const groups=guide?[
 ];
 const path=[['first-connection','先看完成标准','知道什么才算连接成功'],['subscription-import','导入订阅','区分订阅地址与推广入口'],['connection-troubleshooting','学会排查','有问题时按步骤定位']];
 ---
-<div class="content-hub">
+{!guide?<BlogIndex items={items}/>:<div class="content-hub">
  <div class="hub-overview"><div><span class="eyebrow">{guide?'START HERE / 新手路线':'READ WITH PURPOSE / 阅读专题'}</span><h2>{guide?'从第一次安装，到独立排查。':'围绕你的问题，找到下一篇。'}</h2><p>{guide?'先选设备教程，再配置订阅；遇到错误时回到排查清单。':'选套餐前读预算，付款前查优惠，使用中留下真实记录。'}</p></div><span class="hub-total">{items.length}<small>{guide?'篇使用教程':'篇博客文章'}</small></span></div>
  {guide&&<div class="learning-path">{path.map(([id,title,desc],i)=><a href={`/guides/${id}/`}><span class="path-number">0{i+1}</span><div><strong>{title}</strong><p>{desc}</p></div><span aria-hidden="true">↗</span></a>)}</div>}
  <nav class="hub-jumps" aria-label="文章分类">{groups.map(g=><a href={`#${g.id}`}>{g.name.replace(/^\d+ \/ /,'')}<span>{g.ids.filter(id=>items.some((a:any)=>a.id===id)).length}</span></a>)}<a href="/search/">搜索文章 ↗</a></nav>
  {groups.map(g=><section class="hub-group" id={g.id}><div class="section-head"><div><h2>{g.name}</h2><p>{g.description}</p></div></div><ArticleCards items={g.ids.map(id=>items.find((a:any)=>a.id===id)).filter(Boolean)}/></section>)}
  <div class="notice">{guide?'教程采用通用流程，具体按钮、格式与权限以当前客户端及服务方文档为准。品牌兼容性尚未逐一核实。':'金额举例为计算示例；品牌价格、优惠条件和实际性能尚未核实。阅读方法文章后，请在服务方结算页核对自己的订单。'}</div>
-</div>
+</div>}

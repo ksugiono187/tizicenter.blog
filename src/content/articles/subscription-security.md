@@ -2,6 +2,7 @@
 title: "订阅链接泄露了怎么办：重置凭据与脱敏分享"
 description: "区分账户密码与订阅令牌，检查泄露范围、更新设备配置并整理安全的求助材料。"
 category: blog
+section: privacy
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["隐私","订阅"]

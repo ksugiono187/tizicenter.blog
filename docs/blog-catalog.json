@@ -1,0 +1,1911 @@
+{
+  "date": "2026-10-13",
+  "newArticles": 136,
+  "totalBlogArticles": 150,
+  "topics": [
+    {
+      "id": "selection",
+      "name": "选购与服务条款",
+      "newArticles": 17,
+      "existingArticles": 4
+    },
+    {
+      "id": "budget",
+      "name": "费用与流量预算",
+      "newArticles": 17,
+      "existingArticles": 4
+    },
+    {
+      "id": "subscription",
+      "name": "订阅与配置管理",
+      "newArticles": 17,
+      "existingArticles": 0
+    },
+    {
+      "id": "devices",
+      "name": "设备与日常维护",
+      "newArticles": 17,
+      "existingArticles": 0
+    },
+    {
+      "id": "troubleshooting",
+      "name": "故障定位与反馈",
+      "newArticles": 17,
+      "existingArticles": 0
+    },
+    {
+      "id": "network",
+      "name": "网络基础与指标",
+      "newArticles": 17,
+      "existingArticles": 0
+    },
+    {
+      "id": "scenarios",
+      "name": "工作与使用场景",
+      "newArticles": 17,
+      "existingArticles": 4
+    },
+    {
+      "id": "privacy",
+      "name": "隐私与信息核验",
+      "newArticles": 17,
+      "existingArticles": 2
+    }
+  ],
+  "articles": [
+    {
+      "id": "requirements-sheet",
+      "title": "买机场前怎样写需求表：把用途变成验收条件",
+      "section": "selection",
+      "characters": 599,
+      "description": "先列出必须完成的任务、设备和可接受支出，再看套餐。需求表应有成功标准，不能只有“速度快”“便宜”这类无法判断的词。"
+    },
+    {
+      "id": "short-trial-plan",
+      "title": "短期体验怎么安排：在退款窗口前完成验证",
+      "section": "selection",
+      "characters": 597,
+      "description": "短期体验要围绕自己的任务安排，不要把体验期全部用于测速。先核对体验及退款规则，再计划验证时间，避免直到到期才发现关键问题。"
+    },
+    {
+      "id": "refund-policy-reading",
+      "title": "退款条款怎么读：区分资格、时限与到账",
+      "section": "selection",
+      "characters": 594,
+      "description": "退款说明应逐项看申请资格、截止时间、操作渠道和资金处理方式。看到“支持退款”四个字，仍不足以判断自己的订单能否申请。"
+    },
+    {
+      "id": "device-limit-reading",
+      "title": "设备限制怎么理解：安装数量不等于同时在线",
+      "section": "selection",
+      "characters": 594,
+      "description": "设备条款可能限制安装、登录、连接或同时使用。先问清限制对象，不能把“支持多平台”解释成无限设备同时在线。"
+    },
+    {
+      "id": "delivery-model",
+      "title": "官方应用与订阅服务怎么选：先看交付和维护责任",
+      "section": "selection",
+      "characters": 595,
+      "description": "选择官方应用或订阅型服务，先比较谁提供客户端、谁维护配置以及故障时找谁。两种交付方式没有脱离使用需求的统一优劣。"
+    },
+    {
+      "id": "service-support-hours",
+      "title": "客服服务时间怎么看：响应承诺与解决时间分开",
+      "section": "selection",
+      "characters": 596,
+      "description": "看客服条款时，应区分什么时候能提交、什么时候有人回复和什么时候能够解决。工单入口全天可用，不代表有人全天处理。"
+    },
+    {
+      "id": "node-region-choice",
+      "title": "节点地区怎么选：目标任务比地图距离重要",
+      "section": "selection",
+      "characters": 587,
+      "description": "选择节点地区先看目标服务要求、实际路径和任务结果，不应只挑地图上最近的地方。地区标签也不等于已验证的实际出口位置。"
+    },
+    {
+      "id": "special-line-claims",
+      "title": "专线宣传怎么核对：先问覆盖哪一段路径",
+      "section": "selection",
+      "characters": 600,
+      "description": "看到专线或直连宣传，先要求解释所指路径、套餐范围和限制。一个线路名称无法证明从你的设备到目标服务的全部路径。"
+    },
+    {
+      "id": "account-portability",
+      "title": "换服务前怎样检查迁移成本：配置、余额与习惯",
+      "section": "selection",
+      "characters": 593,
+      "description": "换服务要计算迁移时间和剩余账户价值，而不是只比较新套餐标价。订阅、客户端配置和服务余额通常需要分别处理。"
+    },
+    {
+      "id": "shared-account-policy",
+      "title": "家庭共享账户前要问什么：人数、凭据和支持",
+      "section": "selection",
+      "characters": 591,
+      "description": "家庭共享先核对服务是否允许，以及设备、并发和凭据管理规则。能把订阅复制给别人，不代表条款允许这样使用。"
+    },
+    {
+      "id": "renewal-promo-terms",
+      "title": "长期优惠怎样评估：折扣期限与承诺周期",
+      "section": "selection",
+      "characters": 584,
+      "description": "长期优惠先比较需要一次承担的金额，以及优惠覆盖多久。低月均价如果要求长期付款，应放在完整周期里评估。"
+    },
+    {
+      "id": "service-change-notice",
+      "title": "服务规则变更通知怎么处理：找到自己的影响项",
+      "section": "selection",
+      "characters": 588,
+      "description": "收到规则调整通知后，先确认生效时间和对当前订单的影响，再决定是否更换设置或续费。通知篇幅长不代表每项都与你有关。"
+    },
+    {
+      "id": "trial-without-speedtest",
+      "title": "不跑大流量测速怎样体验服务：用真实小任务",
+      "section": "selection",
+      "characters": 586,
+      "description": "体验不一定要反复下载大文件。先用小规模的真实任务检查连接、登录、保存与恢复，再决定是否需要更长时间的观察。"
+    },
+    {
+      "id": "official-doc-checklist",
+      "title": "付款前怎样核对官方说明：把宣传转成问题",
+      "section": "selection",
+      "characters": 595,
+      "description": "核对服务说明时，将广告词改写成可回答的问题：具体支持什么、限制在哪里、由谁维护。资料缺失本身也是需要计入决策的信息。"
+    },
+    {
+      "id": "use-case-priority",
+      "title": "多个用途冲突时怎么选：先排序再比较",
+      "section": "selection",
+      "characters": 602,
+      "description": "当会议、下载和日常浏览的要求冲突时，先给用途排序，再判断某个套餐是否满足最重要的任务。不存在仅凭一个指标就适合所有用途的结论。"
+    },
+    {
+      "id": "backup-provider-budget",
+      "title": "备用服务要不要买：先算中断成本和维护负担",
+      "section": "selection",
+      "characters": 592,
+      "description": "是否购买备用服务，取决于任务中断的代价以及你能否维护两套配置。拥有两个账户不意味着一定存在独立的备用路径。"
+    },
+    {
+      "id": "purchase-evidence-folder",
+      "title": "购买记录怎么保存：订单、条款和配置分开收纳",
+      "section": "selection",
+      "characters": 599,
+      "description": "购买记录应按订单、条款和配置分开保存。前两类帮助核对支出与条件，配置可能含访问凭据，应采用更严格的访问保护。"
+    },
+    {
+      "id": "monthly-vs-annual-cashflow",
+      "title": "月付与年付怎么比较：现金支出和月均成本分开",
+      "section": "budget",
+      "characters": 589,
+      "description": "月付与年付先比较本次需要支付多少，再比较预计使用周期的总支出。月均数字方便理解，但不能告诉你今天要付多少钱。"
+    },
+    {
+      "id": "quarterly-reset-budget",
+      "title": "季付流量怎么核对：总额和每月重置不是一回事",
+      "section": "budget",
+      "characters": 573,
+      "description": "季付只是支付周期，不能自动说明三个月的流量一次发放。先核对额度重置方式，再安排集中上传或下载任务。"
+    },
+    {
+      "id": "unused-traffic-value",
+      "title": "没用完的流量值多少钱：区分额度与可退余额",
+      "section": "budget",
+      "characters": 549,
+      "description": "未使用流量是一项可用额度，不一定能兑换现金、退款或转移。评估价值前先查结转、转让和退款规则。"
+    },
+    {
+      "id": "traffic-reset-time",
+      "title": "流量哪天重置：购买日、自然月与时区怎么核对",
+      "section": "budget",
+      "characters": 570,
+      "description": "流量重置应看账户给出的具体时间和计量周期。购买日到期、自然月重置与套餐结束时间可能是不同的三个日期。"
+    },
+    {
+      "id": "traffic-multiplier-mix",
+      "title": "不同节点倍率怎么计算：按使用量分段相加",
+      "section": "budget",
+      "characters": 583,
+      "description": "不同节点倍率混用时，要按各段实际使用量分别计算，不能把整个套餐都按最低倍率估算。还应确认服务方的计量口径。"
+    },
+    {
+      "id": "upload-download-metering",
+      "title": "上传也扣流量吗：先确认套餐计量方向",
+      "section": "budget",
+      "characters": 569,
+      "description": "上传是否计入额度没有统一答案。看套餐说明时，分别确认上传、下载以及两者是否相加，不从客户端图表直接猜后台规则。"
+    },
+    {
+      "id": "speedtest-data-cost",
+      "title": "测速会用多少流量：先看测试方式和次数",
+      "section": "budget",
+      "characters": 564,
+      "description": "测速也会产生传输，具体消耗取决于测试方式、持续时间和并发。额度有限时先确认工具行为，再决定测试次数。"
+    },
+    {
+      "id": "currency-comparison",
+      "title": "不同币种套餐怎么比较：标价、汇率和手续费分开",
+      "section": "budget",
+      "characters": 562,
+      "description": "不同币种先分别记录标价，再使用同一核对时点的兑换条件比较。支付渠道实际扣款可能与粗略换算不同。"
+    },
+    {
+      "id": "payment-fee-budget",
+      "title": "支付手续费怎样计入预算：以最终账单为准",
+      "section": "budget",
+      "characters": 564,
+      "description": "手续费应和套餐价格一起计入本次现金支出。服务页面、支付渠道和最终扣款可能分别展示不同费用，应在确认付款前逐项核对。"
+    },
+    {
+      "id": "promo-effective-price",
+      "title": "折扣后的实际单价怎么算：先限定适用范围",
+      "section": "budget",
+      "characters": 554,
+      "description": "折扣单价需要限定订单、周期和额度，不能把一次优惠扩展成长期成本。先确认代码被接受，再计算最终支出对应的价值。"
+    },
+    {
+      "id": "midcycle-upgrade-cost",
+      "title": "周期中途升级怎么算：剩余价值与新周期分开",
+      "section": "budget",
+      "characters": 567,
+      "description": "中途升级先问剩余时间、剩余流量和已付金额分别怎么处理。不能仅凭两个套餐差价，推断应支付的升级费用。"
+    },
+    {
+      "id": "addon-versus-upgrade",
+      "title": "流量包和升级套餐怎么选：比较有效期与一次性支出",
+      "section": "budget",
+      "characters": 575,
+      "description": "补充流量包与升级套餐先比较可用量、有效期和对原周期的影响。一个解决短期缺口，一个可能改变整体服务条件，不能只看单位价格。"
+    },
+    {
+      "id": "traffic-alert-threshold",
+      "title": "流量提醒怎么设：用剩余天数判断是否需要补充",
+      "section": "budget",
+      "characters": 574,
+      "description": "提醒阈值应结合周期剩余天数与日均消耗，不是固定剩某个百分比就购买。没有客户端提醒功能时也可以手动定期记录。"
+    },
+    {
+      "id": "subscription-total-cost",
+      "title": "服务总成本怎么整理：付款之外还有维护时间",
+      "section": "budget",
+      "characters": 581,
+      "description": "服务成本除了付款，还包含安装、更新、排错和迁移时间。可以把这些分别记录，帮助自己判断方案是否值得继续使用。"
+    },
+    {
+      "id": "pause-plan-budget",
+      "title": "暂时不用服务怎么办：到期、暂停与自动续费分开",
+      "section": "budget",
+      "characters": 571,
+      "description": "暂时停用时，先确认服务有没有暂停规则，以及是否还会产生续费。停止打开客户端不等于暂停账户或停止扣费。"
+    },
+    {
+      "id": "family-traffic-allocation",
+      "title": "家庭流量怎么分配：记录任务比按人数平均更有用",
+      "section": "budget",
+      "characters": 576,
+      "description": "家庭共享额度应先确认共享资格，再按任务需求分配预算。人数相同不代表流量需求相同，后台是否可区分设备也需核对。"
+    },
+    {
+      "id": "metering-difference",
+      "title": "客户端和后台流量不一致怎么办：先统一时间与口径",
+      "section": "budget",
+      "characters": 581,
+      "description": "计量不一致先核对统计时段、重置时间、方向和倍率，不立即认定多扣。客户端看到的传输不一定等于套餐扣除量。"
+    },
+    {
+      "id": "invite-versus-subscribe",
+      "title": "注册链接与订阅链接有什么区别：用途和保密程度不同",
+      "section": "subscription",
+      "characters": 609,
+      "description": "注册链接用于进入服务并建立账户，订阅链接用于取得客户端配置。本站推广入口不是客户端订阅，不应把它直接粘贴到配置导入框。"
+    },
+    {
+      "id": "subscription-format-choice",
+      "title": "订阅格式怎么选择：客户端名称之外还要看版本",
+      "section": "subscription",
+      "characters": 596,
+      "description": "订阅格式应与客户端和内核的支持范围匹配。看见相近的软件名称，不能认为配置一定通用，付款前先查服务方的兼容说明。"
+    },
+    {
+      "id": "active-profile-check",
+      "title": "配置导入成功却没生效怎么办：先看当前启用项",
+      "section": "subscription",
+      "characters": 607,
+      "description": "导入完成与启用配置是两个动作。节点列表已出现时，先确认当前选中的是哪份配置，而不是重复导入或立即重装。"
+    },
+    {
+      "id": "subscription-update-schedule",
+      "title": "订阅多久更新一次：规则频率和任务时段一起考虑",
+      "section": "subscription",
+      "characters": 585,
+      "description": "订阅更新频率没有适合所有服务的固定值。先看服务文档的更新要求，再安排在不会打断关键任务的时段验证。"
+    },
+    {
+      "id": "profile-naming",
+      "title": "多份订阅怎样命名：让设备和用途容易识别",
+      "section": "subscription",
+      "characters": 586,
+      "description": "配置命名应帮助你识别服务、用途和测试状态，不写密码、令牌或完整账户。清楚的名字可以降低切错和误删风险。"
+    },
+    {
+      "id": "config-backup-scope",
+      "title": "配置备份该保存什么：恢复信息与敏感凭据分开",
+      "section": "subscription",
+      "characters": 593,
+      "description": "配置备份既要支持恢复，也要保护订阅地址和认证信息。可以先保存不敏感的设置清单，再按客户端文档处理完整备份。"
+    },
+    {
+      "id": "profile-update-rollback",
+      "title": "更新配置后变差怎样回退：先保留前后差异",
+      "section": "subscription",
+      "characters": 604,
+      "description": "配置更新后出现问题，先记录更新时间和改变内容，再确认客户端是否提供正式恢复方式。回退不是绕过权限，也不能让失效账户重新有效。"
+    },
+    {
+      "id": "node-list-changes",
+      "title": "订阅节点变少怎么判断：先核对账户与变更公告",
+      "section": "subscription",
+      "characters": 596,
+      "description": "节点数量变少不一定是客户端损坏。先确认启用配置、账户状态和服务公告，再判断是返回内容变化还是显示、解析问题。"
+    },
+    {
+      "id": "manual-node-versus-sub",
+      "title": "单节点分享与完整订阅有什么区别：更新责任不同",
+      "section": "subscription",
+      "characters": 599,
+      "description": "单节点配置和完整订阅可能包含不同范围的信息。先确认交付内容和更新方式，不把一个分享链接当作全部套餐配置。"
+    },
+    {
+      "id": "subscription-expiry-check",
+      "title": "订阅过期怎么核对：账户日期、额度与链接状态",
+      "section": "subscription",
+      "characters": 585,
+      "description": "无法更新时，分别核对账户有效期、剩余额度和订阅地址状态。链接错误与套餐过期不是同一个结论。"
+    },
+    {
+      "id": "subscription-qr-import",
+      "title": "二维码导入订阅注意什么：便利不改变保密要求",
+      "section": "subscription",
+      "characters": 604,
+      "description": "二维码只是信息的另一种表达方式，可能携带完整订阅凭据。扫码前核对来源，截图分享时应把二维码也遮盖。"
+    },
+    {
+      "id": "subscription-token-rotation",
+      "title": "更换订阅令牌后怎样检查：旧链接与全部设备都要看",
+      "section": "subscription",
+      "characters": 586,
+      "description": "更换令牌后要确认旧地址的处理方式，并逐台更新配置。后台显示操作成功，不等于每个设备已经换成新的凭据。"
+    },
+    {
+      "id": "config-sync-safety",
+      "title": "多设备同步配置怎样安排：可用性与凭据范围一起看",
+      "section": "subscription",
+      "characters": 595,
+      "description": "同步配置先确认哪些字段能共享，哪些属于设备专用或敏感信息。同步方便不代表所有设备都应该使用完全相同的设置。"
+    },
+    {
+      "id": "custom-rules-maintenance",
+      "title": "自定义规则怎样维护：来源、用途与撤销写清楚",
+      "section": "subscription",
+      "characters": 595,
+      "description": "增加自定义规则前，写清目标、依据和撤销方法。规则数量多不等于更好，未经理解的规则可能让排查变得困难。"
+    },
+    {
+      "id": "subscription-local-cache",
+      "title": "旧订阅还能用但更新失败怎么理解：缓存与服务状态分开",
+      "section": "subscription",
+      "characters": 600,
+      "description": "旧配置能连接而更新失败，说明两个过程的结果不同。先保留可用配置，再排查下载、权限和解析，不能认定服务全部正常或全部失效。"
+    },
+    {
+      "id": "profile-cleanup",
+      "title": "多余配置怎样清理：先确认唯一可用项和恢复资料",
+      "section": "subscription",
+      "characters": 579,
+      "description": "清理配置先确认哪一份正在使用，哪一份仍有恢复价值。删除前做必要记录，避免把唯一可用订阅与测试残留一起移除。"
+    },
+    {
+      "id": "config-notes-template",
+      "title": "配置笔记怎么写：记录状态而不是复制秘密",
+      "section": "subscription",
+      "characters": 597,
+      "description": "配置笔记应记录模式、版本、用途和变更结果，不写完整订阅或密码。这样既能复现设置，也能在求助时安全分享。"
+    },
+    {
+      "id": "new-computer-migration",
+      "title": "换电脑怎样迁移网络配置：安装来源与凭据重新核对",
+      "section": "devices",
+      "characters": 612,
+      "description": "换电脑先安装来自可信来源的兼容客户端，再导入有效配置，不要直接把旧机器上的全部程序文件搬过去。迁移完成要验证任务和断开恢复。"
+    },
+    {
+      "id": "phone-replacement",
+      "title": "换手机怎样恢复订阅：账户、格式与系统授权分开",
+      "section": "devices",
+      "characters": 601,
+      "description": "换手机要分别恢复账户访问、客户端配置和系统连接授权。账户登录成功只是其中一步，不能证明订阅或网络配置已恢复。"
+    },
+    {
+      "id": "desktop-mobile-differences",
+      "title": "电脑能用手机不能用怎么办：比较配置与网络差异",
+      "section": "devices",
+      "characters": 593,
+      "description": "电脑正常而手机失败时，先比较客户端格式、启用配置和网络，不直接认定服务只能在电脑使用。两台设备不是相同测试环境。"
+    },
+    {
+      "id": "sleep-wake-connection",
+      "title": "电脑睡眠后连接异常怎么查：唤醒前后状态对照",
+      "section": "devices",
+      "characters": 592,
+      "description": "睡眠后异常要记录唤醒时网络、客户端和任务分别处于什么状态。重启能暂时恢复，但不能单独说明原因。"
+    },
+    {
+      "id": "wifi-cellular-switch",
+      "title": "Wi-Fi 切到移动网络怎样验证：连接标记与任务分开",
+      "section": "devices",
+      "characters": 586,
+      "description": "网络切换后，客户端标记没有变化也需要重新验证任务。不同网络的访问条件、费用和应用行为可能不同，应分别留记录。"
+    },
+    {
+      "id": "public-wifi-auth",
+      "title": "公共 Wi-Fi 先登录还是先连接：先建立正常网络基线",
+      "section": "devices",
+      "characters": 602,
+      "description": "需要网页认证的公共 Wi-Fi，应先按该网络的正式流程建立可用基线，再配置个人网络工具。无法登录认证页面时先查网络要求。"
+    },
+    {
+      "id": "startup-sequence",
+      "title": "开机后网络工具怎么启动：先看自动启动与连接状态",
+      "section": "devices",
+      "characters": 587,
+      "description": "开机启动客户端和自动建立连接是不同动作。先核对启动顺序及当前状态，不把桌面出现图标当作所有请求已经走正确路径。"
+    },
+    {
+      "id": "app-update-timing",
+      "title": "客户端什么时候更新：工作间隙留出验证时间",
+      "section": "devices",
+      "characters": 582,
+      "description": "客户端更新尽量安排在有时间验证和恢复的窗口。先看正式发布说明与兼容要求，再决定是否适合当前设备和任务。"
+    },
+    {
+      "id": "multiple-network-tools",
+      "title": "多个代理工具同时开会怎样：先查接管冲突",
+      "section": "devices",
+      "characters": 589,
+      "description": "同时打开多个网络工具可能让路径与权限难以判断。排查时先明确每个工具的作用，再只保留当前任务需要的配置。"
+    },
+    {
+      "id": "browser-app-path",
+      "title": "浏览器能用应用不能用怎么办：先确认两条请求路径",
+      "section": "devices",
+      "characters": 591,
+      "description": "浏览器和应用可能采用不同网络设置。浏览器成功不能替代应用验证，先查实际请求路径和应用错误阶段。"
+    },
+    {
+      "id": "hotspot-sharing",
+      "title": "手机开热点会共享连接吗：不要从手机结果推断",
+      "section": "devices",
+      "characters": 599,
+      "description": "手机自己能完成任务，不代表热点下的电脑自动使用相同连接路径。热点共享行为取决于系统、客户端和具体设置，需要独立验证。"
+    },
+    {
+      "id": "tablet-workflow",
+      "title": "平板怎样验证工作场景：浏览、文件与切屏分别测",
+      "section": "devices",
+      "characters": 591,
+      "description": "平板测试不应只打开网页。若用于办公，还需验证文件上传、应用切换和锁屏恢复，因为这些动作可能有不同网络行为。"
+    },
+    {
+      "id": "device-clock-check",
+      "title": "设备时间错误会影响连接吗：记录提示再校准",
+      "section": "devices",
+      "characters": 582,
+      "description": "遇到证书或认证相关提示时，可以核对设备日期、时间和时区。时间是排查线索，不是所有连接失败的统一解释。"
+    },
+    {
+      "id": "permission-review",
+      "title": "网络客户端权限怎么核对：用途与请求名称一致",
+      "section": "devices",
+      "characters": 587,
+      "description": "客户端权限应与正在启用的功能对应。看到网络接管授权时先核对应用名称和来源，遇到额外权限要查正式说明。"
+    },
+    {
+      "id": "os-update-checklist",
+      "title": "系统升级后怎样复查网络：客户端和系统设置分开",
+      "section": "devices",
+      "characters": 589,
+      "description": "系统升级后先验证普通网络，再核对客户端支持范围与配置状态。把新系统带来的变化和订阅服务的变化分开记录。"
+    },
+    {
+      "id": "travel-device-prep",
+      "title": "出行前怎样准备网络设备：验证、备份与备用安排",
+      "section": "devices",
+      "characters": 597,
+      "description": "出行前在自己的设备完成必要任务检查，准备私有恢复资料和正常网络备用安排。不要到陌生网络上才首次安装并输入敏感凭据。"
+    },
+    {
+      "id": "retired-device-access",
+      "title": "旧设备不再使用怎么处理：配置删除与权限撤销分开",
+      "section": "devices",
+      "characters": 587,
+      "description": "旧设备退出使用时，需要分别处理本地配置和服务后台权限。删除应用只是本地动作，不必然使复制出去的订阅凭据失效。"
+    },
+    {
+      "id": "all-sites-fail",
+      "title": "所有网页都打不开怎么查：先确认断开后的基线",
+      "section": "troubleshooting",
+      "characters": 602,
+      "description": "所有网页失败时，先正常断开客户端，查看普通网络是否恢复。基线也失败就优先处理本地网络，不能直接归因于某个节点。"
+    },
+    {
+      "id": "one-site-fail",
+      "title": "只有一个网站打不开怎么查：域名、路径与业务状态",
+      "section": "troubleshooting",
+      "characters": 610,
+      "description": "单个网站失败时，分别核对地址、客户端请求路径和该业务的提示。其他网站正常只能缩小范围，不能证明问题一定在目标网站。"
+    },
+    {
+      "id": "login-load-split",
+      "title": "页面能加载却不能登录怎么查：网络与账户验证分开",
+      "section": "troubleshooting",
+      "characters": 613,
+      "description": "页面加载成功而登录失败，要记录登录步骤和准确提示。账户验证、验证码、会话与网络请求可能处于不同阶段，不能只换节点试错。"
+    },
+    {
+      "id": "timeout-versus-refused",
+      "title": "超时和连接被拒绝有什么区别：按错误阶段处理",
+      "section": "troubleshooting",
+      "characters": 615,
+      "description": "超时与连接被拒绝是不同错误线索。前者表示等待未在规定时间完成，后者提示连接请求未被接受；具体原因仍需结合上下文。"
+    },
+    {
+      "id": "intermittent-failure",
+      "title": "偶发断线怎样记录：保留成功样本也有帮助",
+      "section": "troubleshooting",
+      "characters": 589,
+      "description": "偶发问题应同时记录失败与正常时的条件。只保存失败截图无法判断差异，也容易把偶然现象解释成稳定的规律。"
+    },
+    {
+      "id": "evening-slowdown",
+      "title": "晚上变慢怎么判断：固定任务与时段比较",
+      "section": "troubleshooting",
+      "characters": 598,
+      "description": "晚间变慢先用相同设备、网络和任务比较时段，不能把不同测速平台的峰值直接相减。多天样本比单次印象更有价值。"
+    },
+    {
+      "id": "connected-no-record",
+      "title": "打开页面却没有连接记录怎么查：先看接管范围",
+      "section": "troubleshooting",
+      "characters": 612,
+      "description": "页面请求没有出现在客户端记录中，先核对日志是否覆盖该流量以及应用是否采用当前接管方式。没有记录本身不能证明请求从未发出。"
+    },
+    {
+      "id": "client-crash-report",
+      "title": "客户端闪退怎样反馈：启动、配置和系统事件分开",
+      "section": "troubleshooting",
+      "characters": 599,
+      "description": "闪退先记录发生在启动、导入还是连接阶段，并保存版本与系统信息。网络故障和程序退出是不同问题，不应只用节点质量解释。"
+    },
+    {
+      "id": "after-update-failure",
+      "title": "更新之后不能用怎么定位：软件和订阅变化分别看",
+      "section": "troubleshooting",
+      "characters": 606,
+      "description": "更新之后失败先确认更新的是系统、客户端还是订阅。时间接近只能提示关联，不能直接证明是哪一个变化造成问题。"
+    },
+    {
+      "id": "proxy-leftover",
+      "title": "退出客户端后不能上网怎么办：检查残留代理",
+      "section": "troubleshooting",
+      "characters": 588,
+      "description": "退出后普通网络失败，可以核对系统代理是否仍指向已经停止的本地客户端。先按应用说明正常关闭接管，再检查原有设置。"
+    },
+    {
+      "id": "dns-error-report",
+      "title": "域名解析错误怎样反馈：地址、时间与解析路径",
+      "section": "troubleshooting",
+      "characters": 592,
+      "description": "看到域名解析错误时，先确认域名输入、发生时间和当前解析方式。不要把所有页面加载失败都叫 DNS 故障。"
+    },
+    {
+      "id": "certificate-warning",
+      "title": "证书警告怎么处理：先停止输入凭据再核对地址",
+      "section": "troubleshooting",
+      "characters": 599,
+      "description": "遇到证书或安全连接警告，先停止输入账户和支付信息，核对地址、时间与可信帮助说明。不要跳过警告或关闭验证来继续使用。"
+    },
+    {
+      "id": "slow-first-load",
+      "title": "第一次打开页面很慢怎么查：首次与重复请求分开",
+      "section": "troubleshooting",
+      "characters": 611,
+      "description": "首次加载慢但再次访问快，先分开记录两次动作与环境。缓存、连接建立和业务处理都可能影响结果，不能只看第二次速度。"
+    },
+    {
+      "id": "long-download-failure",
+      "title": "大文件下载中断怎么查：进度、恢复与完整性分开",
+      "section": "troubleshooting",
+      "characters": 619,
+      "description": "大文件中断要记录停止位置、错误提示和是否能正常恢复。下载速度高不代表文件完整，完成后还应按来源提供的方法核对。"
+    },
+    {
+      "id": "support-escalation",
+      "title": "客服建议无效怎么继续反馈：复测结果比重复描述更有用",
+      "section": "troubleshooting",
+      "characters": 595,
+      "description": "建议无效时，提供按建议操作后的步骤和结果，不只重复最初“不能用”。说明你做了什么、哪些条件没变、哪里仍然失败。"
+    },
+    {
+      "id": "incident-timeline",
+      "title": "故障时间线怎么写：把事实、变化和推测分栏",
+      "section": "troubleshooting",
+      "characters": 591,
+      "description": "故障时间线应区分观察到的事实、已发生的设置变化和自己的推测。三个栏目分开，能减少因时间接近就认定因果的误判。"
+    },
+    {
+      "id": "minimal-reproduction",
+      "title": "怎样做最小复现：减少步骤但保留关键条件",
+      "section": "troubleshooting",
+      "characters": 608,
+      "description": "最小复现是用尽量少的步骤稳定展示同一问题。删减无关动作可以帮助定位，但不能移除决定现象的设备、网络或配置条件。"
+    },
+    {
+      "id": "latency-not-throughput",
+      "title": "延迟低为什么下载仍慢：两项指标回答不同问题",
+      "section": "network",
+      "characters": 576,
+      "description": "延迟描述请求往返所需时间，下载吞吐描述一定时间完成的数据传输。一个较低的延迟值，不能直接换算成文件下载速度。"
+    },
+    {
+      "id": "bandwidth-units",
+      "title": "Mbps 和 MB/s 怎么换算：先看比特与字节",
+      "section": "network",
+      "characters": 576,
+      "description": "Mbps 与 MB/s 使用不同单位。按一字节八比特的基本关系，换算时需要除以或乘以八，但标称带宽不是保证的实际文件速度。"
+    },
+    {
+      "id": "packet-loss-reading",
+      "title": "丢包率怎么读：目标、方法和样本一起看",
+      "section": "network",
+      "characters": 566,
+      "description": "丢包读数要结合探测目标、协议和样本解释。某种探测未收到回应，不一定等于你的业务数据以同样比例丢失。"
+    },
+    {
+      "id": "jitter-explained",
+      "title": "抖动是什么：平均延迟之外的时间变化",
+      "section": "network",
+      "characters": 557,
+      "description": "网络抖动关注到达时间或延迟的变化，不等于平均延迟。交互任务除了“通常快不快”，还可能关心“是否忽快忽慢”。"
+    },
+    {
+      "id": "dns-role",
+      "title": "DNS 在连接中做什么：解析成功不是网页成功",
+      "section": "network",
+      "characters": 597,
+      "description": "DNS 帮助把域名与相关记录对应起来。取得解析结果只是连接链条的一部分，不代表网页、登录或业务任务已经完成。"
+    },
+    {
+      "id": "dns-cache-boundary",
+      "title": "DNS 缓存会影响判断吗：记录更新时间和作用范围",
+      "section": "network",
+      "characters": 585,
+      "description": "缓存可能让连续两次观察使用不同阶段的结果。排查时先记录解析设置和变化时间，不把第二次成功直接归因于刚修改的选项。"
+    },
+    {
+      "id": "encrypted-dns-boundary",
+      "title": "加密 DNS 保护什么：解析传输与完整网络隐私分开",
+      "section": "network",
+      "characters": 591,
+      "description": "加密 DNS 关注解析请求的传输方式，不能被解释为所有流量都隐藏或账户完全匿名。先确认实际采用的解析服务和路径。"
+    },
+    {
+      "id": "ipv4-ipv6-path",
+      "title": "IPv4 与 IPv6 为什么要分别检查：两种地址路径可能不同",
+      "section": "network",
+      "characters": 588,
+      "description": "设备支持 IPv6 不代表每项连接都会采用相同路径。排查时应看客户端和网络如何处理不同地址类型，不只观察一个显示出来的 IP。"
+    },
+    {
+      "id": "tcp-udp-choice",
+      "title": "TCP 与 UDP 怎么理解：可靠机制和任务要求分开",
+      "section": "network",
+      "characters": 574,
+      "description": "TCP 与 UDP 提供不同的传输机制，不能简单说某一个永远更快。应用如何使用它们以及当前路径条件，决定了实际任务表现。"
+    },
+    {
+      "id": "quic-not-udp-speed",
+      "title": "QUIC 是什么：不能只看 UDP 就判断速度",
+      "section": "network",
+      "characters": 583,
+      "description": "QUIC 是基于 UDP 的传输协议，具有自己的连接、流和安全机制。看到 UDP 字样，不能把所有相关业务归为相同体验。"
+    },
+    {
+      "id": "https-vpn-boundary",
+      "title": "HTTPS 和 VPN 各保护什么：两层连接不要混用概念",
+      "section": "network",
+      "characters": 573,
+      "description": "HTTPS 与 VPN 或代理关注不同层的通信路径。网站使用 HTTPS，不代表你已建立 VPN；启用 VPN 也不能代替核对网站身份。"
+    },
+    {
+      "id": "mtu-symptoms",
+      "title": "MTU 问题怎么理解：不要见到卡顿就乱改数值",
+      "section": "network",
+      "characters": 576,
+      "description": "MTU 涉及路径可承载的数据包大小。某些任务异常可能值得检查它，但网页卡顿本身不能证明 MTU 配置错误。"
+    },
+    {
+      "id": "nat-public-ip",
+      "title": "公网 IP 与设备地址有什么区别：看清地址所在层",
+      "section": "network",
+      "characters": 582,
+      "description": "设备本地地址与外部服务观察到的地址可能不同。查看出口信息时，应明确它反映哪一层，不把一个地址当作整个网络拓扑。"
+    },
+    {
+      "id": "local-network-routing",
+      "title": "局域网访问为什么单独检查：本地任务也有路由条件",
+      "section": "network",
+      "characters": 582,
+      "description": "启用网络工具后，打印机、共享文件等本地任务也应检查。目标在局域网，不意味着客户端配置必然正确保留它的访问路径。"
+    },
+    {
+      "id": "http-status-reading",
+      "title": "HTTP 状态码怎么看：响应错误不是同一种断网",
+      "section": "network",
+      "characters": 586,
+      "description": "HTTP 状态码描述请求响应结果，不同类别代表不同阶段。收到某个状态码与完全没有响应，不能用同一个“断网”结论概括。"
+    },
+    {
+      "id": "speedtest-target-bias",
+      "title": "测速目标会影响结果吗：不要只挑最快服务器",
+      "section": "network",
+      "characters": 574,
+      "description": "测速目标与实际任务目标不同，结果可能反映不同路径。只选最快服务器，会失去判断常用业务是否顺畅的参照。"
+    },
+    {
+      "id": "median-tail-latency",
+      "title": "平均、中位数和最慢样本怎么看：别只留最佳成绩",
+      "section": "network",
+      "characters": 578,
+      "description": "一组观察应保留典型表现和异常样本，而不是只展示最好一次。平均数和中位数描述不同特征，最慢样本也可能对关键任务很重要。"
+    },
+    {
+      "id": "video-meeting-check",
+      "title": "视频会议前怎样检查：加入、语音和共享分别验证",
+      "section": "scenarios",
+      "characters": 593,
+      "description": "会议前的检查要包括加入、双向语音、视频和共享屏幕，不只打开会议网页。把测试安排在正式会议之前，留出恢复和备用沟通时间。"
+    },
+    {
+      "id": "voice-call-quality",
+      "title": "语音通话怎样评价：双向可懂度比峰值速度实用",
+      "section": "scenarios",
+      "characters": 559,
+      "description": "语音任务应看双方能否持续听懂、是否出现中断和恢复困难。下载峰值不是评价通话的完整标准。"
+    },
+    {
+      "id": "cloud-upload-check",
+      "title": "云盘上传怎样验证：完成提示和服务器文件都要看",
+      "section": "scenarios",
+      "characters": 594,
+      "description": "上传验证不只看本地进度达到百分之百，还要查看服务端文件是否完整、可读取以及版本是否正确。上传途中网络变化也需记录。"
+    },
+    {
+      "id": "cloud-sync-conflict",
+      "title": "云同步切网络时怎样检查：传输和版本冲突分开",
+      "section": "scenarios",
+      "characters": 573,
+      "description": "云同步异常应区分传输未完成与文件版本冲突。网络恢复后也要核对服务器版本，不能只看客户端重新显示在线。"
+    },
+    {
+      "id": "email-attachment",
+      "title": "邮件与附件怎样分别验证：发送、送达与下载分开",
+      "section": "scenarios",
+      "characters": 580,
+      "description": "邮件任务需要分别检查发送、服务端状态和附件访问。发件页面打开成功，不代表邮件已被接收或附件能够正常下载。"
+    },
+    {
+      "id": "remote-work-boundary",
+      "title": "远程办公使用个人网络工具前要确认什么",
+      "section": "scenarios",
+      "characters": 586,
+      "description": "远程办公先遵循组织的设备、账户和网络要求。个人配置能访问外部页面，不代表可以替代企业提供的接入方式。"
+    },
+    {
+      "id": "online-class-prep",
+      "title": "在线课程怎样检查：直播、回放和作业三条流程",
+      "section": "scenarios",
+      "characters": 578,
+      "description": "在线学习应分别验证直播、回放与作业提交，因为它们可能采用不同应用和处理流程。只打开课程首页不足以确认学习任务可完成。"
+    },
+    {
+      "id": "developer-docs-access",
+      "title": "查技术文档怎样验证：正文、资源和搜索分别看",
+      "section": "scenarios",
+      "characters": 586,
+      "description": "阅读技术文档要看正文、示例资源和站内搜索是否正常，不只检查首页。保存出处与版本，可以避免把网络问题和文档变化混淆。"
+    },
+    {
+      "id": "code-repository-download",
+      "title": "下载代码与依赖怎样排查：仓库、包源和构建分开",
+      "section": "scenarios",
+      "characters": 580,
+      "description": "代码下载、依赖安装和本地构建是不同阶段。某一阶段失败时，先确认它的请求目标与错误，不把全部过程归因于仓库访问。"
+    },
+    {
+      "id": "large-file-deadline",
+      "title": "有截止时间的大文件怎样安排：预算传输和复核时间",
+      "section": "scenarios",
+      "characters": 586,
+      "description": "有截止时间时，应给上传、服务处理和最终确认分别留余量。只用一次峰值速度估算到点完成，容易忽略中断与重试。"
+    },
+    {
+      "id": "streaming-buffer-check",
+      "title": "视频播放怎样判断卡顿：清晰度、缓冲与时段一起记",
+      "section": "scenarios",
+      "characters": 573,
+      "description": "播放体验要固定清晰度、内容和设备，再记录等待、卡顿与恢复。平台自动调整画质时，单看“能播放”会遗漏重要差异。"
+    },
+    {
+      "id": "mobile-data-saving",
+      "title": "移动网络怎样减少无关用量：任务安排比盲目改模式有用",
+      "section": "scenarios",
+      "characters": 585,
+      "description": "减少移动用量先识别自动更新、同步和视频任务，不应为了省流量随意修改不理解的接管设置。费用需要按运营商与服务计量分别看。"
+    },
+    {
+      "id": "low-bandwidth-workflow",
+      "title": "带宽有限时怎样安排工作：先保障交互任务",
+      "section": "scenarios",
+      "characters": 593,
+      "description": "网络能力有限时，先按任务优先级安排传输。会议、同步和大下载同时进行，可能让重要任务难以完成，应先记录实际影响。"
+    },
+    {
+      "id": "research-resource-validation",
+      "title": "检索资料怎样保护出处：访问路径不代替内容核验",
+      "section": "scenarios",
+      "characters": 578,
+      "description": "检索资料时，能打开页面只说明访问成功，不能证明内容可靠。文献、公开文档与转述文章应分别保留出处和版本。"
+    },
+    {
+      "id": "ai-file-workflow",
+      "title": "AI 工具文件任务怎样验证：上传、处理与下载分开",
+      "section": "scenarios",
+      "characters": 590,
+      "description": "AI 文件任务应分别验证上传、处理和结果下载。能够打开对话页，不代表文件类型、账户额度和结果交付都符合要求。"
+    },
+    {
+      "id": "travel-offline-materials",
+      "title": "离线资料怎样准备：帮助说明与秘密分开保存",
+      "section": "scenarios",
+      "characters": 583,
+      "description": "出行或不稳定网络下，可以提前保存必要公开说明和任务资料。订阅凭据与工作秘密需要私有保管，不能混入可公开转发的离线包。"
+    },
+    {
+      "id": "task-acceptance-plan",
+      "title": "怎样给网络任务写验收标准：动作、结果与恢复都要有",
+      "section": "scenarios",
+      "characters": 590,
+      "description": "验收标准要写你准备执行的动作、需要看到的结果和结束后的恢复状态。只有“速度好”或“可用”，无法帮助自己判断哪里失败。"
+    },
+    {
+      "id": "screenshot-redaction",
+      "title": "网络截图怎样脱敏：链接、二维码和背景一起检查",
+      "section": "privacy",
+      "characters": 572,
+      "description": "分享网络截图前，要检查整张图中的账户、订阅、二维码、支付信息和背景窗口。只遮盖用户名，可能仍留下完整访问凭据。"
+    },
+    {
+      "id": "log-minimization",
+      "title": "客户端日志怎样分享：先确定排错所需范围",
+      "section": "privacy",
+      "characters": 590,
+      "description": "日志应按当前问题截取必要范围，而不是直接上传完整历史。完整日志可能带请求地址、令牌或其他私人信息，提交前需要逐项检查。"
+    },
+    {
+      "id": "clipboard-risk",
+      "title": "复制订阅后要注意什么：剪贴板便利与保管分开",
+      "section": "privacy",
+      "characters": 589,
+      "description": "订阅进入剪贴板后仍是敏感信息。导入完成要注意历史、同步和后续误粘贴，不能因为只复制了一次就认为没有其他副本。"
+    },
+    {
+      "id": "password-token-boundary",
+      "title": "账户密码与订阅令牌怎样区分：两类权限分别管理",
+      "section": "privacy",
+      "characters": 594,
+      "description": "账户密码和订阅令牌可能具有不同权限与失效机制。处理泄露时先确认泄露了哪种信息，不假定改密码会使所有旧订阅失效。"
+    },
+    {
+      "id": "private-backup-folder",
+      "title": "配置备份怎样保管：位置、权限与恢复测试",
+      "section": "privacy",
+      "characters": 582,
+      "description": "私有备份需要同时考虑谁能读取、文件包含什么以及能否恢复。文件夹叫“备份”并不等于它已经受保护。"
+    },
+    {
+      "id": "configuration-converter",
+      "title": "在线订阅转换安全吗：先问谁会接触完整地址",
+      "section": "privacy",
+      "characters": 598,
+      "description": "在线转换可能需要读取完整订阅地址，因此要先确认服务身份、处理范围和保管方式。便利不能代替信任核验。"
+    },
+    {
+      "id": "download-source-identity",
+      "title": "客户端官方下载怎样辨认：从项目入口核对发布者",
+      "section": "privacy",
+      "characters": 562,
+      "description": "下载来源先从服务文档或项目已确认入口出发，核对发布者和版本。页面标题写“官方”不是单独的身份证明。"
+    },
+    {
+      "id": "similar-domain-check",
+      "title": "相似域名怎样核对：页面外观不能替代来源",
+      "section": "privacy",
+      "characters": 585,
+      "description": "看到相似域名、转发入口或新地址时，先核对可信来源中的正式通知。页面配色与 Logo 相同，不足以证明运营身份。"
+    },
+    {
+      "id": "affiliate-evidence",
+      "title": "推广链接怎样理解：推荐关系与服务质量分开",
+      "section": "privacy",
+      "characters": 577,
+      "description": "推广链接说明存在来源或佣金关系，不证明套餐、性能和优惠已经验证。阅读时应看披露及证据，不把链接参数当质量标签。"
+    },
+    {
+      "id": "no-logs-reading",
+      "title": "无日志宣传怎么读：范围、期限与核验方式",
+      "section": "privacy",
+      "characters": 580,
+      "description": "“无日志”需要具体说明记录什么、不记录什么、保留多久和谁能核验。单一口号不能解释全部账户、支付和运行数据处理。"
+    },
+    {
+      "id": "audit-scope-check",
+      "title": "第三方审计怎么看：对象、时间与结论边界",
+      "section": "privacy",
+      "characters": 581,
+      "description": "审计需要核对审查对象、范围、时间和公开结论。见到机构名称或徽章，不代表整个服务的一切行为都得到持续保证。"
+    },
+    {
+      "id": "privacy-policy-reading",
+      "title": "隐私说明先看哪几项：数据、用途与选择权",
+      "section": "privacy",
+      "characters": 599,
+      "description": "读隐私说明先整理收集的数据、使用目的、保留与分享范围，以及可用的账户操作。条款很长时也应围绕自己的实际使用逐项核对。"
+    },
+    {
+      "id": "account-recovery-prep",
+      "title": "账户恢复资料怎样准备：可信入口与必要凭证",
+      "section": "privacy",
+      "characters": 594,
+      "description": "账户恢复前先确认可信支持入口和必要证明。不要把密码、验证码或完整支付资料发给自称客服的人，也不在公开讨论中展示订单全部内容。"
+    },
+    {
+      "id": "shared-device-privacy",
+      "title": "共享设备怎样保护订阅：账户和浏览状态都要看",
+      "section": "privacy",
+      "characters": 586,
+      "description": "共享设备应先判断是否适合保存私人订阅和账户。使用结束后需要核对配置、会话和下载资料，不只关闭窗口。"
+    },
+    {
+      "id": "support-impersonation",
+      "title": "遇到私信客服怎样核对：从正式渠道确认身份",
+      "section": "privacy",
+      "characters": 579,
+      "description": "有人私信自称客服时，先通过服务正式渠道确认身份与工单。能说出品牌名称或部分问题，不代表具有合法处理权限。"
+    },
+    {
+      "id": "evidence-levels",
+      "title": "资料、体验与测量怎样区分：结论只覆盖证据范围",
+      "section": "privacy",
+      "characters": 586,
+      "description": "公开资料、个人体验与按方法记录的测量属于不同证据。每一种都应说明来源与范围，不把宣传转述写成独立测试。"
+    },
+    {
+      "id": "correcting-public-info",
+      "title": "发现博客资料错误怎样反馈：原文、出处与日期一起给",
+      "section": "privacy",
+      "characters": 605,
+      "description": "反馈资料错误时，提供具体页面、需要纠正的句子和对应公开出处。只写“不对”难以核对，提交私人账户资料也通常没有必要。"
+    }
+  ],
+  "allArticles": [
+    {
+      "id": "account-portability",
+      "title": "换服务前怎样检查迁移成本：配置、余额与习惯",
+      "section": "selection",
+      "url": "/blog/account-portability/"
+    },
+    {
+      "id": "account-recovery-prep",
+      "title": "账户恢复资料怎样准备：可信入口与必要凭证",
+      "section": "privacy",
+      "url": "/blog/account-recovery-prep/"
+    },
+    {
+      "id": "active-profile-check",
+      "title": "配置导入成功却没生效怎么办：先看当前启用项",
+      "section": "subscription",
+      "url": "/blog/active-profile-check/"
+    },
+    {
+      "id": "addon-versus-upgrade",
+      "title": "流量包和升级套餐怎么选：比较有效期与一次性支出",
+      "section": "budget",
+      "url": "/blog/addon-versus-upgrade/"
+    },
+    {
+      "id": "affiliate-evidence",
+      "title": "推广链接怎样理解：推荐关系与服务质量分开",
+      "section": "privacy",
+      "url": "/blog/affiliate-evidence/"
+    },
+    {
+      "id": "after-update-failure",
+      "title": "更新之后不能用怎么定位：软件和订阅变化分别看",
+      "section": "troubleshooting",
+      "url": "/blog/after-update-failure/"
+    },
+    {
+      "id": "ai-access",
+      "title": "AI 服务访问检查：连接不等于账户资格",
+      "section": "scenarios",
+      "url": "/blog/ai-access/"
+    },
+    {
+      "id": "ai-file-workflow",
+      "title": "AI 工具文件任务怎样验证：上传、处理与下载分开",
+      "section": "scenarios",
+      "url": "/blog/ai-file-workflow/"
+    },
+    {
+      "id": "airport-vs-vpn",
+      "title": "机场与 VPN 有什么区别？先分清客户端与订阅",
+      "section": "selection",
+      "url": "/blog/airport-vs-vpn/"
+    },
+    {
+      "id": "all-sites-fail",
+      "title": "所有网页都打不开怎么查：先确认断开后的基线",
+      "section": "troubleshooting",
+      "url": "/blog/all-sites-fail/"
+    },
+    {
+      "id": "app-update-timing",
+      "title": "客户端什么时候更新：工作间隙留出验证时间",
+      "section": "devices",
+      "url": "/blog/app-update-timing/"
+    },
+    {
+      "id": "audit-scope-check",
+      "title": "第三方审计怎么看：对象、时间与结论边界",
+      "section": "privacy",
+      "url": "/blog/audit-scope-check/"
+    },
+    {
+      "id": "backup-provider-budget",
+      "title": "备用服务要不要买：先算中断成本和维护负担",
+      "section": "selection",
+      "url": "/blog/backup-provider-budget/"
+    },
+    {
+      "id": "bandwidth-units",
+      "title": "Mbps 和 MB/s 怎么换算：先看比特与字节",
+      "section": "network",
+      "url": "/blog/bandwidth-units/"
+    },
+    {
+      "id": "browser-app-path",
+      "title": "浏览器能用应用不能用怎么办：先确认两条请求路径",
+      "section": "devices",
+      "url": "/blog/browser-app-path/"
+    },
+    {
+      "id": "certificate-warning",
+      "title": "证书警告怎么处理：先停止输入凭据再核对地址",
+      "section": "troubleshooting",
+      "url": "/blog/certificate-warning/"
+    },
+    {
+      "id": "choose-service",
+      "title": "机场选择指南：按需求做决定",
+      "section": "selection",
+      "url": "/blog/choose-service/"
+    },
+    {
+      "id": "client-crash-report",
+      "title": "客户端闪退怎样反馈：启动、配置和系统事件分开",
+      "section": "troubleshooting",
+      "url": "/blog/client-crash-report/"
+    },
+    {
+      "id": "clipboard-risk",
+      "title": "复制订阅后要注意什么：剪贴板便利与保管分开",
+      "section": "privacy",
+      "url": "/blog/clipboard-risk/"
+    },
+    {
+      "id": "cloud-sync-conflict",
+      "title": "云同步切网络时怎样检查：传输和版本冲突分开",
+      "section": "scenarios",
+      "url": "/blog/cloud-sync-conflict/"
+    },
+    {
+      "id": "cloud-upload-check",
+      "title": "云盘上传怎样验证：完成提示和服务器文件都要看",
+      "section": "scenarios",
+      "url": "/blog/cloud-upload-check/"
+    },
+    {
+      "id": "code-repository-download",
+      "title": "下载代码与依赖怎样排查：仓库、包源和构建分开",
+      "section": "scenarios",
+      "url": "/blog/code-repository-download/"
+    },
+    {
+      "id": "config-backup-scope",
+      "title": "配置备份该保存什么：恢复信息与敏感凭据分开",
+      "section": "subscription",
+      "url": "/blog/config-backup-scope/"
+    },
+    {
+      "id": "config-notes-template",
+      "title": "配置笔记怎么写：记录状态而不是复制秘密",
+      "section": "subscription",
+      "url": "/blog/config-notes-template/"
+    },
+    {
+      "id": "config-sync-safety",
+      "title": "多设备同步配置怎样安排：可用性与凭据范围一起看",
+      "section": "subscription",
+      "url": "/blog/config-sync-safety/"
+    },
+    {
+      "id": "configuration-converter",
+      "title": "在线订阅转换安全吗：先问谁会接触完整地址",
+      "section": "privacy",
+      "url": "/blog/configuration-converter/"
+    },
+    {
+      "id": "connected-no-record",
+      "title": "打开页面却没有连接记录怎么查：先看接管范围",
+      "section": "troubleshooting",
+      "url": "/blog/connected-no-record/"
+    },
+    {
+      "id": "correcting-public-info",
+      "title": "发现博客资料错误怎样反馈：原文、出处与日期一起给",
+      "section": "privacy",
+      "url": "/blog/correcting-public-info/"
+    },
+    {
+      "id": "coupon-use",
+      "title": "机场优惠码怎么使用：从复制到结算核对",
+      "section": "budget",
+      "url": "/blog/coupon-use/"
+    },
+    {
+      "id": "currency-comparison",
+      "title": "不同币种套餐怎么比较：标价、汇率和手续费分开",
+      "section": "budget",
+      "url": "/blog/currency-comparison/"
+    },
+    {
+      "id": "custom-rules-maintenance",
+      "title": "自定义规则怎样维护：来源、用途与撤销写清楚",
+      "section": "subscription",
+      "url": "/blog/custom-rules-maintenance/"
+    },
+    {
+      "id": "delivery-model",
+      "title": "官方应用与订阅服务怎么选：先看交付和维护责任",
+      "section": "selection",
+      "url": "/blog/delivery-model/"
+    },
+    {
+      "id": "desktop-mobile-differences",
+      "title": "电脑能用手机不能用怎么办：比较配置与网络差异",
+      "section": "devices",
+      "url": "/blog/desktop-mobile-differences/"
+    },
+    {
+      "id": "developer-docs-access",
+      "title": "查技术文档怎样验证：正文、资源和搜索分别看",
+      "section": "scenarios",
+      "url": "/blog/developer-docs-access/"
+    },
+    {
+      "id": "device-clock-check",
+      "title": "设备时间错误会影响连接吗：记录提示再校准",
+      "section": "devices",
+      "url": "/blog/device-clock-check/"
+    },
+    {
+      "id": "device-limit-reading",
+      "title": "设备限制怎么理解：安装数量不等于同时在线",
+      "section": "selection",
+      "url": "/blog/device-limit-reading/"
+    },
+    {
+      "id": "dns-cache-boundary",
+      "title": "DNS 缓存会影响判断吗：记录更新时间和作用范围",
+      "section": "network",
+      "url": "/blog/dns-cache-boundary/"
+    },
+    {
+      "id": "dns-error-report",
+      "title": "域名解析错误怎样反馈：地址、时间与解析路径",
+      "section": "troubleshooting",
+      "url": "/blog/dns-error-report/"
+    },
+    {
+      "id": "dns-role",
+      "title": "DNS 在连接中做什么：解析成功不是网页成功",
+      "section": "network",
+      "url": "/blog/dns-role/"
+    },
+    {
+      "id": "download-source-identity",
+      "title": "客户端官方下载怎样辨认：从项目入口核对发布者",
+      "section": "privacy",
+      "url": "/blog/download-source-identity/"
+    },
+    {
+      "id": "email-attachment",
+      "title": "邮件与附件怎样分别验证：发送、送达与下载分开",
+      "section": "scenarios",
+      "url": "/blog/email-attachment/"
+    },
+    {
+      "id": "encrypted-dns-boundary",
+      "title": "加密 DNS 保护什么：解析传输与完整网络隐私分开",
+      "section": "network",
+      "url": "/blog/encrypted-dns-boundary/"
+    },
+    {
+      "id": "evening-slowdown",
+      "title": "晚上变慢怎么判断：固定任务与时段比较",
+      "section": "troubleshooting",
+      "url": "/blog/evening-slowdown/"
+    },
+    {
+      "id": "evidence-levels",
+      "title": "资料、体验与测量怎样区分：结论只覆盖证据范围",
+      "section": "privacy",
+      "url": "/blog/evidence-levels/"
+    },
+    {
+      "id": "family-traffic-allocation",
+      "title": "家庭流量怎么分配：记录任务比按人数平均更有用",
+      "section": "budget",
+      "url": "/blog/family-traffic-allocation/"
+    },
+    {
+      "id": "free-vpn",
+      "title": "免费 VPN 怎么选：流量与限制逐项看",
+      "section": "selection",
+      "url": "/blog/free-vpn/"
+    },
+    {
+      "id": "hotspot-sharing",
+      "title": "手机开热点会共享连接吗：不要从手机结果推断",
+      "section": "devices",
+      "url": "/blog/hotspot-sharing/"
+    },
+    {
+      "id": "http-status-reading",
+      "title": "HTTP 状态码怎么看：响应错误不是同一种断网",
+      "section": "network",
+      "url": "/blog/http-status-reading/"
+    },
+    {
+      "id": "https-vpn-boundary",
+      "title": "HTTPS 和 VPN 各保护什么：两层连接不要混用概念",
+      "section": "network",
+      "url": "/blog/https-vpn-boundary/"
+    },
+    {
+      "id": "incident-timeline",
+      "title": "故障时间线怎么写：把事实、变化和推测分栏",
+      "section": "troubleshooting",
+      "url": "/blog/incident-timeline/"
+    },
+    {
+      "id": "intermittent-failure",
+      "title": "偶发断线怎样记录：保留成功样本也有帮助",
+      "section": "troubleshooting",
+      "url": "/blog/intermittent-failure/"
+    },
+    {
+      "id": "invite-versus-subscribe",
+      "title": "注册链接与订阅链接有什么区别：用途和保密程度不同",
+      "section": "subscription",
+      "url": "/blog/invite-versus-subscribe/"
+    },
+    {
+      "id": "ipv4-ipv6-path",
+      "title": "IPv4 与 IPv6 为什么要分别检查：两种地址路径可能不同",
+      "section": "network",
+      "url": "/blog/ipv4-ipv6-path/"
+    },
+    {
+      "id": "jitter-explained",
+      "title": "抖动是什么：平均延迟之外的时间变化",
+      "section": "network",
+      "url": "/blog/jitter-explained/"
+    },
+    {
+      "id": "large-file-deadline",
+      "title": "有截止时间的大文件怎样安排：预算传输和复核时间",
+      "section": "scenarios",
+      "url": "/blog/large-file-deadline/"
+    },
+    {
+      "id": "latency-not-throughput",
+      "title": "延迟低为什么下载仍慢：两项指标回答不同问题",
+      "section": "network",
+      "url": "/blog/latency-not-throughput/"
+    },
+    {
+      "id": "local-network-routing",
+      "title": "局域网访问为什么单独检查：本地任务也有路由条件",
+      "section": "network",
+      "url": "/blog/local-network-routing/"
+    },
+    {
+      "id": "log-minimization",
+      "title": "客户端日志怎样分享：先确定排错所需范围",
+      "section": "privacy",
+      "url": "/blog/log-minimization/"
+    },
+    {
+      "id": "login-load-split",
+      "title": "页面能加载却不能登录怎么查：网络与账户验证分开",
+      "section": "troubleshooting",
+      "url": "/blog/login-load-split/"
+    },
+    {
+      "id": "long-download-failure",
+      "title": "大文件下载中断怎么查：进度、恢复与完整性分开",
+      "section": "troubleshooting",
+      "url": "/blog/long-download-failure/"
+    },
+    {
+      "id": "low-bandwidth-workflow",
+      "title": "带宽有限时怎样安排工作：先保障交互任务",
+      "section": "scenarios",
+      "url": "/blog/low-bandwidth-workflow/"
+    },
+    {
+      "id": "manual-node-versus-sub",
+      "title": "单节点分享与完整订阅有什么区别：更新责任不同",
+      "section": "subscription",
+      "url": "/blog/manual-node-versus-sub/"
+    },
+    {
+      "id": "median-tail-latency",
+      "title": "平均、中位数和最慢样本怎么看：别只留最佳成绩",
+      "section": "network",
+      "url": "/blog/median-tail-latency/"
+    },
+    {
+      "id": "metering-difference",
+      "title": "客户端和后台流量不一致怎么办：先统一时间与口径",
+      "section": "budget",
+      "url": "/blog/metering-difference/"
+    },
+    {
+      "id": "midcycle-upgrade-cost",
+      "title": "周期中途升级怎么算：剩余价值与新周期分开",
+      "section": "budget",
+      "url": "/blog/midcycle-upgrade-cost/"
+    },
+    {
+      "id": "minimal-reproduction",
+      "title": "怎样做最小复现：减少步骤但保留关键条件",
+      "section": "troubleshooting",
+      "url": "/blog/minimal-reproduction/"
+    },
+    {
+      "id": "mobile-data-saving",
+      "title": "移动网络怎样减少无关用量：任务安排比盲目改模式有用",
+      "section": "scenarios",
+      "url": "/blog/mobile-data-saving/"
+    },
+    {
+      "id": "monthly-vs-annual-cashflow",
+      "title": "月付与年付怎么比较：现金支出和月均成本分开",
+      "section": "budget",
+      "url": "/blog/monthly-vs-annual-cashflow/"
+    },
+    {
+      "id": "mtu-symptoms",
+      "title": "MTU 问题怎么理解：不要见到卡顿就乱改数值",
+      "section": "network",
+      "url": "/blog/mtu-symptoms/"
+    },
+    {
+      "id": "multiple-network-tools",
+      "title": "多个代理工具同时开会怎样：先查接管冲突",
+      "section": "devices",
+      "url": "/blog/multiple-network-tools/"
+    },
+    {
+      "id": "nat-public-ip",
+      "title": "公网 IP 与设备地址有什么区别：看清地址所在层",
+      "section": "network",
+      "url": "/blog/nat-public-ip/"
+    },
+    {
+      "id": "new-computer-migration",
+      "title": "换电脑怎样迁移网络配置：安装来源与凭据重新核对",
+      "section": "devices",
+      "url": "/blog/new-computer-migration/"
+    },
+    {
+      "id": "no-logs-reading",
+      "title": "无日志宣传怎么读：范围、期限与核验方式",
+      "section": "privacy",
+      "url": "/blog/no-logs-reading/"
+    },
+    {
+      "id": "node-list-changes",
+      "title": "订阅节点变少怎么判断：先核对账户与变更公告",
+      "section": "subscription",
+      "url": "/blog/node-list-changes/"
+    },
+    {
+      "id": "node-region-choice",
+      "title": "节点地区怎么选：目标任务比地图距离重要",
+      "section": "selection",
+      "url": "/blog/node-region-choice/"
+    },
+    {
+      "id": "official-doc-checklist",
+      "title": "付款前怎样核对官方说明：把宣传转成问题",
+      "section": "selection",
+      "url": "/blog/official-doc-checklist/"
+    },
+    {
+      "id": "one-site-fail",
+      "title": "只有一个网站打不开怎么查：域名、路径与业务状态",
+      "section": "troubleshooting",
+      "url": "/blog/one-site-fail/"
+    },
+    {
+      "id": "online-class-prep",
+      "title": "在线课程怎样检查：直播、回放和作业三条流程",
+      "section": "scenarios",
+      "url": "/blog/online-class-prep/"
+    },
+    {
+      "id": "os-update-checklist",
+      "title": "系统升级后怎样复查网络：客户端和系统设置分开",
+      "section": "devices",
+      "url": "/blog/os-update-checklist/"
+    },
+    {
+      "id": "packet-loss-reading",
+      "title": "丢包率怎么读：目标、方法和样本一起看",
+      "section": "network",
+      "url": "/blog/packet-loss-reading/"
+    },
+    {
+      "id": "password-token-boundary",
+      "title": "账户密码与订阅令牌怎样区分：两类权限分别管理",
+      "section": "privacy",
+      "url": "/blog/password-token-boundary/"
+    },
+    {
+      "id": "pause-plan-budget",
+      "title": "暂时不用服务怎么办：到期、暂停与自动续费分开",
+      "section": "budget",
+      "url": "/blog/pause-plan-budget/"
+    },
+    {
+      "id": "payment-fee-budget",
+      "title": "支付手续费怎样计入预算：以最终账单为准",
+      "section": "budget",
+      "url": "/blog/payment-fee-budget/"
+    },
+    {
+      "id": "permission-review",
+      "title": "网络客户端权限怎么核对：用途与请求名称一致",
+      "section": "devices",
+      "url": "/blog/permission-review/"
+    },
+    {
+      "id": "phone-replacement",
+      "title": "换手机怎样恢复订阅：账户、格式与系统授权分开",
+      "section": "devices",
+      "url": "/blog/phone-replacement/"
+    },
+    {
+      "id": "plan-cost",
+      "title": "套餐成本怎么算：周期、倍率与每 GB 单价",
+      "section": "budget",
+      "url": "/blog/plan-cost/"
+    },
+    {
+      "id": "privacy-claims",
+      "title": "怎样读懂 VPN 隐私声明",
+      "section": "privacy",
+      "url": "/blog/privacy-claims/"
+    },
+    {
+      "id": "privacy-policy-reading",
+      "title": "隐私说明先看哪几项：数据、用途与选择权",
+      "section": "privacy",
+      "url": "/blog/privacy-policy-reading/"
+    },
+    {
+      "id": "private-backup-folder",
+      "title": "配置备份怎样保管：位置、权限与恢复测试",
+      "section": "privacy",
+      "url": "/blog/private-backup-folder/"
+    },
+    {
+      "id": "profile-cleanup",
+      "title": "多余配置怎样清理：先确认唯一可用项和恢复资料",
+      "section": "subscription",
+      "url": "/blog/profile-cleanup/"
+    },
+    {
+      "id": "profile-naming",
+      "title": "多份订阅怎样命名：让设备和用途容易识别",
+      "section": "subscription",
+      "url": "/blog/profile-naming/"
+    },
+    {
+      "id": "profile-update-rollback",
+      "title": "更新配置后变差怎样回退：先保留前后差异",
+      "section": "subscription",
+      "url": "/blog/profile-update-rollback/"
+    },
+    {
+      "id": "promo-effective-price",
+      "title": "折扣后的实际单价怎么算：先限定适用范围",
+      "section": "budget",
+      "url": "/blog/promo-effective-price/"
+    },
+    {
+      "id": "proxy-leftover",
+      "title": "退出客户端后不能上网怎么办：检查残留代理",
+      "section": "troubleshooting",
+      "url": "/blog/proxy-leftover/"
+    },
+    {
+      "id": "public-wifi-auth",
+      "title": "公共 Wi-Fi 先登录还是先连接：先建立正常网络基线",
+      "section": "devices",
+      "url": "/blog/public-wifi-auth/"
+    },
+    {
+      "id": "purchase-checklist",
+      "title": "购买前检查清单：官网、条款与凭据",
+      "section": "selection",
+      "url": "/blog/purchase-checklist/"
+    },
+    {
+      "id": "purchase-evidence-folder",
+      "title": "购买记录怎么保存：订单、条款和配置分开收纳",
+      "section": "selection",
+      "url": "/blog/purchase-evidence-folder/"
+    },
+    {
+      "id": "quarterly-reset-budget",
+      "title": "季付流量怎么核对：总额和每月重置不是一回事",
+      "section": "budget",
+      "url": "/blog/quarterly-reset-budget/"
+    },
+    {
+      "id": "quic-not-udp-speed",
+      "title": "QUIC 是什么：不能只看 UDP 就判断速度",
+      "section": "network",
+      "url": "/blog/quic-not-udp-speed/"
+    },
+    {
+      "id": "refund-policy-reading",
+      "title": "退款条款怎么读：区分资格、时限与到账",
+      "section": "selection",
+      "url": "/blog/refund-policy-reading/"
+    },
+    {
+      "id": "remote-work-boundary",
+      "title": "远程办公使用个人网络工具前要确认什么",
+      "section": "scenarios",
+      "url": "/blog/remote-work-boundary/"
+    },
+    {
+      "id": "renewal-check",
+      "title": "续费前检查什么：价格、余额、周期与自动扣费",
+      "section": "budget",
+      "url": "/blog/renewal-check/"
+    },
+    {
+      "id": "renewal-promo-terms",
+      "title": "长期优惠怎样评估：折扣期限与承诺周期",
+      "section": "selection",
+      "url": "/blog/renewal-promo-terms/"
+    },
+    {
+      "id": "requirements-sheet",
+      "title": "买机场前怎样写需求表：把用途变成验收条件",
+      "section": "selection",
+      "url": "/blog/requirements-sheet/"
+    },
+    {
+      "id": "research-resource-validation",
+      "title": "检索资料怎样保护出处：访问路径不代替内容核验",
+      "section": "scenarios",
+      "url": "/blog/research-resource-validation/"
+    },
+    {
+      "id": "retired-device-access",
+      "title": "旧设备不再使用怎么处理：配置删除与权限撤销分开",
+      "section": "devices",
+      "url": "/blog/retired-device-access/"
+    },
+    {
+      "id": "screenshot-redaction",
+      "title": "网络截图怎样脱敏：链接、二维码和背景一起检查",
+      "section": "privacy",
+      "url": "/blog/screenshot-redaction/"
+    },
+    {
+      "id": "service-change-notice",
+      "title": "服务规则变更通知怎么处理：找到自己的影响项",
+      "section": "selection",
+      "url": "/blog/service-change-notice/"
+    },
+    {
+      "id": "service-support-hours",
+      "title": "客服服务时间怎么看：响应承诺与解决时间分开",
+      "section": "selection",
+      "url": "/blog/service-support-hours/"
+    },
+    {
+      "id": "shared-account-policy",
+      "title": "家庭共享账户前要问什么：人数、凭据和支持",
+      "section": "selection",
+      "url": "/blog/shared-account-policy/"
+    },
+    {
+      "id": "shared-device-privacy",
+      "title": "共享设备怎样保护订阅：账户和浏览状态都要看",
+      "section": "privacy",
+      "url": "/blog/shared-device-privacy/"
+    },
+    {
+      "id": "short-trial-plan",
+      "title": "短期体验怎么安排：在退款窗口前完成验证",
+      "section": "selection",
+      "url": "/blog/short-trial-plan/"
+    },
+    {
+      "id": "similar-domain-check",
+      "title": "相似域名怎样核对：页面外观不能替代来源",
+      "section": "privacy",
+      "url": "/blog/similar-domain-check/"
+    },
+    {
+      "id": "sleep-wake-connection",
+      "title": "电脑睡眠后连接异常怎么查：唤醒前后状态对照",
+      "section": "devices",
+      "url": "/blog/sleep-wake-connection/"
+    },
+    {
+      "id": "slow-first-load",
+      "title": "第一次打开页面很慢怎么查：首次与重复请求分开",
+      "section": "troubleshooting",
+      "url": "/blog/slow-first-load/"
+    },
+    {
+      "id": "special-line-claims",
+      "title": "专线宣传怎么核对：先问覆盖哪一段路径",
+      "section": "selection",
+      "url": "/blog/special-line-claims/"
+    },
+    {
+      "id": "speedtest-data-cost",
+      "title": "测速会用多少流量：先看测试方式和次数",
+      "section": "budget",
+      "url": "/blog/speedtest-data-cost/"
+    },
+    {
+      "id": "speedtest-target-bias",
+      "title": "测速目标会影响结果吗：不要只挑最快服务器",
+      "section": "network",
+      "url": "/blog/speedtest-target-bias/"
+    },
+    {
+      "id": "stability-method",
+      "title": "怎样判断稳定性：建立可复现的记录",
+      "section": "scenarios",
+      "url": "/blog/stability-method/"
+    },
+    {
+      "id": "startup-sequence",
+      "title": "开机后网络工具怎么启动：先看自动启动与连接状态",
+      "section": "devices",
+      "url": "/blog/startup-sequence/"
+    },
+    {
+      "id": "streaming-buffer-check",
+      "title": "视频播放怎样判断卡顿：清晰度、缓冲与时段一起记",
+      "section": "scenarios",
+      "url": "/blog/streaming-buffer-check/"
+    },
+    {
+      "id": "streaming-check",
+      "title": "流媒体兼容性检查：地区、套餐与设备",
+      "section": "scenarios",
+      "url": "/blog/streaming-check/"
+    },
+    {
+      "id": "subscription-expiry-check",
+      "title": "订阅过期怎么核对：账户日期、额度与链接状态",
+      "section": "subscription",
+      "url": "/blog/subscription-expiry-check/"
+    },
+    {
+      "id": "subscription-format-choice",
+      "title": "订阅格式怎么选择：客户端名称之外还要看版本",
+      "section": "subscription",
+      "url": "/blog/subscription-format-choice/"
+    },
+    {
+      "id": "subscription-local-cache",
+      "title": "旧订阅还能用但更新失败怎么理解：缓存与服务状态分开",
+      "section": "subscription",
+      "url": "/blog/subscription-local-cache/"
+    },
+    {
+      "id": "subscription-qr-import",
+      "title": "二维码导入订阅注意什么：便利不改变保密要求",
+      "section": "subscription",
+      "url": "/blog/subscription-qr-import/"
+    },
+    {
+      "id": "subscription-security",
+      "title": "订阅链接泄露了怎么办：重置凭据与脱敏分享",
+      "section": "privacy",
+      "url": "/blog/subscription-security/"
+    },
+    {
+      "id": "subscription-token-rotation",
+      "title": "更换订阅令牌后怎样检查：旧链接与全部设备都要看",
+      "section": "subscription",
+      "url": "/blog/subscription-token-rotation/"
+    },
+    {
+      "id": "subscription-total-cost",
+      "title": "服务总成本怎么整理：付款之外还有维护时间",
+      "section": "budget",
+      "url": "/blog/subscription-total-cost/"
+    },
+    {
+      "id": "subscription-update-schedule",
+      "title": "订阅多久更新一次：规则频率和任务时段一起考虑",
+      "section": "subscription",
+      "url": "/blog/subscription-update-schedule/"
+    },
+    {
+      "id": "support-escalation",
+      "title": "客服建议无效怎么继续反馈：复测结果比重复描述更有用",
+      "section": "troubleshooting",
+      "url": "/blog/support-escalation/"
+    },
+    {
+      "id": "support-impersonation",
+      "title": "遇到私信客服怎样核对：从正式渠道确认身份",
+      "section": "privacy",
+      "url": "/blog/support-impersonation/"
+    },
+    {
+      "id": "support-ticket",
+      "title": "连接故障怎样反馈：提供记录并保护凭据",
+      "section": "scenarios",
+      "url": "/blog/support-ticket/"
+    },
+    {
+      "id": "tablet-workflow",
+      "title": "平板怎样验证工作场景：浏览、文件与切屏分别测",
+      "section": "devices",
+      "url": "/blog/tablet-workflow/"
+    },
+    {
+      "id": "task-acceptance-plan",
+      "title": "怎样给网络任务写验收标准：动作、结果与恢复都要有",
+      "section": "scenarios",
+      "url": "/blog/task-acceptance-plan/"
+    },
+    {
+      "id": "tcp-udp-choice",
+      "title": "TCP 与 UDP 怎么理解：可靠机制和任务要求分开",
+      "section": "network",
+      "url": "/blog/tcp-udp-choice/"
+    },
+    {
+      "id": "timeout-versus-refused",
+      "title": "超时和连接被拒绝有什么区别：按错误阶段处理",
+      "section": "troubleshooting",
+      "url": "/blog/timeout-versus-refused/"
+    },
+    {
+      "id": "traffic-alert-threshold",
+      "title": "流量提醒怎么设：用剩余天数判断是否需要补充",
+      "section": "budget",
+      "url": "/blog/traffic-alert-threshold/"
+    },
+    {
+      "id": "traffic-budget",
+      "title": "机场流量怎么估算：用自己的账单记录做预算",
+      "section": "budget",
+      "url": "/blog/traffic-budget/"
+    },
+    {
+      "id": "traffic-multiplier-mix",
+      "title": "不同节点倍率怎么计算：按使用量分段相加",
+      "section": "budget",
+      "url": "/blog/traffic-multiplier-mix/"
+    },
+    {
+      "id": "traffic-reset-time",
+      "title": "流量哪天重置：购买日、自然月与时区怎么核对",
+      "section": "budget",
+      "url": "/blog/traffic-reset-time/"
+    },
+    {
+      "id": "travel-device-prep",
+      "title": "出行前怎样准备网络设备：验证、备份与备用安排",
+      "section": "devices",
+      "url": "/blog/travel-device-prep/"
+    },
+    {
+      "id": "travel-offline-materials",
+      "title": "离线资料怎样准备：帮助说明与秘密分开保存",
+      "section": "scenarios",
+      "url": "/blog/travel-offline-materials/"
+    },
+    {
+      "id": "trial-without-speedtest",
+      "title": "不跑大流量测速怎样体验服务：用真实小任务",
+      "section": "selection",
+      "url": "/blog/trial-without-speedtest/"
+    },
+    {
+      "id": "unused-traffic-value",
+      "title": "没用完的流量值多少钱：区分额度与可退余额",
+      "section": "budget",
+      "url": "/blog/unused-traffic-value/"
+    },
+    {
+      "id": "upload-download-metering",
+      "title": "上传也扣流量吗：先确认套餐计量方向",
+      "section": "budget",
+      "url": "/blog/upload-download-metering/"
+    },
+    {
+      "id": "use-case-priority",
+      "title": "多个用途冲突时怎么选：先排序再比较",
+      "section": "selection",
+      "url": "/blog/use-case-priority/"
+    },
+    {
+      "id": "video-meeting-check",
+      "title": "视频会议前怎样检查：加入、语音和共享分别验证",
+      "section": "scenarios",
+      "url": "/blog/video-meeting-check/"
+    },
+    {
+      "id": "voice-call-quality",
+      "title": "语音通话怎样评价：双向可懂度比峰值速度实用",
+      "section": "scenarios",
+      "url": "/blog/voice-call-quality/"
+    },
+    {
+      "id": "wifi-cellular-switch",
+      "title": "Wi-Fi 切到移动网络怎样验证：连接标记与任务分开",
+      "section": "devices",
+      "url": "/blog/wifi-cellular-switch/"
+    }
+  ]
+}

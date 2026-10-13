@@ -2,6 +2,7 @@
 title: "流媒体兼容性检查：地区、套餐与设备"
 description: "拆开内容授权、登录、播放和画质条件，不用一次播放证明长期解锁。"
 category: blog
+section: scenarios
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","测试"]

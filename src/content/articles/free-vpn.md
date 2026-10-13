@@ -2,6 +2,7 @@
 title: "免费 VPN 怎么选：流量与限制逐项看"
 description: "区分不限流量、有限免费流量与短期试用，不把免费等同没有条件。"
 category: blog
+section: selection
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["成本","选择"]

@@ -2,6 +2,7 @@
 title: "AI 服务访问检查：连接不等于账户资格"
 description: "将连接、登录、地区条件与支付分开检查，避免把节点支持当作服务承诺。"
 category: blog
+section: scenarios
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","测试"]

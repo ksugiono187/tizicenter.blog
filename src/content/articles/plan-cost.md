@@ -2,6 +2,7 @@
 title: "套餐成本怎么算：周期、倍率与每 GB 单价"
 description: "区分付款总额、月均成本、实际流量和不同币种，避免误算性价比。"
 category: blog
+section: budget
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","成本"]

@@ -2,6 +2,7 @@
 title: "怎样判断稳定性：建立可复现的记录"
 description: "用相同环境与重复样本记录连接成功、断线和恢复，避免一次测速定结论。"
 category: blog
+section: scenarios
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","测试"]

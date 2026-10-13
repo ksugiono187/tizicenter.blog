@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "date": "2026-10-13T04:22:16.096Z",
+  "date": "2026-10-13T05:42:29.059Z",
   "errors": [],
   "brands": 29,
-  "articles": 28,
+  "articles": 164,
   "limitation": "Automated checks detect unsupported markers and missing provenance, but do not establish factual truth. Brand URLs and coupon codes are operator-provided and unverified; no independent performance or coupon-validity tests."
 }

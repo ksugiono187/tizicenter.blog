@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13T05:42:34.791Z",
+  "errors": [],
+  "blogArticles": 150,
+  "allBlogPages": 10,
+  "pageSize": 15,
+  "topicCounts": {
+    "selection": 21,
+    "budget": 21,
+    "subscription": 17,
+    "devices": 17,
+    "troubleshooting": 17,
+    "network": 17,
+    "scenarios": 21,
+    "privacy": 19
+  },
+  "searchCoverage": 150,
+  "maximumFiveCharacterJaccard": 0.268,
+  "closestPair": [
+    "src\\content\\articles\\task-acceptance-plan.md",
+    "src\\content\\articles\\voice-call-quality.md"
+  ],
+  "limitation": "Similarity and coverage checks do not replace editorial judgment or verify real brand claims."
+}

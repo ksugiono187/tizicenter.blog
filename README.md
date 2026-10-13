@@ -37,3 +37,7 @@ Sitemap 按每篇 Markdown 的 updated、品牌 lastVerified 和公共页面 src
 ## 使用体验与设计维护
 
 品牌目录支持本地搜索及有无优惠码筛选；比较页支持 ?brands=slug1,slug2 预选（最多 4 个有效品牌）。默认只展示已提供的优惠码和资料状态，可展开全部指标。设计样式统一在 src/styles/global.css，图标在 Icon.astro，品牌文字标识在 BrandMark.astro。复制优先使用 Clipboard API，嵌入浏览器超时后回退到选择复制，不能复制时提示手动处理。
+
+## 博客内容维护
+
+当前150篇博客归入8个主题；教程9篇、百科5篇另计。正文在 src/content/articles，博客必须设置 section，主题定义在 src/data/blog-topics.ts。每页15篇静态分页，新增正文会进入分类、搜索与Sitemap。docs/blog-catalog.json列出全部150篇，docs/blog-release.md记录验收。scripts/test-blog.ts检查当前数量目标、各列表和搜索覆盖及近似重复；未来修改数量目标时同步更新专项测试。不要虚构日期、促销、价格或实测来填补来源。

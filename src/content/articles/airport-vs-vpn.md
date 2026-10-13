@@ -2,6 +2,7 @@
 title: "机场与 VPN 有什么区别？先分清客户端与订阅"
 description: "从交付方式、协议、凭据和支持方式区分机场代理订阅与 VPN 服务。"
 category: blog
+section: selection
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","协议"]

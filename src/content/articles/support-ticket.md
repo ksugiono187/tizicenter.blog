@@ -2,6 +2,7 @@
 title: "连接故障怎样反馈：提供记录并保护凭据"
 description: "整理可复现的问题描述，让支持人员判断原因，同时遮盖敏感内容。"
 category: blog
+section: scenarios
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["客户端","凭据"]

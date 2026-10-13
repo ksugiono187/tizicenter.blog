@@ -2,6 +2,7 @@
 title: "续费前检查什么：价格、余额、周期与自动扣费"
 description: "续费前重新确认订单和规则，分别处理手动续费、自动扣费和换套餐的情况。"
 category: blog
+section: budget
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["费用","选购"]

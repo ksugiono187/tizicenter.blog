@@ -1,0 +1,13 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import BlogIndex from '../../../components/BlogIndex.astro';
+import {getCollection} from 'astro:content';
+export async function getStaticPaths(){
+ const items=await getCollection('articles',a=>!a.data.draft&&a.data.category==='blog');
+ return Array.from({length:Math.max(0,Math.ceil(items.length/15)-1)},(_,i)=>({params:{page:String(i+2)},props:{page:i+2,items}}));
+}
+const {page,items}=Astro.props;
+const title=`博客文章第 ${page} 页：机场与 VPN 问题资料库`;
+const description=`浏览梯子中心博客第 ${page} 页，第 ${(page-1)*15+1}–${Math.min(page*15,items.length)} 篇文章。按费用、订阅、设备、故障和隐私主题查找具体解释与操作清单。`;
+---
+<Layout title={title} description={description} crumbs={[{name:'博客文章',url:'/blog/'},{name:`第 ${page} 页`,url:`/blog/page/${page}/`}]}><div class="container"><div class="page-intro"><span class="eyebrow">TIZI CENTER / EDITORIAL</span><h1>{title}</h1><p>{description}</p></div><section class="section"><BlogIndex items={items} page={page}/></section></div></Layout>

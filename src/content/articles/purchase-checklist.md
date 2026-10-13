@@ -2,6 +2,7 @@
 title: "购买前检查清单：官网、条款与凭据"
 description: "付款前确认身份、方案条件、续费与退款窗口，并保护订阅链接。"
 category: blog
+section: selection
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","凭据"]

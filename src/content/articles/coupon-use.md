@@ -2,6 +2,7 @@
 title: "机场优惠码怎么使用：从复制到结算核对"
 description: "区分推广链接与优惠码，按步骤确认实际抵扣、适用套餐和续费条件，处理无效提示。"
 category: blog
+section: budget
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["费用","选购"]

@@ -1,0 +1,15 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import BlogIndex from '../../../components/BlogIndex.astro';
+import {getCollection} from 'astro:content';
+import {blogTopics} from '../../../data/blog-topics';
+export async function getStaticPaths(){
+ const items=await getCollection('articles',a=>!a.data.draft&&a.data.category==='blog');
+ return blogTopics.flatMap(topic=>Array.from({length:Math.ceil(items.filter(a=>a.data.section===topic.id).length/15)},(_,i)=>({params:{path:topic.id+(i?`/page/${i+1}`:'')},props:{topic,page:i+1,items}})));
+}
+const {topic,page,items}=Astro.props;
+const title=page===1?`${topic.name}：博客专题与检查方法`:`${topic.name}第 ${page} 页：专题文章`;
+const description=page===1?`${topic.description}浏览本专题文章，查看原创分析、具体情境、检查记录与相关资料出处。`:`继续阅读${topic.name}专题第 ${page} 页。${topic.description}从具体问题进入正文，保留核对条件与更新日期。`;
+const crumbs=[{name:'博客文章',url:'/blog/'},{name:topic.name,url:`/blog/topic/${topic.id}/`},...(page>1?[{name:`第 ${page} 页`,url:`/blog/topic/${topic.id}/page/${page}/`}]:[])];
+---
+<Layout title={title} description={description} crumbs={crumbs}><div class="container"><div class="page-intro"><span class="eyebrow">TIZI CENTER / TOPIC</span><h1>{title}</h1><p>{description}</p></div><section class="section"><BlogIndex items={items} page={page} section={topic.id}/></section></div></Layout>

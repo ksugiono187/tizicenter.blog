@@ -1,0 +1,22 @@
+---
+import ArticleCards from './ArticleCards.astro';
+import {blogTopics} from '../data/blog-topics';
+const {items,page=1,section}=Astro.props;
+const size=15;
+const ordered=[...items].sort((a,b)=>b.data.updated.getTime()-a.data.updated.getTime()||a.id.localeCompare(b.id));
+const filtered=section?ordered.filter(a=>a.data.section===section):ordered;
+const count=filtered.length;
+const pages=Math.ceil(count/size);
+const visible=filtered.slice((page-1)*size,page*size);
+const topic=blogTopics.find(t=>t.id===section);
+const href=(n:number)=>section?`/blog/topic/${section}/${n===1?'':`page/${n}/`}`:n===1?'/blog/':`/blog/page/${n}/`;
+---
+<div class="blog-library">
+ <div class="hub-overview"><div><span class="eyebrow">READ WITH PURPOSE / 博客资料库</span><h2>{topic?topic.name:`${items.length} 个问题，按主题阅读。`}</h2><p>{topic?topic.description:'查费用，理配置，学排查。从你遇到的问题开始，找到可操作的检查方法。'}</p></div><span class="hub-total">{count}<small>{topic?'篇分类文章':'篇博客文章'}</small></span></div>
+ <nav class="blog-topics" aria-label="博客主题"><a class:list={{selected:!section}} href="/blog/" aria-current={!section?'page':undefined}><strong>全部文章</strong><span>{items.length}</span></a>{blogTopics.map(t=><a class:list={{selected:section===t.id}} href={`/blog/topic/${t.id}/`} aria-current={section===t.id?'page':undefined}><strong>{t.name}</strong><span>{items.filter((a:any)=>a.data.section===t.id).length}</span></a>)}</nav>
+ {!section&&page===1&&<div class="reading-routes"><span class="eyebrow">从这里开始</span><div><a href="/blog/purchase-checklist/">准备购买 → 核对清单</a><a href="/blog/plan-cost/">看不懂价格 → 计算成本</a><a href="/guides/connection-troubleshooting/">连上却不能用 → 分层排查</a></div></div>}
+ <div class="blog-list-head"><p>共 {count} 篇 · 第 {page} / {pages} 页 · 当前显示 {(page-1)*size+1}–{Math.min(page*size,count)} 篇</p><a class="text-link" href="/search/">搜索标题与摘要 ↗</a></div>
+ <ArticleCards items={visible}/>
+ <nav class="pagination" aria-label="博客分页">{page>1&&<a href={href(page-1)} rel="prev">← 上一页</a>}{Array.from({length:pages},(_,i)=>i+1).map(n=><a href={href(n)} aria-label={`第 ${n} 页`} aria-current={page===n?'page':undefined}>{n}</a>)}{page<pages&&<a href={href(page+1)} rel="next">下一页 →</a>}</nav>
+ <p class="section-note">计算情境均明确标注；操作清单为编辑方法。技术说明附出处，品牌价格、优惠和性能仍以可核实资料为准。</p>
+</div>

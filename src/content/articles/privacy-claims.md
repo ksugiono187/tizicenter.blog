@@ -2,6 +2,7 @@
 title: "怎样读懂 VPN 隐私声明"
 description: "区分政策声明、审计范围、软件来源与实际连接行为。"
 category: blog
+section: privacy
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","凭据"]

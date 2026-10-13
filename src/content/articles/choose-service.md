@@ -2,6 +2,7 @@
 title: "机场选择指南：按需求做决定"
 description: "把预算、设备、流量和服务任务变成一份可核验的选择清单。"
 category: blog
+section: selection
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","新手"]
