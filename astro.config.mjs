@@ -14,6 +14,6 @@ for(const file of fs.readdirSync('./src/content/articles')){
 for(const airport of airports) for(const group of ['airport','review']) modifications[`/${group}/${airport.slug}/`]=airport.lastVerified||siteUpdated;
 export default defineConfig({
  site:'https://tizicenter.blog', output:'static', trailingSlash:'always',
- integrations:[sitemap({filter:url=>{const path=new URL(url).pathname;return !['/404/','/recommend/premium/','/search/'].includes(path)&&!/^\/ranking\/.+/.test(path)&&!airports.some(a=>a.testStatus==='unverified'&&[`/airport/${a.slug}/`,`/review/${a.slug}/`].includes(path));},serialize:item=>({...item,lastmod:modifications[new URL(item.url).pathname]||siteUpdated})})],
+ integrations:[sitemap({filter:url=>{const path=new URL(url).pathname;return !['/404/','/recommend/premium/','/search/','/saved/'].includes(path)&&!/^\/ranking\/.+/.test(path)&&!airports.some(a=>a.testStatus==='unverified'&&[`/airport/${a.slug}/`,`/review/${a.slug}/`].includes(path));},serialize:item=>({...item,lastmod:modifications[new URL(item.url).pathname]||siteUpdated})})],
  vite:{plugins:[tailwindcss()]}
 });

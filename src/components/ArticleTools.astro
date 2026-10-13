@@ -1,0 +1,15 @@
+---
+import Icon from './Icon.astro';
+const {url}=Astro.props as {url:string};
+---
+<div class="article-tools" aria-label="文章便捷工具"><button type="button" data-save-article={url} aria-pressed="false"><Icon name="book" size={16}/><span>收藏这篇</span></button><a href="#personal-checklist">跳到检查表 ↓</a><button type="button" data-share-article><Icon name="copy" size={16}/>复制文章链接</button><a href="/saved/">我的收藏与进度 ↗</a><span class="article-tool-status" role="status" aria-live="polite"></span><input class="share-fallback" type="text" readonly hidden aria-label="手动复制文章链接"/></div>
+<script>
+ import {favorites,favoriteKey,writeLocal} from '../lib/preferences';
+ const button=document.querySelector<HTMLButtonElement>('[data-save-article]');
+ if(button){const tools=button.closest<HTMLElement>('.article-tools')!;const status=tools.querySelector<HTMLElement>('.article-tool-status')!;const url=button.dataset.saveArticle!;
+  const refresh=()=>{const saved=favorites().includes(url);button.setAttribute('aria-pressed',String(saved));button.querySelector('span')!.textContent=saved?'已收藏 · 点击取消':'收藏这篇';};
+  button.addEventListener('click',()=>{const list=favorites(),saved=list.includes(url);const ok=writeLocal(favoriteKey,saved?list.filter(p=>p!==url):[url,...list]);refresh();status.textContent=ok?(saved?'已取消收藏':'已保存到本设备，可在“我的收藏”找到'):'当前浏览器不允许保存，仍可正常阅读';});
+  tools.querySelector('[data-share-article]')!.addEventListener('click',async()=>{const share=new URL(url,location.origin).href;status.textContent='正在复制…';let timeout:ReturnType<typeof setTimeout>|undefined;try{await Promise.race([navigator.clipboard.writeText(share),new Promise((_,reject)=>{timeout=setTimeout(()=>reject(new Error('copy-timeout')),1000);})]);status.textContent='文章链接已复制';}catch{const field=tools.querySelector<HTMLInputElement>('.share-fallback')!;field.value=share;field.hidden=false;field.focus();field.select();status.textContent='请手动复制下方链接';}finally{clearTimeout(timeout);}});
+  window.addEventListener('storage',refresh);window.addEventListener('tizi-preferences',refresh);refresh();
+ }
+</script>

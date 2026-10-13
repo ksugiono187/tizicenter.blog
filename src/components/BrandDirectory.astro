@@ -12,27 +12,20 @@ const couponCount=airports.filter(a=>a.couponCode).length;
 </div>
 <p class="directory-reference-note">公开参考来自第三方资料，报价或条件存在待确认项；可在品牌详情逐项查看来源。<a href="/brand-updates/">查看资料进度 ↗</a></p>
 <div class="directory-meta"><p id="brand-results" role="status" aria-live="polite">显示全部 {airports.length} 个品牌</p><span>目录顺序 · 非质量排名</span></div>
-<div class="brand-grid directory-grid">{airports.map(a=><BrandCard airport={a}/>)}</div>
+<div class="brand-grid directory-grid">{airports.map(a=><BrandCard airport={a} comparePick={true}/>)}</div>
 <div class="empty directory-empty" id="brand-empty" hidden><Icon name="search" size={32}/><h2>没有找到匹配品牌</h2><p>试试品牌中文名、英文名，或切换到“全部品牌”。</p><button type="button" class="button secondary" id="brand-reset">重置搜索和筛选</button></div>
+<aside class="compare-basket" aria-label="已选比较品牌" hidden><div><strong class="basket-count" role="status" aria-live="polite"></strong><div class="basket-chips"></div></div><div class="basket-actions"><a class="button" data-basket-link href="/compare/">查看比较 →</a><button type="button" data-basket-clear>清空选择</button></div></aside>
 <div class="disclosure"><Icon name="shield" size={18}/><p>推广披露：通过品牌入口注册或购买，本站可能获得佣金。优惠码由运营者提供，优惠有效性、套餐及性能尚未核实。<a href="/editorial-policy/">了解编辑标准</a></p></div>
 <noscript><p class="notice">所有品牌与优惠码已完整列出；开启 JavaScript 后可使用搜索、筛选与复制功能。</p></noscript>
 <script>
 const query=document.querySelector<HTMLInputElement>('#brand-query');
 if(query){
- const cards=[...document.querySelectorAll<HTMLElement>('.directory-grid .brand-card')];
- const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-brand-filter]')];
- const clear=document.querySelector<HTMLButtonElement>('#brand-clear')!;
- const status=document.querySelector('#brand-results')!;
- const empty=document.querySelector<HTMLElement>('#brand-empty')!;
- const initial=new URLSearchParams(location.search).get('filter');
- let filter=['coupon','none','reference','conflict'].includes(initial||'')?initial!:'all';
- function update(){const q=query!.value.trim().toLowerCase();let count=0;
-  cards.forEach(card=>{const match=(filter==='all'||(filter==='conflict'?card.dataset.hasConflict==='true':filter==='reference'?card.dataset.hasReference==='true':filter==='coupon'?card.dataset.hasCoupon==='true':card.dataset.hasCoupon!=='true'))&&card.dataset.brandSearch!.includes(q);card.hidden=!match;if(match)count++;});
-  filters.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.brandFilter===filter)));
-  clear.hidden=!q;empty.hidden=count>0;status.textContent=q?`找到 ${count} 个匹配品牌`:`显示 ${count} 个品牌`;
- }
- query.addEventListener('input',update);clear.addEventListener('click',()=>{query.value='';update();query.focus();});
- filters.forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.brandFilter!;update();}));
- document.querySelector('#brand-reset')!.addEventListener('click',()=>{query.value='';filter='all';update();query.focus();});update();
+ const cards=[...document.querySelectorAll<HTMLElement>('.directory-grid .brand-card')];const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-brand-filter]')];const picks=[...document.querySelectorAll<HTMLInputElement>('[data-compare-pick]')];
+ const clear=document.querySelector<HTMLButtonElement>('#brand-clear')!;const status=document.querySelector('#brand-results')!;const empty=document.querySelector<HTMLElement>('#brand-empty')!;const basket=document.querySelector<HTMLElement>('.compare-basket')!;const selected=new Set<string>();let filter='all';
+ function hydrate(){const params=new URLSearchParams(location.search);query!.value=params.get('q')??'';const candidate=params.get('filter')??'all';filter=['coupon','none','reference','conflict'].includes(candidate)?candidate:'all';selected.clear();[...new Set((params.get('compare')??'').split(','))].filter(slug=>picks.some(p=>p.value===slug)).slice(0,4).forEach(slug=>selected.add(slug));}
+ function sync(){const url=new URL(location.href);for(const key of ['q','filter','compare'])url.searchParams.delete(key);if(query!.value.trim())url.searchParams.set('q',query!.value.trim());if(filter!=='all')url.searchParams.set('filter',filter);if(selected.size)url.searchParams.set('compare',[...selected].join(','));history.replaceState(null,'',url);}
+ function renderBasket(){picks.forEach(p=>{p.checked=selected.has(p.value);p.disabled=selected.size>=4&&!p.checked;});basket.hidden=selected.size===0;document.body.classList.toggle('has-compare-basket',selected.size>0);basket.querySelector('.basket-count')!.textContent='已选 '+selected.size+' / 4 家'+(selected.size===1?' · 再选一家开始比较':' · 可直接查看资料差异');const chips=basket.querySelector('.basket-chips')!;chips.replaceChildren();for(const slug of selected){const pick=picks.find(p=>p.value===slug)!;const name=pick.closest('.brand-card')!.querySelector('h3')!.textContent!.trim();const chip=document.createElement('button');chip.type='button';chip.textContent=name+' ×';chip.setAttribute('aria-label','取消比较 '+name);chip.addEventListener('click',()=>{selected.delete(slug);update();});chips.append(chip);}const link=basket.querySelector<HTMLAnchorElement>('[data-basket-link]')!;link.href='/compare/?brands='+encodeURIComponent([...selected].join(','));link.textContent=selected.size<2?'去添加第二家 →':'查看 '+selected.size+' 家比较 →';}
+ function update(){const words=query!.value.trim().toLowerCase().split(/\s+/).filter(Boolean);let count=0;cards.forEach(card=>{const match=(filter==='all'||(filter==='conflict'?card.dataset.hasConflict==='true':filter==='reference'?card.dataset.hasReference==='true':filter==='coupon'?card.dataset.hasCoupon==='true':card.dataset.hasCoupon!=='true'))&&words.every(w=>card.dataset.brandSearch!.includes(w));card.hidden=!match;if(match)count++;});filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.brandFilter===filter)));clear.hidden=!query!.value;empty.hidden=count>0;status.textContent=(query!.value?'找到 ':'显示 ')+count+' 个品牌';renderBasket();sync();}
+ query.addEventListener('input',update);clear.addEventListener('click',()=>{query.value='';update();query.focus();});filters.forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.brandFilter!;update();}));picks.forEach(p=>p.addEventListener('change',()=>{if(p.checked&&selected.size<4)selected.add(p.value);else selected.delete(p.value);update();}));document.querySelector('[data-basket-clear]')!.addEventListener('click',()=>{selected.clear();update();query.focus();});document.querySelector('#brand-reset')!.addEventListener('click',()=>{query.value='';filter='all';update();query.focus();});window.addEventListener('popstate',()=>{hydrate();update();});hydrate();update();
 }
 </script>
