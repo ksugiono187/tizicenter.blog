@@ -39,7 +39,8 @@
 | 品牌连接 / 速度 / 稳定性 | NOT TESTED | 无原始实测样本 |
 | AI / 流媒体 / 专线验证 | NOT TESTED | 保持未核实，不发布性能名次 |
 | Git 远程配置 | PASS | origin 为用户指定仓库，本地 main |
-| GitHub 推送 | NOT TESTED | 提交后尝试推送，并更新本行记录实际结果 |
+| GitHub 推送 | PASS | main 分支已成功推送到指定 origin；首次提交 b61d52b，远程返回新分支确认 |
+| GitHub CI | PASS | Linux 自动类型检查、构建和测试成功：[运行记录](https://github.com/ksugiono187/tizicenter.blog/actions/runs/38339736219) |
 | Cloudflare 生产部署 / DNS / HTTPS | NOT TESTED | 未登录平台、未绑定域名 |
 | Bing 网站验证 / Sitemap 提交 | NOT TESTED | 需要域名拥有者账户操作 |
 
@@ -49,7 +50,7 @@ Lighthouse 原始 JSON 和 HTML 报告位于 docs/lighthouse-home.report.*。最
 
 项目可以作为静态知识与 VPN 资料站部署。尚不具备真实机场实测推荐门户的完整数据条件：需要机场品牌的可核验来源、套餐、线路和原始测试；稳定性榜与专线专题已 noindex。
 
-正式上线前，运营者需补充真实运营主体、联系邮箱及实际托管隐私范围；完成 GitHub 权限、Cloudflare Pages 授权、域名绑定和 HTTPS；完成 Bing 所有权验证与 Sitemap 提交；设置、部署并验证 IndexNow Key 后才能真实提交。上线后复测首页与重要页面的性能及抓取状态，不承诺 Bing 排名或收录。
+GitHub 推送已完成。正式上线前，运营者需补充真实运营主体、联系邮箱及实际托管隐私范围；完成 Cloudflare Pages 授权、域名绑定和 HTTPS；完成 Bing 所有权验证与 Sitemap 提交；设置、部署并验证 IndexNow Key 后才能真实提交。上线后复测首页与重要页面的性能及抓取状态，不承诺 Bing 排名或收录。
 
 ## 操作指引
 

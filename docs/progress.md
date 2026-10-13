@@ -9,6 +9,6 @@
 - PHASE 7：20 篇文章（5 教程、10 指南、5 百科），5 品牌资料及评析。
 - PHASE 8：按标签自动关联文章，专题与资料内链。
 - PHASE 9：Metadata、Schema、Sitemap、robots 与 IndexNow 模块。
-- PHASE 10：以 final-audit.md 中实际结果为准。
-- PHASE 11：GitHub、Cloudflare 文档与配置。
-- PHASE 12：最终验收报告。
+- PHASE 10：56 页生产构建、类型检查、SEO/链接/内容/排名/IndexNow 测试通过；首页 Lighthouse 四项 100，浏览器代表页通过。
+- PHASE 11：main 已推送至指定 GitHub；Cloudflare 配置及操作文档完成，真实平台部署未执行。
+- PHASE 12：最终验收报告、来源审查、截图和交付包完成；未实测与人工上线事项明确列出。
