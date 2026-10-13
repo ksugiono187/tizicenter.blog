@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {readingPaths} from '../data/reading-paths';
+import {getCollection} from 'astro:content';
+const articles=await getCollection('articles',a=>!a.data.draft);
+const byId=new Map(articles.map(a=>[a.id,a]));
+const entries=readingPaths.flatMap(p=>p.steps.map(s=>byId.get(s.id)!));
+const minutes=(a:typeof entries[number])=>Math.max(2,Math.ceil((a.body?.length??600)/400));
+const schema=[{'@context':'https://schema.org','@type':'ItemList',name:'15 篇问题阅读路线',numberOfItems:entries.length,itemListElement:entries.map((a,i)=>({'@type':'ListItem',position:i+1,name:a.data.title,url:`https://tizicenter.blog/${a.data.category}/${a.id}/`}))}];
+---
+<Layout title="15 篇阅读路线：从选购、配置到故障排查" description="按三个具体问题阅读 15 篇深入指南：购买前核对需求与账单，配置时保留可用基线，遇到故障按现象定位。每篇提供案例、检查步骤或记录模板。" crumbs={[{name:'阅读路线',url:'/reading/'}]} schema={schema}>
+<div class="container reading-hub"><header class="page-intro"><span class="eyebrow">TIZI CENTER / READING PATHS</span><h1>不必从 150 篇里，<br/>猜哪一篇先读。</h1><p>先选你正在解决的问题。15 篇深入指南分成三条路线，每一步说明目的，读完能留下自己的判断和记录。</p><nav class="reading-jumps" aria-label="选择阅读路线">{readingPaths.map(p=><a href={`#${p.id}`}><span>{p.number}</span>{p.name} ↓</a>)}</nav></header>
+<aside class="reading-note"><strong>从需要的一步开始，按自己的节奏读。</strong><p>每条路线 5 篇。预计时间按正文长度估算，不包含实际操作；每篇都有下一步入口。费用与故障案例为假设，技术解释附正式出处，品牌当前套餐和性能仍须另外核实。</p></aside>
+{readingPaths.map(p=><section class="reading-path section" id={p.id}><div class="reading-path-intro"><span class="reading-number">{p.number}</span><span class="eyebrow">5 篇 · 约 {p.steps.reduce((sum,s)=>sum+minutes(byId.get(s.id)!),0)} 分钟阅读</span><h2>{p.name}</h2><p>{p.description}</p><div class="reading-outcome"><strong>读完可以得到</strong><p>{p.outcome}</p></div></div><ol class="reading-steps">{p.steps.map((s,i)=>{const a=byId.get(s.id)!;return <li><a href={`/${a.data.category}/${a.id}/`}><span class="reading-step-number">{String(i+1).padStart(2,'0')}</span><div><span class="eyebrow">{a.data.category==='guides'?'操作教程':'判断方法'} · 约 {minutes(a)} 分钟</span><h3>{a.data.title}</h3><p>{s.why}</p></div><span class="reading-step-arrow" aria-hidden="true">↗</span></a></li>;})}</ol></section>)}
+<section class="reading-finish"><h2>已经有一个明确问题？</h2><p>可在知识库按标题与摘要搜索，或用费用、流量工具代入自己的条件。</p><div class="actions"><a class="button" href="/blog/">浏览全部 150 篇 →</a><a class="button secondary" href="/tools/">试用预算工具 →</a></div></section>
+</div></Layout>

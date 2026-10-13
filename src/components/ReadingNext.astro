@@ -1,0 +1,11 @@
+---
+import {readingPaths} from '../data/reading-paths';
+import type {CollectionEntry} from 'astro:content';
+interface Props {id:string;items:CollectionEntry<'articles'>[]}
+const {id,items}=Astro.props;
+const route=readingPaths.find(p=>p.steps.some(s=>s.id===id));
+const index=route?.steps.findIndex(s=>s.id===id)??-1;
+const next=route?.steps[index+1];
+const entry=next?items.find(a=>a.id===next.id):undefined;
+---
+{route&&<nav class="reading-next" aria-label="阅读路线下一步"><span class="eyebrow">{route.name} · 第 {index+1} / {route.steps.length} 步</span>{next&&entry?<><strong>下一步：{entry.data.title}</strong><p>{next.why}</p><a href={`/${entry.data.category}/${entry.id}/`}>继续这条路线 →</a></>:<><strong>这条路线读完了，把记录用起来。</strong><p>{route.outcome}也可以换一个问题继续阅读。</p></>}<a class="reading-all" href={`/reading/#${route.id}`}>查看全部 15 篇与当前路线 ↗</a></nav>}

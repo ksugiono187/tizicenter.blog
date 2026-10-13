@@ -1,4 +1,4 @@
-export const editorialOrder=['choose-service','plan-cost','purchase-checklist','coupon-use','traffic-budget','subscription-format-choice','active-profile-check','subscription-update-schedule','all-sites-fail','one-site-fail','proxy-leftover','latency-not-throughput','bandwidth-units','screenshot-redaction','video-meeting-check'];
+export const editorialOrder=["choose-service","privacy-claims","purchase-checklist","coupon-use","plan-cost","traffic-budget","subscription-format-choice","active-profile-check","renewal-check","latency-not-throughput","support-ticket","all-sites-fail","one-site-fail","proxy-leftover","subscription-update-schedule"];
 export function orderArticles<T extends {id:string;data:{updated:Date}}>(items:T[]):T[]{
  const rank=(id:string)=>{const i=editorialOrder.indexOf(id);return i===-1?1000:i;};
  return [...items].sort((a,b)=>b.data.updated.getTime()-a.data.updated.getTime()||rank(a.id)-rank(b.id)||a.id.localeCompare(b.id));

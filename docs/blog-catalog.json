@@ -300,14 +300,14 @@
     },
     {
       "id": "subscription-format-choice",
-      "title": "订阅格式怎么选择：客户端名称之外还要看版本",
+      "title": "订阅格式怎么选？先确认客户端，再检查配置内容",
       "section": "subscription",
       "characters": 596,
       "description": "订阅格式应与客户端和内核的支持范围匹配。看见相近的软件名称，不能认为配置一定通用，付款前先查服务方的兼容说明。"
     },
     {
       "id": "active-profile-check",
-      "title": "配置导入成功却没生效怎么办：先看当前启用项",
+      "title": "节点已经更新，为什么还在用旧配置？三处检查生效状态",
       "section": "subscription",
       "characters": 607,
       "description": "导入完成与启用配置是两个动作。节点列表已出现时，先确认当前选中的是哪份配置，而不是重复导入或立即重装。"
@@ -650,7 +650,7 @@
     },
     {
       "id": "latency-not-throughput",
-      "title": "延迟低为什么下载仍慢：两项指标回答不同问题",
+      "title": "延迟低却下载慢？用任务、单位和重复记录判断网络",
       "section": "network",
       "characters": 576,
       "description": "延迟描述请求往返所需时间，下载吞吐描述一定时间完成的数据传输。一个较低的延迟值，不能直接换算成文件下载速度。"
@@ -1021,7 +1021,7 @@
     },
     {
       "id": "active-profile-check",
-      "title": "配置导入成功却没生效怎么办：先看当前启用项",
+      "title": "节点已经更新，为什么还在用旧配置？三处检查生效状态",
       "section": "subscription",
       "url": "/blog/active-profile-check/"
     },
@@ -1177,7 +1177,7 @@
     },
     {
       "id": "coupon-use",
-      "title": "机场优惠码怎么使用：从复制到结算核对",
+      "title": "优惠码显示成功，还要查什么？把最终账单核对清楚",
       "section": "budget",
       "url": "/blog/coupon-use/"
     },
@@ -1339,7 +1339,7 @@
     },
     {
       "id": "latency-not-throughput",
-      "title": "延迟低为什么下载仍慢：两项指标回答不同问题",
+      "title": "延迟低却下载慢？用任务、单位和重复记录判断网络",
       "section": "network",
       "url": "/blog/latency-not-throughput/"
     },
@@ -1525,7 +1525,7 @@
     },
     {
       "id": "privacy-claims",
-      "title": "怎样读懂 VPN 隐私声明",
+      "title": "“加密”“无日志”“匿名”有什么区别？逐项核对隐私宣传",
       "section": "privacy",
       "url": "/blog/privacy-claims/"
     },
@@ -1579,7 +1579,7 @@
     },
     {
       "id": "purchase-checklist",
-      "title": "购买前检查清单：官网、条款与凭据",
+      "title": "付款前最后一遍检查：把宣传页变成订单记录",
       "section": "selection",
       "url": "/blog/purchase-checklist/"
     },
@@ -1615,7 +1615,7 @@
     },
     {
       "id": "renewal-check",
-      "title": "续费前检查什么：价格、余额、周期与自动扣费",
+      "title": "续费会延长到期还是重置周期？先核对余额再付钱",
       "section": "budget",
       "url": "/blog/renewal-check/"
     },
@@ -1747,7 +1747,7 @@
     },
     {
       "id": "subscription-format-choice",
-      "title": "订阅格式怎么选择：客户端名称之外还要看版本",
+      "title": "订阅格式怎么选？先确认客户端，再检查配置内容",
       "section": "subscription",
       "url": "/blog/subscription-format-choice/"
     },
@@ -1801,7 +1801,7 @@
     },
     {
       "id": "support-ticket",
-      "title": "连接故障怎样反馈：提供记录并保护凭据",
+      "title": "怎样提交有效工单？把“不能用”写成可复现的问题",
       "section": "scenarios",
       "url": "/blog/support-ticket/"
     },
@@ -1837,7 +1837,7 @@
     },
     {
       "id": "traffic-budget",
-      "title": "机场流量怎么估算：用自己的账单记录做预算",
+      "title": "每月到底需要多少流量？从七天记录到周期中途复盘",
       "section": "budget",
       "url": "/blog/traffic-budget/"
     },

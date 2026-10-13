@@ -1,0 +1,20 @@
+export const readingPaths=[
+ {id:'before-purchase',number:'01',name:'购买前，把需求与账单看清',description:'先确定能否完成任务，再核对信息、优惠和成本。',outcome:'留下自己的需求卡、条件缺口与付款记录。',steps:[
+  {id:'choose-service',why:'用兼容、任务与订单三道门筛选候选。'},
+  {id:'privacy-claims',why:'把加密、日志与匿名承诺分别核对。'},
+  {id:'purchase-checklist',why:'将宣传页整理成可保存的订单条件。'},
+  {id:'coupon-use',why:'确认优惠实际改变了哪一笔账单。'},
+  {id:'plan-cost',why:'按自己的用量与周期比较实际支出。'}]},
+ {id:'configuration',number:'02',name:'配置与日常维护，留下一份基线',description:'从用量预算走到正确配置，理解更新和续费影响。',outcome:'得到流量预算、配置记录与续费核对表。',steps:[
+  {id:'traffic-budget',why:'区分已扣额度、传输量和一次性任务。'},
+  {id:'subscription-format-choice',why:'按客户端与版本选择对应导出格式。'},
+  {id:'subscription-import',why:'分别确认获取、解析、启用与验证。'},
+  {id:'active-profile-check',why:'检查真正生效的配置与策略。'},
+  {id:'renewal-check',why:'查清周期、余额与自动扣费条件。'}]},
+ {id:'troubleshooting',number:'03',name:'连接与排查，从现象找到下一步',description:'先验收真实任务，再定位失败层次，最后整理有效工单。',outcome:'保存验收记录、故障对照与可复现的问题描述。',steps:[
+  {id:'first-connection',why:'用一个真实任务定义连接成功的范围。'},
+  {id:'subscription-errors',why:'分开处理请求、响应与内容解析错误。'},
+  {id:'connection-troubleshooting',why:'按失败现象进入六个排查分支。'},
+  {id:'latency-not-throughput',why:'让测量指标对应到自己的使用任务。'},
+  {id:'support-ticket',why:'把时间、条件和最小对照整理给支持。'}]}
+];
