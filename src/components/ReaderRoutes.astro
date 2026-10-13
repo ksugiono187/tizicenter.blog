@@ -1,0 +1,8 @@
+---
+const routes=[
+{n:'01',title:'第一次购买，不知道怎么选',outcome:'先得到一份可筛选的需求卡',steps:[['写三个必须条件','从设备、任务、付款上限开始。','/blog/choose-service/'],['检查一笔订单','金额、重置与退款条件逐项核对。','/blog/purchase-checklist/'],['读取品牌原始资料','看出处和分歧，再确认当前商城。','/airport/']]},
+{n:'02',title:'已经连接，网页或应用打不开',outcome:'用现象选择下一步，留下可复现记录',steps:[['找到失败阶段','先确认普通网络，再看配置和请求。','/guides/connection-troubleshooting/'],['配置没有成功？','分别检查下载和解析错误。','/guides/subscription-errors/'],['准备支持记录','写清动作与变化，遮盖订阅凭据。','/blog/support-ticket/']]},
+{n:'03',title:'已经能用，想把费用降下来',outcome:'算自己的使用成本和闲置额度',steps:[['看三个用量案例','全年、三个月和低频备用分别计算。','/blog/plan-cost/'],['估计需要的额度','选择有代表性的记录与计量口径。','/tools/traffic/'],['复核实际付款','月均、倍率和理论单价分开算。','/tools/cost/']]}
+];
+---
+<div class="reader-routes">{routes.map(r=><details class="reader-route"><summary><span class="route-number">{r.n}</span><span><strong>{r.title}</strong><small>{r.outcome}</small></span><span class="route-open" aria-hidden="true">＋</span></summary><ol>{r.steps.map(([title,desc,url])=><li><a href={url}><strong>{title} ↗</strong><span>{desc}</span></a></li>)}</ol></details>)}</div>

@@ -1,5 +1,5 @@
 Keyword,Intent,Target URL,Page Type,Priority,Title,H1
-"机场推荐 / vpn","了解和选择","/","pillar","P0","机场推荐与 VPN 选择指南","机场推荐与 VPN 指南"
+"机场推荐 / vpn","了解和选择","/","pillar","P0","机场怎么选、套餐怎么算、连接怎么查：梯子中心深读指南","选套餐、算费用、查故障。每一步，知道为什么。"
 "机场怎么选","筛选需求","/recommend/","hub","P0","按需求选择机场与 VPN","按需求选择机场与 VPN"
 "VPN 综合榜","资料核验方法","/ranking/overall/","ranking","P1","综合排行榜：资料核验标准","综合排行榜：资料核验标准"
 "免费 VPN","价格核验方法","/ranking/budget/","ranking","P1","低预算榜：价格核验标准","低预算榜：价格核验标准"

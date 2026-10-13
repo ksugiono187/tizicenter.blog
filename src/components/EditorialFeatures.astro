@@ -1,0 +1,9 @@
+---
+const {compact=false}=Astro.props;
+const stories=[
+{kind:'decision',label:'选择方法',title:'第一次选机场：三道门，把候选筛清楚',summary:'用双设备任务卡，逐项核对接入、真实任务和订单。附一张没有“推荐赢家”的淘汰表。',url:'/blog/choose-service/',takeaway:'读完得到：需求卡 + 询问模板'},
+{kind:'math',label:'预算推演 · 假设案例',title:'低单价的套餐，为什么反而多花钱？',summary:'每月40GB、只用三个月、低频备用，同一组套餐放进三个情境，答案会改变。',url:'/blog/plan-cost/',takeaway:'读完得到：三组账单 + 成本边界'},
+{kind:'diagnosis',label:'操作指南',title:'连接开关亮了，下一步到底查哪里？',summary:'按六种现象找到起点。三份故障记录告诉你，何时查接管、何时查目标业务。',url:'/guides/connection-troubleshooting/',takeaway:'读完得到：排查分支 + 支持工单'}
+];
+---
+<div class:list={['editorial-features',{'features-compact':compact}]}>{stories.map(s=><a class="editorial-feature" href={s.url}><div class:list={['story-visual',s.kind]} aria-hidden="true">{s.kind==='decision'?<><span>把条件写清楚</span><div class="gate-row"><i>接入</i><b>→</b><i>任务</i><b>→</b><i>账单</i></div><small>过一关，再看下一关</small></>:s.kind==='math'?<><span>假设每月只用 40GB</span><div class="case-pair"><div><b>240</b><small>月付方案全年支出</small></div><em>vs</em><div><b>168</b><small>年付方案一次付款</small></div></div><small>数字来自文章假设，不是品牌报价</small></>:<><span>先固定一个测试动作</span><div class="diagnostic-track"><i>普通网络</i><b>→</b><i>配置</i><b>→</b><i>请求</i><b>→</b><i>业务</i></div><small>记录成功和失败之间的差别</small></>}</div><div class="story-copy"><span class="eyebrow">{s.label}</span><h3>{s.title}</h3><p>{s.summary}</p><span class="story-takeaway">{s.takeaway}</span><strong class="story-read">开始深读 ↗</strong></div></a>)}</div>
