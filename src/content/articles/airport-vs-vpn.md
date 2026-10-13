@@ -5,7 +5,7 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","协议"]
-sources: ["https://www.wireguard.com/","https://protonvpn.com/download"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 
@@ -21,4 +21,4 @@ VPN 品牌通常提供官方应用和账户登录；机场服务往往提供节�
 两类服务都需要考虑经营方、日志说明、软件来源和账户管理。订阅链接可能包含访问令牌，VPN 账户同样需要保护。连接图标不能证明所有应用走同一路径，也不能证明没有数据泄露。
 
 ## 如何作出选择
-先确定设备、任务与所需支持，再比较原始条款和短期体验。本网站收录的五家品牌明确标为 VPN，不用它们冒充机场实测。进入 [资料库](/airport/) 或阅读 [协议概念](/glossary/protocol/)。
+先确定设备、任务与所需支持，再比较原始条款和短期体验。本站当前收录的品牌与优惠码由运营者提供，不属于机场实测数据。进入 [资料库](/airport/) 或阅读 [协议概念](/glossary/protocol/)。

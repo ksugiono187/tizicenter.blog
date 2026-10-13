@@ -5,7 +5,7 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","成本"]
-sources: ["https://mullvad.net/en/pricing","https://www.ivpn.net/en/pricing/"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 

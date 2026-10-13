@@ -5,7 +5,7 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","凭据"]
-sources: ["https://www.ivpn.net/en/pricing/","https://mullvad.net/en/pricing"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 

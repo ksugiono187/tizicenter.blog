@@ -5,7 +5,7 @@ category: guides
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["新手","客户端"]
-sources: ["https://protonvpn.com/download","https://www.tunnelbear.com/pricing/"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 

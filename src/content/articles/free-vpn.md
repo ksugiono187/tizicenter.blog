@@ -5,11 +5,11 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["成本","选择"]
-sources: ["https://protonvpn.com/free-vpn/download","https://windscribe.com/knowledge-base/articles/can-i-use-windscribe-for-free","https://www.tunnelbear.com/pricing/"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 
-免费方案应先看流量与资格条件。本站核验了 Proton VPN 的不限流量免费方案、Windscribe 的邮箱验证流量条件，以及 TunnelBear 的体验流量；这些信息不证明你所在网络可用。
+免费方案应先看流量与资格条件。本站当前没有已核验的免费套餐资料，不推荐具体免费品牌。免费的名称或优惠码不能证明流量条件，也不能证明你所在网络可用。
 
 ## 三种条件不要混淆
 不限流量不代表所有功能或节点都开放。有限免费流量需确认重置周期。短期试用可能在到期后收费，付款前查看是否要求支付方式及自动续费。本站不把周期未确认的体验流量加入成本自动排序。

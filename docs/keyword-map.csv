@@ -1,9 +1,9 @@
 Keyword,Intent,Target URL,Page Type,Priority,Title,H1
 "机场推荐 / vpn","了解和选择","/","pillar","P0","机场推荐与 VPN 选择指南","机场推荐与 VPN 指南"
 "机场怎么选","筛选需求","/recommend/","hub","P0","按需求选择机场与 VPN","按需求选择机场与 VPN"
-"VPN 综合榜","资料覆盖比较","/ranking/overall/","ranking","P1","综合资料完整度榜","综合资料完整度榜"
-"免费 VPN","零预算筛选","/ranking/budget/","ranking","P1","已核验零预算方案榜","已核验零预算方案榜"
-"每 GB 价格","有限月套餐成本","/ranking/value/","ranking","P1","有限流量套餐每 GB 成本榜","有限流量套餐每 GB 成本榜"
+"VPN 综合榜","资料核验方法","/ranking/overall/","ranking","P1","综合排行榜：资料核验标准","综合排行榜：资料核验标准"
+"免费 VPN","价格核验方法","/ranking/budget/","ranking","P1","低预算榜：价格核验标准","低预算榜：价格核验标准"
+"每 GB 价格","有限月套餐成本","/ranking/value/","ranking","P1","性价比榜：套餐成本核验标准","性价比榜：套餐成本核验标准"
 "VPN 对比","横向条件比较","/compare/","tool","P1","机场与 VPN 横向比较工具","选择之前放在一起看"
 "Windows VPN 安装与连接检查","操作","/guides/windows/","guides","P2","Windows VPN 安装与连接检查","Windows VPN 安装与连接检查"
 "Android VPN 安装、授权与后台运行","操作","/guides/android/","guides","P2","Android VPN 安装、授权与后台运行","Android VPN 安装、授权与后台运行"

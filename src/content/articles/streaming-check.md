@@ -5,7 +5,7 @@ category: blog
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["选择","测试"]
-sources: ["https://protonvpn.com/download","https://www.ivpn.net/en/pricing/"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 

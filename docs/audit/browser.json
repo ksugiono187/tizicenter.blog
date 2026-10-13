@@ -2,11 +2,12 @@
   "status": "PASS",
   "date": "2026-10-13",
   "checks": [
-    "Homepage at default mobile width and desktop 1440: no document overflow",
-    "390px mobile navigation disclosure opens",
-    "Compare empty state, 2-4 selection, fifth disabled, removing restores candidate availability",
-    "Dynamic comparison retains horizontal scrolling in container without document overflow",
-    "Search Windows returns 1 article; unmatched term returns empty state"
+    "Homepage shows 29 brands and 11 coupon codes; no former brands",
+    "Copy Breezenet coupon shows success",
+    "Directory has 29 cards, 11 coupon buttons and missing-code states",
+    "Compare shows exact case U1S1 and YUZHOU553, missing code and unverified prices",
+    "Four candidates disable remaining candidates; remove returns to three",
+    "Representative mobile directory and comparison have no document overflow"
   ],
-  "limitation": "Representative pages only; this is not exhaustive all-device testing."
+  "limitation": "Representative UI only; coupon validity and external brand identities not tested."
 }

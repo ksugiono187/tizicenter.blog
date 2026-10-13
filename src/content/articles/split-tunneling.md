@@ -5,7 +5,7 @@ category: glossary
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["协议","客户端"]
-sources: ["https://protonvpn.com/support/how-to-change-vpn-protocols"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 

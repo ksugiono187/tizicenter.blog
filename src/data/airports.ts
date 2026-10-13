@@ -1,17 +1,169 @@
 export interface Plan { name:string; price:number; currency:string; period:'month'|'year'|'week'|'lifetime'; trafficGB?:number; unlimited?:boolean; multiplier:number; verified:boolean; condition?:string }
-export interface Airport { id:string; name:string; slug:string; kind:'airport'|'vpn'; description:string; officialUrl?:string; affiliateUrl?:string; startingPrice?:number; currency?:string; plans:Plan[]; protocols:string[]; regions:string[]; deviceLimit?:string; aiSupport?:string[]; streamingSupport?:string[]; advantages:string[]; disadvantages:string[]; suitableFor:string[]; sources:string[]; lastVerified?:string; testStatus:'tested'|'official-data'|'unverified'; lineType?:string }
-const base={kind:'vpn' as const, regions:[], protocols:[], aiSupport:[], streamingSupport:[],testStatus:'official-data' as const,lastVerified:'2026-10-13'};
-export const airports:Airport[]=[
- {...base,id:'proton',name:'Proton VPN',slug:'proton-vpn',description:'提供不限流量免费方案的 VPN，适合先验证客户端与日常连接需求。',officialUrl:'https://protonvpn.com/',startingPrice:0,currency:'USD',plans:[{name:'Free',price:0,currency:'USD',period:'month',unlimited:true,multiplier:1,verified:true}],advantages:['免费方案不限流量','四大平台提供官方客户端'],disadvantages:['免费方案与付费方案功能不同','本地连接表现尚未实测'],suitableFor:['新手入门','低预算'],sources:['https://protonvpn.com/free-vpn/download','https://protonvpn.com/download']},
- {...base,id:'windscribe',name:'Windscribe',slug:'windscribe',description:'免费方案按月提供流量，验证邮箱后为 10 GB；适合轻量使用。',officialUrl:'https://windscribe.com/',startingPrice:0,currency:'USD',plans:[{name:'Free（验证邮箱）',price:0,currency:'USD',period:'month',trafficGB:10,multiplier:1,verified:true,condition:'需添加并验证邮箱；未验证为 2 GB/月'}],deviceLimit:'个人设备连接数不限（官方说明）',advantages:['提供免费流量','免费方案可用于个人多设备'],disadvantages:['流量有月度上限','不同官方页面的地区数量存在差异，未采用数量'],suitableFor:['低预算','轻量使用'],sources:['https://windscribe.com/knowledge-base/articles/can-i-use-windscribe-for-free','https://windscribe.com/features/use-for-free/']},
- {...base,id:'mullvad',name:'Mullvad VPN',slug:'mullvad',description:'直接官网购买为每月 5 欧元，采用账户号码机制，适合偏好简单计费的用户。',officialUrl:'https://mullvad.net/',startingPrice:5,currency:'EUR',plans:[{name:'官网月付',price:5,currency:'EUR',period:'month',multiplier:1,verified:true}],deviceLimit:'最多 5 台设备',advantages:['官网月费结构明确','可按月充值'],disadvantages:['没有免费方案','AI 与流媒体可用性尚未核实'],suitableFor:['简单计费','隐私需求'],sources:['https://mullvad.net/en/pricing']},
- {...base,id:'ivpn',name:'IVPN',slug:'ivpn',description:'提供分层月付、年付与周付方案，选购时需区分 Standard 和附加服务。',officialUrl:'https://www.ivpn.net/',startingPrice:6,currency:'USD',plans:[{name:'Standard 月付',price:6,currency:'USD',period:'month',multiplier:1,verified:true},{name:'Standard 年付',price:60,currency:'USD',period:'year',multiplier:1,verified:true},{name:'Standard 周付',price:2,currency:'USD',period:'week',multiplier:1,verified:true}],deviceLimit:'Standard 最多 5 台设备',protocols:['WireGuard（官方资料）'],advantages:['提供周付方案','无需邮箱注册（官方说明）'],disadvantages:['套餐层级需要仔细区分','官方不保证流媒体兼容性'],suitableFor:['短期试用','隐私需求'],sources:['https://www.ivpn.net/en/pricing/']},
- {...base,id:'tunnelbear',name:'TunnelBear',slug:'tunnelbear',description:'提供 2 GB 免费体验流量，适合评估客户端操作；长期付费条件需另行核对。',officialUrl:'https://www.tunnelbear.com/',startingPrice:0,currency:'USD',plans:[{name:'Free',price:0,currency:'USD',period:'month',trafficGB:2,multiplier:1,verified:false,condition:'官网价格页确认 2 GB；重置周期需进一步核实，因此不参与自动成本榜'}],deviceLimit:'设备数不限（官网 FAQ）',advantages:['提供免费体验','四大平台入口清晰'],disadvantages:['免费体验流量较少','优惠月均价不等于月付账单'],suitableFor:['客户端体验','新手入门'],sources:['https://www.tunnelbear.com/pricing/']}
+export interface Airport { id:string; name:string; slug:string; kind:'airport'|'vpn'; description:string; officialUrl?:string; affiliateUrl?:string; couponCode?:string; submittedAt?:string; startingPrice?:number; currency?:string; plans:Plan[]; protocols:string[]; regions:string[]; deviceLimit?:string; aiSupport?:string[]; streamingSupport?:string[]; advantages:string[]; disadvantages:string[]; suitableFor:string[]; sources:string[]; lastVerified?:string; testStatus:'tested'|'official-data'|'unverified'; lineType?:string }
+// Names, referral URLs and codes supplied by the operator. No package or performance claims verified.
+const supplied=[
+  [
+    "breezenet",
+    "微风网络 Breezenet",
+    "https://edp01.breezenetaff.com/#/?code=4KDOroY0",
+    "weifeng90"
+  ],
+  [
+    "flycat",
+    "飞猫云",
+    "https://flycat1.flycatvipaff.cc/#/?code=Os3T3OxW",
+    "flycat888"
+  ],
+  [
+    "twilight",
+    "暮光网络",
+    "https://varnexa.twilightaff.com/#/?code=3qqonTlH"
+  ],
+  [
+    "dalaocloud",
+    "大佬云",
+    "https://vip.dalaocloud.com/#/?code=Cp2sfYZg"
+  ],
+  [
+    "firefly",
+    "Firefly机场",
+    "https://vip02.fireflyaff.com/#/?code=Fes6j9rn",
+    "firefly"
+  ],
+  [
+    "civet",
+    "灵猫",
+    "https://vip02.civetaff.com/#/?code=kZlRw46w"
+  ],
+  [
+    "flashleap",
+    "闪跃 FlashLeap",
+    "https://vip02.flashleapaff.com/#/?code=FkCGEeaC",
+    "shanyue"
+  ],
+  [
+    "worryfree",
+    "无忧链接",
+    "https://wep01.worryfreeaff.com/#/?code=56A0RTpU",
+    "wuyou666"
+  ],
+  [
+    "kuajie",
+    "跨界云",
+    "https://vip02.kuajieaff.com/#/?code=VfWeYwHM"
+  ],
+  [
+    "stardream",
+    "星岛梦 StarDream",
+    "https://kfccbb.xingdaomeng.com/#/?code=JTRIWFim",
+    "nmw888"
+  ],
+  [
+    "lightspeed",
+    "光速云 LightSpeed",
+    "https://mdlky.gsyaff.com/#/?code=6tRWbtgK",
+    "jichangcha09"
+  ],
+  [
+    "v2yun",
+    "唯兔云（V2云）",
+    "https://fast.v2yunvipaff.com/#/?code=xYEe8gyb",
+    "rabbit"
+  ],
+  [
+    "u1s1",
+    "U1S1（有一说一）",
+    "https://pkdj7.vipaff.cc/#/?code=NMjmHbvu",
+    "U1S1"
+  ],
+  [
+    "jilian",
+    "极连云",
+    "https://kdjhao.jlyvipaff.com/#/?code=poyoU7mq"
+  ],
+  [
+    "globalcloud",
+    "全球云",
+    "https://sswdh.gcvipaff.com/#/?code=NE1AcNIX",
+    "tt88"
+  ],
+  [
+    "lightyear",
+    "光年梯",
+    "https://ggmq.gntaff.com/#/?code=RAJFvngV"
+  ],
+  [
+    "sogoyun",
+    "Sogo云",
+    "https://wzjc.sogoyunaff.cc/#/?code=2x2EywO9"
+  ],
+  [
+    "yuzhou",
+    "宇宙云 YuZhou",
+    "https://wzjc.yuzoucloud.cc/#/?code=wL7YStBa",
+    "YUZHOU553"
+  ],
+  [
+    "2mao",
+    "二猫云 2mao",
+    "https://waaa.2maoyunaff.cc/#/?code=uHeyKG44"
+  ],
+  [
+    "1fly",
+    "一翻云 1fly",
+    "https://wzjc.1flyunaff.cc/#/?code=F7eaT191"
+  ],
+  [
+    "edgenova",
+    "边缘节点 EdgeNova",
+    "https://work.edgenovaaff.cc/#/?code=z81zCfw1"
+  ],
+  [
+    "kosing",
+    "可信云",
+    "https://work.kosingaff.com/#/?code=BNsA58Es"
+  ],
+  [
+    "sujie",
+    "速界 SuJie",
+    "https://work.speedworldaff.cc/#/?code=wSjLCpIf"
+  ],
+  [
+    "kuaili",
+    "快狸 KuaiLi",
+    "https://work.kuailicloud.cc/#/?code=gVGJa0Mp"
+  ],
+  [
+    "flyv",
+    "飞V",
+    "https://varnexa.flyvaff.com/#/?code=UoU2Izm5"
+  ],
+  [
+    "laddercloud",
+    "梯子云 LadderCloud",
+    "https://varnexa.ladderaff.com/#/?code=kuE4kqxo"
+  ],
+  [
+    "wavenet",
+    "浪网 WaveNet",
+    "https://varnexa.wavenetaff.com/#/?code=oU77JXen"
+  ],
+  [
+    "lingdong",
+    "灵动云",
+    "https://varnexa.lingdongaff.com/#/?code=QcRK6OPG"
+  ],
+  [
+    "invisible",
+    "隐形人",
+    "https://varnexa.invisibleaff.com/#/?code=JF4seZUy"
+  ]
 ];
+export const airports:Airport[]=supplied.map(([slug,name,affiliateUrl,couponCode])=>({id:slug,slug,name,affiliateUrl,couponCode,submittedAt:'2026-10-13',kind:'airport',description:couponCode?name+' 的推广入口与优惠码已整理；优惠幅度、有效期和适用套餐尚未核实。':name+' 的推广入口已整理；暂未提供优惠码，套餐与服务信息尚未核实。',plans:[],protocols:[],regions:[],aiSupport:[],streamingSupport:[],advantages:[],disadvantages:[],suitableFor:[],sources:[],testStatus:'unverified'}));
 export const unknown='尚未核实';
 export function price(a:Airport){return a.startingPrice===undefined?unknown:`${a.currency} ${a.startingPrice}${a.startingPrice===0?' / 免费方案':' / 月'}`;}
-export function traffic(a:Airport){const p=a.plans[0];return p.unlimited?'不限流量（官方）':p.trafficGB?`${p.trafficGB} GB${p.verified?' / 月':' / 体验流量'}`:unknown;}
-export function cost(p:Plan){return p.verified&&!p.unlimited&&p.period==='month'&&p.trafficGB&&p.multiplier>0?p.price/(p.trafficGB/p.multiplier):undefined;}
+export function traffic(a:Airport){const p=a.plans[0];if(!p)return unknown;return p.unlimited?'不限流量（官方）':p.trafficGB?`${p.trafficGB} GB${p.verified?' / 月':' / 体验流量'}`:unknown;}
+export function cost(p:Plan|undefined){return p?.verified&&!p.unlimited&&p.period==='month'&&p.trafficGB&&p.multiplier>0?p.price/(p.trafficGB/p.multiplier):undefined;}
 export function budgetRank(){return airports.filter(a=>a.plans.some(p=>p.verified&&p.period==='month'&&p.price===0));}
 export function valueRank(){return airports.flatMap(a=>a.plans.filter(p=>cost(p)!==undefined).map(p=>({airport:a,plan:p,cost:cost(p)!}))).sort((a,b)=>a.plan.currency.localeCompare(b.plan.currency)||a.cost-b.cost);}
 export function evidence(a:Airport){return [!!a.officialUrl,a.plans.some(p=>p.verified),!!a.deviceLimit,a.protocols.length>0,!!a.lastVerified&&a.sources.length>0].filter(Boolean).length;}

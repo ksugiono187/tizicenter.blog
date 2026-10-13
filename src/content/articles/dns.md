@@ -5,7 +5,7 @@ category: glossary
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["协议","测试"]
-sources: ["https://www.wireguard.com/","https://www.ivpn.net/en/pricing/"]
+sources: ["https://www.wireguard.com/"]
 draft: false
 ---
 
