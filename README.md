@@ -33,3 +33,7 @@ Sitemap 按每篇 Markdown 的 updated、品牌 lastVerified 和公共页面 src
 ## QA 边界
 
 自动检查验证结构和数据约束，不能替代事实审查或证明品牌性能。实际构建、浏览器检查、Lighthouse、推送与上线结果见最终验收报告；未测试项目明确标 NOT TESTED。
+
+## 使用体验与设计维护
+
+品牌目录支持本地搜索及有无优惠码筛选；比较页支持 ?brands=slug1,slug2 预选（最多 4 个有效品牌）。默认只展示已提供的优惠码和资料状态，可展开全部指标。设计样式统一在 src/styles/global.css，图标在 Icon.astro，品牌文字标识在 BrandMark.astro。复制优先使用 Clipboard API，嵌入浏览器超时后回退到选择复制，不能复制时提示手动处理。

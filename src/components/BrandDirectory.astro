@@ -1,0 +1,35 @@
+---
+import {airports} from '../data/airports';
+import BrandCard from './BrandCard.astro';
+import Icon from './Icon.astro';
+const couponCount=airports.filter(a=>a.couponCode).length;
+---
+<div class="directory-tools" id="directory">
+ <div class="directory-search"><Icon name="search"/><label class="sr-only" for="brand-query">搜索品牌或优惠码</label><input type="search" id="brand-query" placeholder="搜索品牌、英文名或优惠码" autocomplete="off"/><button id="brand-clear" type="button" aria-label="清空品牌搜索" hidden><Icon name="close" size={16}/></button></div>
+ <div class="filter-tabs" role="group" aria-label="品牌筛选"><button type="button" data-brand-filter="all" aria-pressed="true">全部品牌 <span>{airports.length}</span></button><button type="button" data-brand-filter="coupon" aria-pressed="false">有优惠码 <span>{couponCount}</span></button><button type="button" data-brand-filter="none" aria-pressed="false">暂无优惠码 <span>{airports.length-couponCount}</span></button></div>
+</div>
+<div class="directory-meta"><p id="brand-results" role="status" aria-live="polite">显示全部 {airports.length} 个品牌</p><span>目录顺序 · 非质量排名</span></div>
+<div class="brand-grid directory-grid">{airports.map(a=><BrandCard airport={a}/>)}</div>
+<div class="empty directory-empty" id="brand-empty" hidden><Icon name="search" size={32}/><h2>没有找到匹配品牌</h2><p>试试品牌中文名、英文名，或切换到“全部品牌”。</p><button type="button" class="button secondary" id="brand-reset">重置搜索和筛选</button></div>
+<div class="disclosure"><Icon name="shield" size={18}/><p>推广披露：通过品牌入口注册或购买，本站可能获得佣金。优惠码由运营者提供，优惠有效性、套餐及性能尚未核实。<a href="/editorial-policy/">了解编辑标准</a></p></div>
+<noscript><p class="notice">所有品牌与优惠码已完整列出；开启 JavaScript 后可使用搜索、筛选与复制功能。</p></noscript>
+<script>
+const query=document.querySelector<HTMLInputElement>('#brand-query');
+if(query){
+ const cards=[...document.querySelectorAll<HTMLElement>('.directory-grid .brand-card')];
+ const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-brand-filter]')];
+ const clear=document.querySelector<HTMLButtonElement>('#brand-clear')!;
+ const status=document.querySelector('#brand-results')!;
+ const empty=document.querySelector<HTMLElement>('#brand-empty')!;
+ const initial=new URLSearchParams(location.search).get('filter');
+ let filter=['coupon','none'].includes(initial||'')?initial!:'all';
+ function update(){const q=query!.value.trim().toLowerCase();let count=0;
+  cards.forEach(card=>{const match=(filter==='all'||(filter==='coupon'?card.dataset.hasCoupon==='true':card.dataset.hasCoupon!=='true'))&&card.dataset.brandSearch!.includes(q);card.hidden=!match;if(match)count++;});
+  filters.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.brandFilter===filter)));
+  clear.hidden=!q;empty.hidden=count>0;status.textContent=q?`找到 ${count} 个匹配品牌`:`显示 ${count} 个品牌`;
+ }
+ query.addEventListener('input',update);clear.addEventListener('click',()=>{query.value='';update();query.focus();});
+ filters.forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.brandFilter!;update();}));
+ document.querySelector('#brand-reset')!.addEventListener('click',()=>{query.value='';filter='all';update();query.focus();});update();
+}
+</script>

@@ -1,14 +1,30 @@
 ---
 import type {Airport} from '../data/airports';
+import Icon from './Icon.astro';
 const {airport:a,compact=false}=Astro.props as {airport:Airport;compact?:boolean};
 ---
 <div class:list={['coupon',{'coupon-compact':compact}]}>
-{a.couponCode?<><span class="coupon-label">优惠码</span><code>{a.couponCode}</code><button type="button" class="coupon-copy" data-coupon={a.couponCode} aria-label={`复制 ${a.name} 优惠码`}>复制</button><span class="coupon-status" role="status" aria-live="polite"></span>{!compact&&<small>运营者提供 · 优惠幅度、有效期与适用套餐尚未核实</small>}</>:<span class="small muted">优惠码：未提供</span>}
+ {a.couponCode?<><span class="coupon-label">优惠码</span><code>{a.couponCode}</code><button type="button" class="coupon-copy" data-coupon={a.couponCode} aria-label={`复制 ${a.name} 优惠码`}><Icon name="copy" size={14}/><span>复制</span></button><span class="coupon-status" role="status" aria-live="polite"></span>{!compact&&<small>运营者提供 · 有效性、优惠幅度及适用条件尚未核实</small>}</>:<span class="coupon-missing"><Icon name="gift" size={17}/>优惠码：未提供</span>}
 </div>
 <script>
-document.querySelectorAll<HTMLButtonElement>('[data-coupon]').forEach(button=>button.addEventListener('click',async()=>{
+const resets=new WeakMap<HTMLButtonElement,ReturnType<typeof setTimeout>>();
+function copyWithSelection(value:string){
+ const active=document.activeElement as HTMLElement|null;
+ const field=document.createElement('textarea');field.value=value;field.readOnly=true;field.tabIndex=-1;field.setAttribute('aria-hidden','true');field.style.cssText='position:fixed;left:-9999px;top:0';document.body.append(field);
+ try {field.select();return document.execCommand('copy');}
+ finally {field.remove();active?.focus();}
+}
+document.addEventListener('click',async(event)=>{
+ const button=event.target instanceof Element?event.target.closest<HTMLButtonElement>('[data-coupon]'):null;
+ if(!button)return;
  const status=button.parentElement!.querySelector<HTMLElement>('.coupon-status')!;
- try {await navigator.clipboard.writeText(button.dataset.coupon!);status.textContent='已复制';}
- catch {status.textContent='复制失败，请手动复制上方代码';}
-}));
+ clearTimeout(resets.get(button));status.textContent='正在复制…';
+ let timeout:ReturnType<typeof setTimeout>|undefined;
+ let copied=false;
+ try {await Promise.race([navigator.clipboard.writeText(button.dataset.coupon!),new Promise((_,reject)=>{timeout=setTimeout(()=>reject(new Error('clipboard-timeout')),800);})]);copied=true;}
+ catch {try {copied=copyWithSelection(button.dataset.coupon!);}catch {copied=false;}}
+ finally {clearTimeout(timeout);}
+ status.textContent=copied?'已复制':'复制未成功，请手动选中代码';
+ if(copied)resets.set(button,setTimeout(()=>status.textContent='',3000));
+});
 </script>

@@ -2,12 +2,14 @@
   "status": "PASS",
   "date": "2026-10-13",
   "checks": [
-    "Homepage shows 29 brands and 11 coupon codes; no former brands",
-    "Copy Breezenet coupon shows success",
-    "Directory has 29 cards, 11 coupon buttons and missing-code states",
-    "Compare shows exact case U1S1 and YUZHOU553, missing code and unverified prices",
-    "Four candidates disable remaining candidates; remove returns to three",
-    "Representative mobile directory and comparison have no document overflow"
+    "Homepage: 6 brand cards and 11 coupon tiles, clear navigation and device tutorials",
+    "Directory: all 29, coupon filter 11, no-coupon filter 18; case-insensitive U1S1 search 1 result; empty state and reset",
+    "Clipboard: detail click returns copied feedback after embedded-browser fallback",
+    "Comparison: card URL preselects a brand; candidate search; 4 candidates disable fifth; remove gives 3; clear gives 0",
+    "Comparison: default 2 information rows and expanded 12 fields; exact case U1S1 / YUZHOU553",
+    "1440px desktop: two-column hero, three-column cards, no overflow",
+    "320px: document width 305 <= viewport 320 after grid overflow fix; mobile detail width 392 <= viewport 407",
+    "Mobile navigation opens and closes"
   ],
-  "limitation": "Representative UI only; coupon validity and external brand identities not tested."
+  "limitation": "Representative browser checks; not an exhaustive device matrix, and no coupon validity or service-performance tests."
 }
