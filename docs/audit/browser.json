@@ -12,7 +12,8 @@
     "Mobile navigation opens and closes",
     "Content release: guides 9 and blog 14, category anchors, article navigation and mobile TOC; 320px no overflow and 1440px three-column cards",
     "150-blog release: page 10 has articles 136–150; network category last page has 2; Mbps search returns 1; article and classification breadcrumb render; 320px no overflow; 1440px three columns",
-    "Discovery polish: editorial first article; mobile category toggle and desktop expansion; direct query carries blog scope; AND search, type switch, clear, 12-result pagination and empty state; 320px and 1440px no overflow; article references prioritized"
+    "Discovery polish: editorial first article; mobile category toggle and desktop expansion; direct query carries blog scope; AND search, type switch, clear, 12-result pagination and empty state; 320px and 1440px no overflow; article references prioritized",
+    "Core depth: choose-service renders expanded headings and templates; checklist 2/6 then reset 0/6; blank Markdown download contains 6 rows; 320px article and public brand notes have no overflow; temporary viewport restored."
   ],
   "limitation": "Representative browser checks; not an exhaustive device matrix, and no coupon validity or service-performance tests."
 }

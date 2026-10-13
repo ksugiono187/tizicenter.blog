@@ -1,0 +1,23 @@
+---
+const {id,title}=Astro.props;
+const lists:Record<string,string[]>={
+'choose-service':['写清必须完成的任务','确认设备与客户端格式','记录一次付款上限','核对周期和退出条件','在自己的网络验证任务','列出仍未确认的资料'],
+'purchase-checklist':['核对入口与经营方资料','确认完整支付金额和币种','读清周期、额度和倍率','核对优惠及续费范围','确认退款申请条件和入口','保存脱敏订单与条款出处'],
+'plan-cost':['记录本次结算总额','明确支付与重置周期','核对计量方向和倍率','区分理论与实际用量成本','列出首期和续费差异','未知条件保留待确认'],
+'stability-method':['事先定义任务成功标准','固定设备、网络与软件','保留普通网络基线','记录成功与失败原始样本','说明排除样本的依据','注明范围与重新采样条件'],
+'privacy-claims':['找到完整政策与日期','分别整理数据类别','核对用途、保留和分享','查看公开审查范围','保护订阅与求助材料','记录政策缺口和询问渠道'],
+'coupon-use':['复制原始代码并保留大小写','确认套餐与使用资格','在结算页应用优惠','核对实际减少额与费用','确认是否覆盖续费','保存最终账单与规则出处'],
+'traffic-budget':['记录有代表性的用量窗口','区分普通任务和大任务','核对后台计量与倍率','确认重置日期和结转','对照剩余天数复盘','按自己的情境计算支出'],
+'renewal-check':['查看当前到期与余额','确认新周期起点','重新核对优惠与总额','确认余额转换规则','检查自动扣费状态','根据真实任务决定档位'],
+'subscription-import':['从可信后台取得配置','选择客户端支持的格式','确认下载与解析成功','选中启用正确配置','完成真实任务验证','保存不含凭据的恢复笔记'],
+'first-connection':['普通网络基线正常','确认当前配置与节点','观察请求路径','完成真实业务动作','记录报错和恢复结果','断开后普通网络恢复'],
+'connection-troubleshooting':['记录准确错误阶段','检查断开后的普通网络','核对账户与配置状态','观察接管及请求记录','每次仅改变一个因素','准备最小复现和脱敏工单'],
+'support-ticket':['写清主要故障与期望答复','提供系统和客户端版本','注明网络、时间与时区','列出复现及已尝试步骤','检查日志与截图脱敏','保存建议和单项复测结果']
+};
+const items=lists[id];
+const markdown=items?`# ${title}：个人检查表\n\n只记录自己完成的核对；勾选不构成品牌验证。\n\n${items.map(t=>`- [ ] ${t}`).join('\n')}\n\n核对日期：\n资料出处：\n实际结果与未确认项：\n` : '';
+---
+{items&&<section class="core-checklist" data-core-checklist aria-label="本文个人检查表"><div class="core-check-head"><div><span class="eyebrow">YOUR CHECKLIST / 读完就做</span><h2>把这篇文章，变成你的检查记录。</h2><p>勾选自己已完成的核对，结果仅在当前页面保留。</p></div><span class="check-progress" role="status" aria-live="polite">0 / {items.length} 项</span></div><div class="check-items">{items.map(t=><label><input type="checkbox"/><span>{t}</span></label>)}</div><div class="check-actions"><a href={`data:text/markdown;charset=utf-8,${encodeURIComponent(markdown)}`} download={`${id}-checklist.md`}>下载空白检查表 ↓</a><button type="button" data-reset-checks>重新检查</button><small>勾选不代表品牌资料已获验证。</small></div></section>}
+<script>
+ document.querySelectorAll<HTMLElement>('[data-core-checklist]').forEach(section=>{const boxes=[...section.querySelectorAll<HTMLInputElement>('input[type=checkbox]')];const update=()=>{const count=boxes.filter(b=>b.checked).length;section.querySelector('.check-progress')!.textContent=`${count} / ${boxes.length} 项${count===boxes.length?' · 已完成本轮核对':''}`;};boxes.forEach(b=>b.addEventListener('change',update));section.querySelector('[data-reset-checks]')!.addEventListener('click',()=>{boxes.forEach(b=>b.checked=false);update();boxes[0]?.focus();});});
+</script>
