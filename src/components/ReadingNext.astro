@@ -1,5 +1,7 @@
 ---
 import {readingPaths} from '../data/reading-paths';
+import {blogTopics} from '../data/blog-topics';
+import {relatedArticles} from '../data/editorial';
 import type {CollectionEntry} from 'astro:content';
 interface Props {id:string;items:CollectionEntry<'articles'>[]}
 const {id,items}=Astro.props;
@@ -7,5 +9,11 @@ const route=readingPaths.find(p=>p.steps.some(s=>s.id===id));
 const index=route?.steps.findIndex(s=>s.id===id)??-1;
 const next=route?.steps[index+1];
 const entry=next?items.find(a=>a.id===next.id):undefined;
+const current=items.find(a=>a.id===id);
+const suggestion=current?relatedArticles(current,items,1)[0]:undefined;
+const topic=current?.data.section?blogTopics.find(t=>t.id===current.data.section):undefined;
+const hub=topic?`/blog/topic/${topic.id}/`:current?`/${current.data.category}/`:'/blog/';
+const hubLabel=topic?`返回${topic.name}`:current?.data.category==='guides'?'查看全部使用教程':current?.data.category==='glossary'?'查看全部基础术语':'查看知识文章';
 ---
 {route&&<nav class="reading-next" aria-label="阅读路线下一步"><span class="eyebrow">{route.name} · 第 {index+1} / {route.steps.length} 步</span>{next&&entry?<><strong>下一步：{entry.data.title}</strong><p>{next.why}</p><a href={`/${entry.data.category}/${entry.id}/`}>继续这条路线 →</a></>:<><strong>这条路线读完了，把记录用起来。</strong><p>{route.outcome}也可以换一个问题继续阅读。</p></>}<a class="reading-all" href={`/reading/#${route.id}`}>查看全部 15 篇与当前路线 ↗</a></nav>}
+{!route&&current&&<nav class="reading-next" aria-label="本题的下一步"><span class="eyebrow">{topic?.name??'从概念到实际操作'} · 继续解决问题</span>{suggestion&&<><strong>下一篇：{suggestion.data.title}</strong><p>{suggestion.data.description}</p><a href={`/${suggestion.data.category}/${suggestion.id}/`}>继续阅读这篇 →</a></>}<a class="reading-all" href={hub}>{hubLabel} ↗</a><a class="reading-all" href="/reading/">从 15 篇入门路线开始 →</a></nav>}

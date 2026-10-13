@@ -24,7 +24,7 @@ const href=(n:number)=>section?`/blog/topic/${section}/${n===1?'':`page/${n}/`}`
  <div class="blog-list-head"><p>共 {count} 篇 · 第 {page} / {pages} 页 · 当前显示 {(page-1)*size+1}–{Math.min(page*size,count)} 篇</p><span class="small muted">更新优先 · 同日文章按阅读顺序整理</span></div>
  <ArticleCards items={visible}/>
  <nav class="pagination" aria-label="博客分页">{page>1&&<a href={href(page-1)} rel="prev">← 上一页</a>}{Array.from({length:pages},(_,i)=>i+1).map(n=><a href={href(n)} aria-label={`第 ${n} 页`} aria-current={page===n?'page':undefined}>{n}</a>)}{page<pages&&<a href={href(page+1)} rel="next">下一页 →</a>}</nav>
- <p class="section-note">计算情境均明确标注；操作清单为编辑方法。技术说明附出处，品牌价格、优惠和性能仍以可核实资料为准。</p>
+ <p class="section-note">150 篇博客均附本题情境、对照表、操作步骤和个人检查表。算例为假设，技术说明附出处；品牌价格、优惠和性能仍按资料边界标注。</p>
 </div>
 <script>
  const breakpoint=matchMedia('(min-width: 901px)');

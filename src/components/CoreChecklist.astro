@@ -1,6 +1,8 @@
 ---
+import articleWorkbooks from '../data/article-workbooks.json';
 const {id,title}=Astro.props;
 const lists:Record<string,string[]>={
+...articleWorkbooks,
 'choose-service':['写清必须完成的任务','确认设备与客户端格式','记录一次付款上限','核对周期和退出条件','在自己的网络验证任务','列出仍未确认的资料'],
 'purchase-checklist':['核对入口与经营方资料','确认完整支付金额和币种','读清周期、额度和倍率','核对优惠及续费范围','确认退款申请条件和入口','保存脱敏订单与条款出处'],
 'plan-cost':['记录本次结算总额','明确支付与重置周期','核对计量方向和倍率','区分理论与实际用量成本','列出首期和续费差异','未知条件保留待确认'],

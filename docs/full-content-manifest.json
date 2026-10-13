@@ -1,0 +1,1305 @@
+{
+  "date": "2026-10-13",
+  "additional": 149,
+  "total": 164,
+  "articles": [
+    {
+      "id": "account-portability",
+      "title": "换服务前怎样检查迁移成本：配置、余额与习惯",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1214,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "account-recovery-prep",
+      "title": "账户恢复资料怎样准备：可信入口与必要凭证",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1151,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "active-profile-check",
+      "title": "节点已经更新，为什么还在用旧配置？三处检查生效状态",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1565,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "addon-versus-upgrade",
+      "title": "流量包和升级套餐怎么选：比较有效期与一次性支出",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1149,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "affiliate-evidence",
+      "title": "推广链接怎样理解：推荐关系与服务质量分开",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1082,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "after-update-failure",
+      "title": "更新之后不能用怎么定位：软件和订阅变化分别看",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1141,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "ai-access",
+      "title": "AI 服务访问检查：连接不等于账户资格",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1062,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "ai-file-workflow",
+      "title": "AI 工具文件任务怎样验证：上传、处理与下载分开",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1118,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "airport-vs-vpn",
+      "title": "机场与 VPN 有什么区别？先分清客户端与订阅",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1186,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "all-sites-fail",
+      "title": "所有网页都打不开怎么查：先确认断开后的基线",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1130,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "android",
+      "title": "Android VPN 安装、授权与后台运行",
+      "category": "guides",
+      "characters": 1291,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "app-update-timing",
+      "title": "客户端什么时候更新：工作间隙留出验证时间",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1118,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "audit-scope-check",
+      "title": "第三方审计怎么看：对象、时间与结论边界",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1106,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "backup-provider-budget",
+      "title": "备用服务要不要买：先算中断成本和维护负担",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1179,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "bandwidth-units",
+      "title": "Mbps 和 MB/s 怎么换算：先看比特与字节",
+      "category": "blog",
+      "section": "network",
+      "characters": 1122,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "browser-app-path",
+      "title": "浏览器能用应用不能用怎么办：先确认两条请求路径",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1128,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "certificate-warning",
+      "title": "证书警告怎么处理：先停止输入凭据再核对地址",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1139,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "choose-service",
+      "title": "第一次选机场：用三道门筛选，再决定花多少钱",
+      "category": "blog",
+      "section": "selection",
+      "characters": 3010,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "clash-verge-rev",
+      "title": "Clash Verge Rev 入门：导入订阅、选择节点与系统代理",
+      "category": "guides",
+      "characters": 2238,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "client-crash-report",
+      "title": "客户端闪退怎样反馈：启动、配置和系统事件分开",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1115,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "clipboard-risk",
+      "title": "复制订阅后要注意什么：剪贴板便利与保管分开",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1130,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "cloud-sync-conflict",
+      "title": "云同步切网络时怎样检查：传输和版本冲突分开",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1092,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "cloud-upload-check",
+      "title": "云盘上传怎样验证：完成提示和服务器文件都要看",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1123,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "code-repository-download",
+      "title": "下载代码与依赖怎样排查：仓库、包源和构建分开",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1097,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "config-backup-scope",
+      "title": "配置备份该保存什么：恢复信息与敏感凭据分开",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1151,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "config-notes-template",
+      "title": "配置笔记怎么写：记录状态而不是复制秘密",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1136,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "config-sync-safety",
+      "title": "多设备同步配置怎样安排：可用性与凭据范围一起看",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1144,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "configuration-converter",
+      "title": "在线订阅转换安全吗：先问谁会接触完整地址",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1119,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "connected-no-record",
+      "title": "打开页面却没有连接记录怎么查：先看接管范围",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1145,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "connection-troubleshooting",
+      "title": "已连接却打不开：先看现象，再按六个分支排查",
+      "category": "guides",
+      "characters": 3741,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "correcting-public-info",
+      "title": "发现博客资料错误怎样反馈：原文、出处与日期一起给",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1113,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "coupon-use",
+      "title": "优惠码显示成功，还要查什么？把最终账单核对清楚",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1774,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "currency-comparison",
+      "title": "不同币种套餐怎么比较：标价、汇率和手续费分开",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1116,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "custom-rules-maintenance",
+      "title": "自定义规则怎样维护：来源、用途与撤销写清楚",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1168,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "delivery-model",
+      "title": "官方应用与订阅服务怎么选：先看交付和维护责任",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1164,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "desktop-mobile-differences",
+      "title": "电脑能用手机不能用怎么办：比较配置与网络差异",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1100,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "developer-docs-access",
+      "title": "查技术文档怎样验证：正文、资源和搜索分别看",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1115,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "device-clock-check",
+      "title": "设备时间错误会影响连接吗：记录提示再校准",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1111,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "device-limit-reading",
+      "title": "设备限制怎么理解：安装数量不等于同时在线",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1140,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "dns-cache-boundary",
+      "title": "DNS 缓存会影响判断吗：记录更新时间和作用范围",
+      "category": "blog",
+      "section": "network",
+      "characters": 1131,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "dns-error-report",
+      "title": "域名解析错误怎样反馈：地址、时间与解析路径",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1132,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "dns-role",
+      "title": "DNS 在连接中做什么：解析成功不是网页成功",
+      "category": "blog",
+      "section": "network",
+      "characters": 1134,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "dns",
+      "title": "DNS 是什么：域名解析与连接路径",
+      "category": "glossary",
+      "characters": 1062,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "download-source-identity",
+      "title": "客户端官方下载怎样辨认：从项目入口核对发布者",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1099,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "email-attachment",
+      "title": "邮件与附件怎样分别验证：发送、送达与下载分开",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1102,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "encrypted-dns-boundary",
+      "title": "加密 DNS 保护什么：解析传输与完整网络隐私分开",
+      "category": "blog",
+      "section": "network",
+      "characters": 1142,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "evening-slowdown",
+      "title": "晚上变慢怎么判断：固定任务与时段比较",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1107,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "evidence-levels",
+      "title": "资料、体验与测量怎样区分：结论只覆盖证据范围",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1091,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "family-traffic-allocation",
+      "title": "家庭流量怎么分配：记录任务比按人数平均更有用",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1114,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "first-connection",
+      "title": "第一次连接怎样算成功？用真实任务做一轮验收",
+      "category": "guides",
+      "characters": 1703,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "free-vpn",
+      "title": "免费 VPN 怎么选：流量与限制逐项看",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1102,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "hotspot-sharing",
+      "title": "手机开热点会共享连接吗：不要从手机结果推断",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1146,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "http-status-reading",
+      "title": "HTTP 状态码怎么看：响应错误不是同一种断网",
+      "category": "blog",
+      "section": "network",
+      "characters": 1133,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "https-vpn-boundary",
+      "title": "HTTPS 和 VPN 各保护什么：两层连接不要混用概念",
+      "category": "blog",
+      "section": "network",
+      "characters": 1112,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "incident-timeline",
+      "title": "故障时间线怎么写：把事实、变化和推测分栏",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1106,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "intermittent-failure",
+      "title": "偶发断线怎样记录：保留成功样本也有帮助",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1097,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "invite-versus-subscribe",
+      "title": "注册链接与订阅链接有什么区别：用途和保密程度不同",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1159,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "ios",
+      "title": "iOS VPN 下载与配置检查",
+      "category": "guides",
+      "characters": 1281,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "ipv4-ipv6-path",
+      "title": "IPv4 与 IPv6 为什么要分别检查：两种地址路径可能不同",
+      "category": "blog",
+      "section": "network",
+      "characters": 1148,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "jitter-explained",
+      "title": "抖动是什么：平均延迟之外的时间变化",
+      "category": "blog",
+      "section": "network",
+      "characters": 1090,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "large-file-deadline",
+      "title": "有截止时间的大文件怎样安排：预算传输和复核时间",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1153,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "latency-bandwidth",
+      "title": "延迟、带宽与丢包：不要只看一个数字",
+      "category": "glossary",
+      "characters": 1023,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "latency-not-throughput",
+      "title": "延迟低却下载慢？用任务、单位和重复记录判断网络",
+      "category": "blog",
+      "section": "network",
+      "characters": 1586,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "local-network-routing",
+      "title": "局域网访问为什么单独检查：本地任务也有路由条件",
+      "category": "blog",
+      "section": "network",
+      "characters": 1137,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "log-minimization",
+      "title": "客户端日志怎样分享：先确定排错所需范围",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1113,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "login-load-split",
+      "title": "页面能加载却不能登录怎么查：网络与账户验证分开",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1154,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "long-download-failure",
+      "title": "大文件下载中断怎么查：进度、恢复与完整性分开",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1149,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "low-bandwidth-workflow",
+      "title": "带宽有限时怎样安排工作：先保障交互任务",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1125,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "macos",
+      "title": "macOS VPN 安装与网络权限指南",
+      "category": "guides",
+      "characters": 1192,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "manual-node-versus-sub",
+      "title": "单节点分享与完整订阅有什么区别：更新责任不同",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1120,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "median-tail-latency",
+      "title": "平均、中位数和最慢样本怎么看：别只留最佳成绩",
+      "category": "blog",
+      "section": "network",
+      "characters": 1145,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "metering-difference",
+      "title": "客户端和后台流量不一致怎么办：先统一时间与口径",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1137,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "midcycle-upgrade-cost",
+      "title": "周期中途升级怎么算：剩余价值与新周期分开",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1104,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "minimal-reproduction",
+      "title": "怎样做最小复现：减少步骤但保留关键条件",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1096,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "mobile-data-saving",
+      "title": "移动网络怎样减少无关用量：任务安排比盲目改模式有用",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1109,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "monthly-vs-annual-cashflow",
+      "title": "月付与年付怎么比较：现金支出和月均成本分开",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1129,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "mtu-symptoms",
+      "title": "MTU 问题怎么理解：不要见到卡顿就乱改数值",
+      "category": "blog",
+      "section": "network",
+      "characters": 1136,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "multiple-network-tools",
+      "title": "多个代理工具同时开会怎样：先查接管冲突",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1119,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "nat-public-ip",
+      "title": "公网 IP 与设备地址有什么区别：看清地址所在层",
+      "category": "blog",
+      "section": "network",
+      "characters": 1133,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "new-computer-migration",
+      "title": "换电脑怎样迁移网络配置：安装来源与凭据重新核对",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1147,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "no-logs-reading",
+      "title": "无日志宣传怎么读：范围、期限与核验方式",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1100,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "node-list-changes",
+      "title": "订阅节点变少怎么判断：先核对账户与变更公告",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1127,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "node-region-choice",
+      "title": "节点地区怎么选：目标任务比地图距离重要",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1152,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "official-doc-checklist",
+      "title": "付款前怎样核对官方说明：把宣传转成问题",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1142,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "one-site-fail",
+      "title": "只有一个网站打不开怎么查：域名、路径与业务状态",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1147,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "online-class-prep",
+      "title": "在线课程怎样检查：直播、回放和作业三条流程",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1107,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "os-update-checklist",
+      "title": "系统升级后怎样复查网络：客户端和系统设置分开",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1123,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "packet-loss-reading",
+      "title": "丢包率怎么读：目标、方法和样本一起看",
+      "category": "blog",
+      "section": "network",
+      "characters": 1098,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "password-token-boundary",
+      "title": "账户密码与订阅令牌怎样区分：两类权限分别管理",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1119,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "pause-plan-budget",
+      "title": "暂时不用服务怎么办：到期、暂停与自动续费分开",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1107,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "payment-fee-budget",
+      "title": "支付手续费怎样计入预算：以最终账单为准",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1083,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "permission-review",
+      "title": "网络客户端权限怎么核对：用途与请求名称一致",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1135,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "phone-replacement",
+      "title": "换手机怎样恢复订阅：账户、格式与系统授权分开",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1136,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "plan-cost",
+      "title": "套餐便宜却多花钱？用三个用量案例算清真实成本",
+      "category": "blog",
+      "section": "budget",
+      "characters": 3336,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "privacy-claims",
+      "title": "“加密”“无日志”“匿名”有什么区别？逐项核对隐私宣传",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1794,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "privacy-policy-reading",
+      "title": "隐私说明先看哪几项：数据、用途与选择权",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1116,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "private-backup-folder",
+      "title": "配置备份怎样保管：位置、权限与恢复测试",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1096,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "profile-cleanup",
+      "title": "多余配置怎样清理：先确认唯一可用项和恢复资料",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1107,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "profile-naming",
+      "title": "多份订阅怎样命名：让设备和用途容易识别",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1107,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "profile-update-rollback",
+      "title": "更新配置后变差怎样回退：先保留前后差异",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1130,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "promo-effective-price",
+      "title": "折扣后的实际单价怎么算：先限定适用范围",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1110,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "protocol",
+      "title": "VPN 协议是什么：协议与客户端的区别",
+      "category": "glossary",
+      "characters": 1081,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "proxy-leftover",
+      "title": "退出客户端后不能上网怎么办：检查残留代理",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1142,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "public-wifi-auth",
+      "title": "公共 Wi-Fi 先登录还是先连接：先建立正常网络基线",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1162,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "purchase-checklist",
+      "title": "付款前最后一遍检查：把宣传页变成订单记录",
+      "category": "blog",
+      "section": "selection",
+      "characters": 2205,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "purchase-evidence-folder",
+      "title": "购买记录怎么保存：订单、条款和配置分开收纳",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1153,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "quarterly-reset-budget",
+      "title": "季付流量怎么核对：总额和每月重置不是一回事",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1104,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "quic-not-udp-speed",
+      "title": "QUIC 是什么：不能只看 UDP 就判断速度",
+      "category": "blog",
+      "section": "network",
+      "characters": 1125,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "refund-policy-reading",
+      "title": "退款条款怎么读：区分资格、时限与到账",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1173,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "remote-work-boundary",
+      "title": "远程办公使用个人网络工具前要确认什么",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1133,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "renewal-check",
+      "title": "续费会延长到期还是重置周期？先核对余额再付钱",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1793,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "renewal-promo-terms",
+      "title": "长期优惠怎样评估：折扣期限与承诺周期",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1120,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "requirements-sheet",
+      "title": "买机场前怎样写需求表：把用途变成验收条件",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1158,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "research-resource-validation",
+      "title": "检索资料怎样保护出处：访问路径不代替内容核验",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1100,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "retired-device-access",
+      "title": "旧设备不再使用怎么处理：配置删除与权限撤销分开",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1116,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "screenshot-redaction",
+      "title": "网络截图怎样脱敏：链接、二维码和背景一起检查",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1095,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "service-change-notice",
+      "title": "服务规则变更通知怎么处理：找到自己的影响项",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1128,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "service-support-hours",
+      "title": "客服服务时间怎么看：响应承诺与解决时间分开",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1141,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "shared-account-policy",
+      "title": "家庭共享账户前要问什么：人数、凭据和支持",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1143,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "shared-device-privacy",
+      "title": "共享设备怎样保护订阅：账户和浏览状态都要看",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1108,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "short-trial-plan",
+      "title": "短期体验怎么安排：在退款窗口前完成验证",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1163,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "similar-domain-check",
+      "title": "相似域名怎样核对：页面外观不能替代来源",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1096,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "sleep-wake-connection",
+      "title": "电脑睡眠后连接异常怎么查：唤醒前后状态对照",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1099,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "slow-first-load",
+      "title": "第一次打开页面很慢怎么查：首次与重复请求分开",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1129,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "special-line-claims",
+      "title": "专线宣传怎么核对：先问覆盖哪一段路径",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1143,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "speedtest-data-cost",
+      "title": "测速会用多少流量：先看测试方式和次数",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1092,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "speedtest-target-bias",
+      "title": "测速目标会影响结果吗：不要只挑最快服务器",
+      "category": "blog",
+      "section": "network",
+      "characters": 1106,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "split-tunneling",
+      "title": "分流与全局模式：确认哪些应用走哪条路",
+      "category": "glossary",
+      "characters": 1087,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "stability-method",
+      "title": "怎样判断稳定性：建立可复现的记录",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1837,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "startup-sequence",
+      "title": "开机后网络工具怎么启动：先看自动启动与连接状态",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1110,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "streaming-buffer-check",
+      "title": "视频播放怎样判断卡顿：清晰度、缓冲与时段一起记",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1070,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "streaming-check",
+      "title": "流媒体兼容性检查：地区、套餐与设备",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1067,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-errors",
+      "title": "订阅更新失败：从请求、响应到解析，定位出错阶段",
+      "category": "guides",
+      "characters": 1743,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "subscription-expiry-check",
+      "title": "订阅过期怎么核对：账户日期、额度与链接状态",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1085,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-format-choice",
+      "title": "订阅格式怎么选？先确认客户端，再检查配置内容",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1828,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "subscription-import",
+      "title": "订阅导入：从拿到地址到启用配置，逐步确认成功",
+      "category": "guides",
+      "characters": 1941,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "subscription-local-cache",
+      "title": "旧订阅还能用但更新失败怎么理解：缓存与服务状态分开",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1117,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-qr-import",
+      "title": "二维码导入订阅注意什么：便利不改变保密要求",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1135,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-security",
+      "title": "订阅链接泄露了怎么办：重置凭据与脱敏分享",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1476,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-token-rotation",
+      "title": "更换订阅令牌后怎样检查：旧链接与全部设备都要看",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1125,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-total-cost",
+      "title": "服务总成本怎么整理：付款之外还有维护时间",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1099,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription-update-schedule",
+      "title": "订阅多久更新一次：规则频率和任务时段一起考虑",
+      "category": "blog",
+      "section": "subscription",
+      "characters": 1130,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "subscription",
+      "title": "订阅链接是什么：为什么需要保密",
+      "category": "glossary",
+      "characters": 1122,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "support-escalation",
+      "title": "客服建议无效怎么继续反馈：复测结果比重复描述更有用",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1115,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "support-impersonation",
+      "title": "遇到私信客服怎样核对：从正式渠道确认身份",
+      "category": "blog",
+      "section": "privacy",
+      "characters": 1086,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "support-ticket",
+      "title": "怎样提交有效工单？把“不能用”写成可复现的问题",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1694,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "tablet-workflow",
+      "title": "平板怎样验证工作场景：浏览、文件与切屏分别测",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1102,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "task-acceptance-plan",
+      "title": "怎样给网络任务写验收标准：动作、结果与恢复都要有",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1105,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "tcp-udp-choice",
+      "title": "TCP 与 UDP 怎么理解：可靠机制和任务要求分开",
+      "category": "blog",
+      "section": "network",
+      "characters": 1125,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "timeout-versus-refused",
+      "title": "超时和连接被拒绝有什么区别：按错误阶段处理",
+      "category": "blog",
+      "section": "troubleshooting",
+      "characters": 1145,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "traffic-alert-threshold",
+      "title": "流量提醒怎么设：用剩余天数判断是否需要补充",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1115,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "traffic-budget",
+      "title": "每月到底需要多少流量？从七天记录到周期中途复盘",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1904,
+      "deepenedThisRound": false
+    },
+    {
+      "id": "traffic-multiplier-mix",
+      "title": "不同节点倍率怎么计算：按使用量分段相加",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1130,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "traffic-reset-time",
+      "title": "流量哪天重置：购买日、自然月与时区怎么核对",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1078,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "travel-device-prep",
+      "title": "出行前怎样准备网络设备：验证、备份与备用安排",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1123,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "travel-offline-materials",
+      "title": "离线资料怎样准备：帮助说明与秘密分开保存",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1122,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "trial-without-speedtest",
+      "title": "不跑大流量测速怎样体验服务：用真实小任务",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1134,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "unused-traffic-value",
+      "title": "没用完的流量值多少钱：区分额度与可退余额",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1077,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "upload-download-metering",
+      "title": "上传也扣流量吗：先确认套餐计量方向",
+      "category": "blog",
+      "section": "budget",
+      "characters": 1094,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "use-case-priority",
+      "title": "多个用途冲突时怎么选：先排序再比较",
+      "category": "blog",
+      "section": "selection",
+      "characters": 1152,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "video-meeting-check",
+      "title": "视频会议前怎样检查：加入、语音和共享分别验证",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1113,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "voice-call-quality",
+      "title": "语音通话怎样评价：双向可懂度比峰值速度实用",
+      "category": "blog",
+      "section": "scenarios",
+      "characters": 1075,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "wifi-cellular-switch",
+      "title": "Wi-Fi 切到移动网络怎样验证：连接标记与任务分开",
+      "category": "blog",
+      "section": "devices",
+      "characters": 1127,
+      "deepenedThisRound": true
+    },
+    {
+      "id": "windows",
+      "title": "Windows VPN 安装与连接检查",
+      "category": "guides",
+      "characters": 1340,
+      "deepenedThisRound": true
+    }
+  ]
+}

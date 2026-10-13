@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "date": "2026-10-13T08:29:09.709Z",
+  "date": "2026-10-13T09:24:23.957Z",
   "errors": [],
   "blogArticles": 150,
   "allBlogPages": 10,
@@ -16,10 +16,10 @@
     "privacy": 19
   },
   "searchCoverage": 150,
-  "maximumFiveCharacterJaccard": 0.268,
+  "maximumFiveCharacterJaccard": 0.118,
   "closestPair": [
-    "src\\content\\articles\\task-acceptance-plan.md",
-    "src\\content\\articles\\voice-call-quality.md"
+    "src\\content\\articles\\connected-no-record.md",
+    "src\\content\\articles\\slow-first-load.md"
   ],
   "limitation": "Similarity and coverage checks do not replace editorial judgment or verify real brand claims."
 }

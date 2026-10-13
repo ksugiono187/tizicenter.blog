@@ -6,7 +6,7 @@ section: troubleshooting
 published: 2026-10-13
 updated: 2026-10-13
 tags: ["故障定位与反馈","退出客户端后不能上网怎么办"]
-sources: ["https://support.microsoft.com/en-us/windows/experience/connectivity-networking/use-a-proxy-server-in-windows","https://tizicenter.blog/editorial-policy/"]
+sources: ["https://support.microsoft.com/en-us/windows/experience/connectivity-networking/use-a-proxy-server-in-windows","https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac","https://tizicenter.blog/editorial-policy/"]
 draft: false
 ---
 
@@ -26,7 +26,47 @@ Windows 可在设置中的网络代理页面查看自动、脚本和手动配置
 - 原代理配置
 - 恢复前后页面结果
 
-这些记录应围绕本题的条件填写，而不是只写“正常”或“异常”。若某项没有资料就注明未确认，保留核对日期；前后条件发生变化时，重新检查受影响的项目。
+## 软件退出后，检查系统仍依赖谁
+
+假设客户端退出，系统代理仍指向本机端口，而对应服务已停止。普通网页可能失败，但企业PAC、其他VPN或管理配置也可能参与。先保存当前值和来源，只恢复自己获授权且已知正常的设置。
+
+## 对照现象，决定下一项检查
+
+| 观察或条件 | 这项证据说明什么 | 下一步怎样处理 |
+| --- | --- | --- |
+| 手动代理指向本地 | 可能依赖已退出工具 | 核对软件与端口状态 |
+| 组织PAC仍启用 | 可能是管理要求 | 先联系管理支持 |
+| 代理正常仍失败 | 原因尚未定位 | 查普通网络与其他工具 |
+
+## 把判断落实到一次操作
+
+1. 按客户端正常断开退出，记录此后普通任务的结果。
+2. 查看对应网络服务的代理设置，区分自动脚本和手动项，保存原值。
+3. 在自己的授权范围按官方方法恢复已知状态，只改相关一项。
+4. 复测普通网络和必要业务，再记录以后正常退出顺序，不删除全部配置。
+
+## 什么时候停止，以及什么时候重新检查
+
+不关闭企业要求的代理或安全软件。Windows与Mac菜单和设置作用范围不同，按当前系统文档查看。端口存在不证明由哪一程序使用，应结合正式软件信息核对。
+
+## 再问一个容易遗漏的问题
+
+**关掉手动代理后成功就可以永远关闭吗？**
+
+只说明当前对照恢复。某些工作网络需要正式代理，回到该环境可能应恢复管理设置；保留原值和适用网络，不能将个人家庭恢复步骤扩到所有场景。
+
+## 保存本题的个人记录
+
+~~~text
+退出时间：
+普通任务结果：
+代理类型原值：
+配置管理来源：
+单项恢复：
+适用网络与还原：
+~~~
+
+这份记录只保存自己核对过的条件；不填写密码、验证码或完整订阅凭据。下方检查表可下载空白版本。
 
 ## 常见疑问
 
@@ -36,4 +76,4 @@ Windows 可在设置中的网络代理页面查看自动、脚本和手动配置
 
 ## 阅读依据与下一步
 
-技术背景可参阅下方的一手文档；本文的检查步骤与情境分析由本站编辑整理，情境不是实际测试结果。继续阅读 [连接分层排查](/guides/connection-troubleshooting/) 与 [域名解析错误怎样反馈：地址、时间与解析路径](/blog/dns-error-report/)，也可返回 [故障定位与反馈](/blog/topic/troubleshooting/) 查看同类问题。
+继续阅读 [连接分层排查](/guides/connection-troubleshooting/) 与 [域名解析错误怎样反馈：地址、时间与解析路径](/blog/dns-error-report/)，也可返回 [故障定位与反馈](/blog/topic/troubleshooting/) 查看同类问题。
