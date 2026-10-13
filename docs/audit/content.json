@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13T02:59:40.639Z",
+  "errors": [],
+  "brands": 5,
+  "articles": 20,
+  "limitation": "Automated checks detect unsupported markers and missing provenance, but do not establish factual truth. Official source comparison was performed manually; no independent performance tests."
+}

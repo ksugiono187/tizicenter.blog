@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "checks": [
+    "Homepage at default mobile width and desktop 1440: no document overflow",
+    "390px mobile navigation disclosure opens",
+    "Compare empty state, 2-4 selection, fifth disabled, removing restores candidate availability",
+    "Dynamic comparison retains horizontal scrolling in container without document overflow",
+    "Search Windows returns 1 article; unmatched term returns empty state"
+  ],
+  "limitation": "Representative pages only; this is not exhaustive all-device testing."
+}

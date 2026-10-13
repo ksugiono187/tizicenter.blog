@@ -1,0 +1,4 @@
+---
+const {items}=Astro.props;
+---
+<div class="article-grid">{items.map((a:any)=><a class="article-card" href={`/${a.data.category}/${a.id}/`}><span class="eyebrow">{a.data.category==='guides'?'操作教程':a.data.category==='glossary'?'知识百科':'选择指南'}</span><h3>{a.data.title}</h3><p>{a.data.description}</p><span class="small muted">{a.data.updated.toISOString().slice(0,10)} <span class="float-right">阅读文章 ↗</span></span></a>)}</div>

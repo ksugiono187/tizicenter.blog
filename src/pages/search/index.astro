@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {getCollection} from 'astro:content';
+const items=(await getCollection('articles',a=>!a.data.draft)).map(a=>({title:a.data.title,description:a.data.description,url:`/${a.data.category}/${a.id}/`}));
+---
+<Layout title="搜索教程与知识文章" description="在梯子中心本地搜索教程、选择指南和百科文章，无需提交搜索词到服务器。" noindex={true} crumbs={[{name:'搜索',url:'/search/'}]}><div class="container"><div class="page-intro"><h1>找到你需要的答案</h1><p>按标题和摘要搜索文章。搜索在浏览器中处理，请勿输入账户或订阅凭据。</p></div><label for="query">搜索关键词</label><input id="query" class="search-input" type="search" placeholder="例如：Windows、流量、协议" autocomplete="off"/><p id="search-status" role="status" aria-live="polite">显示全部文章。</p><ul class="search-results" id="results">{items.map(a=><li data-search={`${a.title} ${a.description}`.toLowerCase()}><a href={a.url}><h2>{a.title}</h2><p>{a.description}</p></a></li>)}</ul></div><script>const input=document.querySelector<HTMLInputElement>('#query')!;const entries=[...document.querySelectorAll<HTMLElement>('#results li')];input.addEventListener('input',()=>{const query=input.value.trim().toLowerCase();let count=0;entries.forEach(li=>{const show=li.dataset.search!.includes(query);li.hidden=!show;if(show)count++;});document.querySelector('#search-status')!.textContent=count?`找到 ${count} 篇文章。`:'没有匹配结果。尝试“流量”“客户端”或“协议”。';});</script></Layout>

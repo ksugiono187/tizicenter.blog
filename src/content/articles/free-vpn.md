@@ -1,0 +1,21 @@
+---
+title: "免费 VPN 怎么选：流量与限制逐项看"
+description: "区分不限流量、有限免费流量与短期试用，不把免费等同没有条件。"
+category: blog
+published: 2026-10-13
+updated: 2026-10-13
+tags: ["成本","选择"]
+sources: ["https://protonvpn.com/free-vpn/download","https://windscribe.com/knowledge-base/articles/can-i-use-windscribe-for-free","https://www.tunnelbear.com/pricing/"]
+draft: false
+---
+
+免费方案应先看流量与资格条件。本站核验了 Proton VPN 的不限流量免费方案、Windscribe 的邮箱验证流量条件，以及 TunnelBear 的体验流量；这些信息不证明你所在网络可用。
+
+## 三种条件不要混淆
+不限流量不代表所有功能或节点都开放。有限免费流量需确认重置周期。短期试用可能在到期后收费，付款前查看是否要求支付方式及自动续费。本站不把周期未确认的体验流量加入成本自动排序。
+
+## 以任务评估额度
+轻量网页访问和长时间视频的需求不同。先估计使用任务，再观察真实流量消耗；不要为了获得免费额度交出不必要的账户权限或敏感资料。免费没有付费账单，也仍需要评估软件来源和隐私条款。
+
+## 何时考虑升级
+当免费条件已无法满足设备、任务或流量时，再核对付费总额和续费价格。不要仅因为广告声称更快就升级。查看 [低预算方案榜](/ranking/budget/) 与 [比较工具](/compare/)，并阅读品牌资料中的条件。
